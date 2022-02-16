@@ -1,0 +1,15 @@
+{% if item.speedMovements is defined %}
+    <td class="text-left">
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           title="Description"
+           data-content='{% include 'Depository/_partials/Popover/speedMovementPopoverContent.html.twig' with {"speedMovements": item.speedMovements} %}'>
+            {% if speedMovementString is defined %}
+                {{ speedMovementString }}
+            {% else %}
+                {% for key, speedMovement in item.speedMovements %}
+                    {% if key is same as 0 %}{{ speedMovement }}{% else %}, {{ speedMovement }}{% endif %}
+                {% endfor %}
+            {% endif %}
+        </a>
+    </td>
+{% endif %}

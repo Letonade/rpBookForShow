@@ -1,0 +1,19 @@
+
+front_twig_depository_filter_store:
+    path: /depository-stores
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryFilterStoreAction
+front_twig_depository_weapons:
+    path: /depository-weapons/{type}
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryWeaponListAction
+front_twig_depository_battle_wares:
+    path: /depository-battle-wares/{type}
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryBattleWareListAction
+front_twig_depository_fusions:
+    path: /depository-fusions/{type}
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryFusionListAction
+front_twig_depository_armors:
+    path: /depository-armors/{type}
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryArmorListAction
+front_twig_depository_armor_upgrades:
+    path: /depository-armor-upgrades/{type}
+    controller: App\Controller\FrontTwig\Depository\FrontTwigDepositoryArmorUpgradeListAction

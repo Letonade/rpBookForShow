@@ -1,0 +1,60 @@
+<h4>{{ tableTitle }}
+    {% if hint is defined %}
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           data-content='{{ hint }}'><i class="fas fa-tags fa-xs"></i></a>
+    {% endif %}
+</h4>
+
+<table class="table cus-table-striped table-sm text-center cus-table-hover sticky-header">
+    <thead class="cus-thead-bg-grey">
+    <tr>
+        {% set PartThDir %}Depository/_partials/TableView/_partials/th/th{% endset %}
+        <th>#</th>
+        {# Files must start by 'th'.... #}
+        {% include PartThDir~'IsStandard.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SourceBook.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SourcePage.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Name.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Level.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Cost.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Cartridge.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Range.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'CapacityAndUsages.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Bulk.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Specials.html.twig' with {'item': collection[0]} %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for key, item in collection %}
+        {% set specialsString = 'void' %}
+        {% set capacityAndUsagesString = 'void' %}
+        {% for extrafield in item.extrafields %}
+            {% if extrafield.handle is same as 'specialsString' %}{% set specialsString = extrafield.value %}{% endif %}
+            {% if extrafield.handle is same as 'capacityAndUsagesString' %}
+                {% set capacityAndUsagesString = extrafield.value %}
+            {% endif %}
+        {% endfor %}
+        {% if specialsString is same as 'void' %}{% set specialsString = false %}{% endif %}
+        {% if capacityAndUsagesString is same as 'void' %}{% set capacityAndUsagesString = false %}{% endif %}
+        <tr>
+            {% set PartTdDir %}Depository/_partials/TableView/_partials/td/td{% endset %}
+            <td class="d-block d-md-none"><a href="javascript:void(0);" data-toggle="popover-bottom-click"
+                                             data-content='{{ key }}'><i class="fas fa-list-ol"></i></a></td>
+            <td class="d-none d-md-block">{{ key }}</td>
+
+            {# Files must start by 'td'.... #}
+            {% include PartTdDir~'IsStandard.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SourceBook.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SourcePage.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Name.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Level.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Cost.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Cartridge.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Range.html.twig' with {'item': item} %}
+            {% include PartTdDir~'CapacityAndUsages.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Bulk.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Specials.html.twig' with {'item': item} %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

@@ -1,0 +1,62 @@
+<div class="sidebar-sticky">
+
+    <hr>
+    <h1 class="sidebar-heading justify-content-between align-items-center px-3 mt-2 mb-3 text-muted ">
+        <a class="{{ (active_page is same as 'homePage') ? 'active' : '' }} text-muted"
+           href="{{ url('front_twig_home',{}) }}">
+                <span class="d-none d-lg-inline ">
+                    <i class="fas fa-home fa-lg px-2 "></i>
+                    Home
+                </span>
+            <span class="d-block d-lg-none font-weight-bold">
+                    <i class="fas fa-home fa-lg px-1"></i>
+                </span>
+        </a>
+        {# <a class="d-flex align-items-center text-muted" href="#"> #}
+        {# <i class="far fa-lg fa-plus-square "></i> #}
+        {# </a> #}
+    </h1>
+    <hr>
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-2 mb-3 text-muted">
+        <span class="d-none d-lg-inline ">Datas</span>
+        <span class="d-block d-lg-none text-info font-weight-bold px-1">DB</span>
+    </h6>
+    <ul class="nav flex-column">
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "DatasIntelPage"    , 'text': 'Training Intels' , 'fas_class': 'fas fa-layer-group' , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "DatasStoryPage"    , 'text': 'Known Story'     , 'fas_class': 'fas fa-landmark'    , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': url('front_twig_depository_filter_store',{}), 'page_identifier': "DatasDepositoryPage"   , 'text': 'Full Depository'     , 'fas_class': 'fas fa-boxes'       , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "DatasSpellPage"    , 'text': 'Spell Cloud'     , 'fas_class': 'fas fa-magic'       , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "DatasMapsPage"     , 'text': 'Maps View'       , 'fas_class': 'fas fa-globe'       , 'fa_size': 'fa-lg', active_page} %}
+    </ul>
+
+    <hr>
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-2 mb-3 text-muted">
+        <span class="d-none d-lg-inline ">Players</span>
+        <span class="d-block d-lg-none text-info font-weight-bold px-1">PL</span>
+    </h6>
+    <ul class="nav flex-column">
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "PlayerSetPage"         , 'text': 'Sets'        , 'fas_class': 'fas fa-user-cog'        , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "PlayerInventoryPage"   , 'text': 'Inventory'   , 'fas_class': 'fas fa-toolbox'         , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "PlayerSpellPage"       , 'text': 'SpellBooks'  , 'fas_class': 'fas fa-journal-whills'  , 'fa_size': 'fa-lg', active_page} %}
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "PlayerWishlistPage"    , 'text': 'SpellBooks'  , 'fas_class': 'fas fa-tasks'           , 'fa_size': 'fa-lg', active_page} %}
+    </ul>
+
+    <hr>
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-2 mb-3 text-muted">
+        <span class="d-none d-lg-inline ">Simulators</span>
+        <span class="d-block d-lg-none text-info font-weight-bold px-1">GN</span>
+    </h6>
+    <ul class="nav flex-column">
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': 'https://sfrpgtools.com/', 'page_identifier': "externalPage" , 'text': 'sfrpgtools'  , 'fas_class': 'fas fa-fire-alt' , 'fa_size': 'fa-lg', active_page} %}
+    </ul>
+    <hr>
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-2 mb-3 text-muted">
+        <span class="d-none d-lg-inline ">Configuration</span>
+        <span class="d-block d-lg-none text-info font-weight-bold px-1">CF</span>
+    </h6>
+    <ul class="nav flex-column">
+        {% include 'Common/_partials/sidebarNavItem.html.twig' with {'a_link': '#', 'page_identifier': "ConfBookPage"         , 'text': 'Books'        , 'fas_class': 'fas fa-cog'        , 'fa_size': 'fa-lg', active_page} %}
+    </ul>
+    <ul></ul>
+    <ul></ul>
+</div>

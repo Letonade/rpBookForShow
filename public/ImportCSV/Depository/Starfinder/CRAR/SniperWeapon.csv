@@ -1,0 +1,41 @@
+Book;Page;HandNeeded;SubCategory;Name;Level;Price;Damage;Range;Critical;Capacity;Usage;Bulk;Special;TechType;FamilyDescriptionSlug
+CR;178;2;PROJECTILE;Shirren-eye rifle, advanced;8;9350;2d10 P;70 ft.;—;4 rounds;1;2;Analog, sniper (500 ft.), unwieldy;technology;cr-shirren-eye-rifle
+CR;178;2;PROJECTILE;Shirren-eye rifle, elite;13;54000;4d10 P;80 ft.;—;6 rounds;1;2;Analog, sniper (750 ft.), unwieldy;technology;cr-shirren-eye-rifle
+CR;178;2;PROJECTILE;Shirren-eye rifle, paragon;16;147200;6d10 P;80 ft.;—;6 rounds;1;1;Analog, sniper (1,000 ft.), unwieldy;technology;cr-shirren-eye-rifle
+CR;178;2;PROJECTILE;Shirren-eye rifle, tactical;2;755;1d10 P;70 ft.;—;1 round;1;1;Analog, sniper (250 ft.), unwieldy;technology;cr-shirren-eye-rifle
+CR;178;2;PROJECTILE;Shirren-eye rifle, warpshot;20;740800;10d10 P;80 ft.;—;4 rounds;1;1;Analog, sniper (1,000 ft.), unwieldy;technology;cr-shirren-eye-rifle
+AR;24;2;PROJECTILE;Assassin rifle, phantom;9;14,900;3d6 P;60 ft.;—;1 round;1;1;Breakdown, sniper (600 ft.), unwieldy;technology;ar-assassin-rifle
+AR;24;2;PROJECTILE;Assassin rifle, shadow;6;4,550;2d6 P;60 ft.;—;1 round;1;1;Breakdown, sniper (500 ft.), unwieldy;technology;ar-assassin-rifle
+AR;25;2;PROJECTILE;Assassin rifle, spectre;12;39,500;5d6 P;70 ft.;—;1 round;1;1;Breakdown, sniper (750 ft.), unwieldy;technology;ar-assassin-rifle
+AR;24;2;PROJECTILE;Assassin rifle, stalker;3;1,510;1d10 P;60 ft.;—;1 round;1;1;Breakdown, sniper (250 ft.), unwieldy;technology;ar-assassin-rifle
+AR;25;2;PROJECTILE;Assassin rifle, wraith;17;278,000;11d6 P;70 ft.;—;1 round;1;1;Breakdown, sniper (1,000 ft.), unwieldy;technology;ar-assassin-rifle
+AR;25;2;PROJECTILE;Coil rifle, assassin;19;590,000;12d6 P;90 ft.;Bleed 4d6;16 rounds;1;2;Sniper (750 ft.);technology;ar-coil-rifle
+AR;24;2;PROJECTILE;Coil rifle, precision ;1;390;1d6 P;60 ft.;—;4 rounds;1;2;Sniper (250 ft.);technology;ar-coil-rifle
+AR;25;2;PROJECTILE;Coil rifle, rangefinder;10;18,600;3d6 P;70 ft.;Bleed 2d6;8 rounds;1;2;Sniper (500 ft.);technology;ar-coil-rifle
+AR;25;2;PROJECTILE;Coil rifle, saboteur;14;76,700;7d6 P;80 ft.;Bleed 3d6;12 rounds;1;2;Sniper (750 ft.);technology;ar-coil-rifle
+AR;24;2;PROJECTILE;Coil rifle, specialist;5;3,120;2d6 P;70 ft.;Bleed 1d6;6 rounds;1;2;Sniper (250 ft.);technology;ar-coil-rifle
+AR;24;2;LASER;Focus rifle, compound;18;375,000;13d4 F;150 ft.;Burn 4d4;80 charges;8;1;Penetrating, sniper (1,000 ft.), unwieldy;technology;ar-focus-rifle
+AR;24;2;LASER;Focus rifle, dual ;3;1,400;2d4 F;100 ft.;Burn 1d4;20 charges;4;1;Penetrating, sniper (500 ft.), unwieldy;technology;ar-focus-rifle
+AR;24;2;LASER;Focus rifle, quad;13;50,800;7d4 F;120 ft.;Burn 3d4;40 charges;8;1;Penetrating, sniper (800 ft.), unwieldy;technology;ar-focus-rifle
+AR;24;2;LASER;Focus rifle, triple;7;6,460;3d4 F;120 ft.;Burn 2d4;40 charges;4;1;Penetrating, sniper (650 ft.), unwieldy;technology;ar-focus-rifle
+AR;24;2;FLAME;Gamma rifle, fusion;12;36,600;3d10 F;100 ft.;Irradiate;40 charges;8;1;Radioactive, sniper (750 ft.), unwieldy;technology;ar-gamma-rifle
+AR;24;2;FLAME;Gamma rifle, ionizing;9;13,600;2d10 F;80 ft.;Irradiate;40 charges;5;1;Radioactive, sniper (500 ft.), unwieldy;technology;ar-gamma-rifle
+AR;24;2;FLAME;Gamma rifle, synchrotron;17;272,000;7d10 F;100 ft.;Irradiate;40 charges;10;1;Radioactive, sniper (1,000 ft.), unwieldy;technology;ar-gamma-rifle
+AR;24;2;FLAME;Gamma rifle, terrestrial;4;2,120;1d10 F;80 ft.;Irradiate;40 charges;4;1;Radioactive, sniper (500 ft.), unwieldy;technology;ar-gamma-rifle
+AR;24;2;PROJECTILE;Multistage rifle, dual;4;2,380;1d10 B;50 ft.;—;2 mini-rockets;2;2;Indirect, sniper (500 ft.), unwieldy;technology;ar-multistage-rifle
+AR;24;2;PROJECTILE;Multistage rifle, dual-plus;7;7,500;2d8 B;50 ft.;—;2 mini-rockets;2;2;Indirect, sniper (500 ft.), unwieldy;technology;ar-multistage-rifle
+AR;25;2;PROJECTILE;Multistage rifle, quad;18;627,000;9d8 B;80 ft.;—;4 mini-rockets;4;2;Indirect, sniper (1,000 ft.), unwieldy;technology;ar-multistage-rifle
+AR;25;2;PROJECTILE;Multistage rifle, triple;11;27,900;3d8 B;60 ft.;—;3 mini-rockets;3;2;Indirect, sniper (750 ft.), unwieldy;technology;ar-multistage-rifle
+AR;25;2;PROJECTILE;Multistage rifle, triple-plus;15;124,000;7d8 B;70 ft.;—;3 mini-rockets;3;2;Indirect, sniper (750 ft.), unwieldy;technology;ar-multistage-rifle
+AR;25;2;UNCATEGORIZED;Nanite rifle, advanced;15;131,000;3d12 A;80 ft.;Severe wound;10 nanites;5;2;Sniper (750 ft.), unwieldy;technology;ar-nanite-rifle
+AR;25;2;UNCATEGORIZED;Nanite rifle, elite;19;648,000;6d12 A;100 ft.;Severe wound;10 nanites;2;2;Sniper (1,000 ft.), unwieldy;technology;ar-nanite-rifle
+AR;25;2;UNCATEGORIZED;Nanite rifle, tactical;10;20,100;2d12 A;60 ft.;Wound;10 nanites;10;2;Sniper (500 ft.), unwieldy;technology;ar-nanite-rifle
+AR;24;2;PLASMA;Plasma guide, series-21;2;1,070;1d8 E & F;60 ft.;—;20 charges;5;2;Guided, sniper (250 ft.), unwieldy;technology;ar-plasma-guide
+AR;24;2;PLASMA;Plasma guide, series-28;6;4,920;1d10 E & F;60 ft.;Wound;40 charges;5;2;Guided, sniper (250 ft.), unwieldy;technology;ar-plasma-guide
+AR;24;2;PLASMA;Plasma guide, series-37;8;10,800;2d8 E & F;70 ft.;Wound;40 charges;8;2;Guided, sniper (500 ft.), unwieldy;technology;ar-plasma-guide
+AR;24;2;PLASMA;Plasma guide, series-42;11;28,200;3d8 E & F;70 ft.;Severe wound;80 charges;8;2;Guided, sniper (500 ft.), unwieldy;technology;ar-plasma-guide
+AR;24;2;PLASMA;Plasma guide, series-62;16;193,000;5d8 E & F;80 ft.;Severe wound;80 charges;10;2;Guided, sniper (750 ft.), unwieldy;technology;ar-plasma-guide
+AR;24;2;PLASMA;Plasma guide, series-73;20;980,000;9d8 E & F;80 ft.;Severe wound;100 charges;10;2;Guided, sniper (1,000 ft.), unwieldy;technology;ar-plasma-guide
+AR;25;2;UNCATEGORIZED;Wraith-sting rifle, hornet;14;71,200;—;80 ft.;Injection DC +2;1 dart;1;1;Injection, sniper (750 ft.), subtle, unwieldy;technology;ar-wraith-sting-rifle
+AR;25;2;UNCATEGORIZED;Wraith-sting rifle, wasp;5;2,980;—;60 ft.;Injection DC +2;1 dart;1;1;Injection, sniper (500 ft.), subtle, unwieldy;technology;ar-wraith-sting-rifle
+AR;25;2;UNCATEGORIZED;Wraith-sting rifle, yellow jacket;1;375;—;40 ft.;Injection DC +2;1 dart;1;1;Injection, sniper (250 ft.), subtle, unwieldy;technology;ar-wraith-sting-rifle

@@ -1,0 +1,47 @@
+
+:root {
+  --cus-lighter-blue: #4da3ff ;
+  --cus-lighter-indigo: #9459f6;
+  --cus-lighter-purple: #9b7cd4;
+  --cus-lighter-pink: #f082b5;
+  --cus-lighter-red: #e77681;
+  --cus-lighter-orange: #fea860;
+  --cus-lighter-yellow: #ffd454;
+  --cus-lighter-green: #48d368;
+  --cus-lighter-teal: #52e3b8;
+  --cus-lighter-cyan: #36cee6;
+  --bs-blue: #007bff ;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #e83e8c;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #28a745;
+  --bs-teal: #20c997;
+  --bs-cyan: #17a2b8;
+  --bs-white: #fff;
+  --bs-light: #f8f9fa;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-dark: var(--bs-gray-dark);
+  --bs-primary: var(--bs-pink) ;
+  --bs-secondary: var(--bs-gray);
+  --bs-success: var(--cus-lighter-green);
+  --bs-info: var(--cus-lighter-cyan);
+  --bs-warning: var(--cus-lighter-yellow);
+  --bs-danger: var(--cus-lighter-red);
+  --cus-lighter-primary: var(--cus-lighter-pink) ;
+  --cus-lighter-secondary: var(--bs-gray);
+  --cus-lighter-success: var(--cus-lighter-green);
+  --cus-lighter-info: var(--cus-lighter-cyan);
+  --cus-lighter-warning: var(--cus-lighter-yellow);
+  --cus-lighter-danger: var(--cus-lighter-red);
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

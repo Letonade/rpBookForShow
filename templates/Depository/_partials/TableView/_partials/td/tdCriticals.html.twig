@@ -1,0 +1,15 @@
+{% if item.criticals is defined %}
+    <td class="text-left">
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           title="Description"
+           data-content='{% include 'Depository/_partials/Popover/criticalPopoverContent.html.twig' with {"criticals": item.criticals} %}'>
+            {% if criticalsString is defined %}
+                {{ criticalsString }}
+            {% else %}
+                {% for key, critical in item.criticals %}
+                    {% if key is same as 0 %}{{ critical }}{% else %}, {{ critical }}{% endif %}
+                {% endfor %}
+            {% endif %}
+        </a>
+    </td>
+{% endif %}

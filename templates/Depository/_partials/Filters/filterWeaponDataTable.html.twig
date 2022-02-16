@@ -1,0 +1,150 @@
+{% if filterForm is defined %}
+    {{ form_start(filterForm, {attr: {class: 'filter'}}) }}
+    <div class="row pl-3">
+        <div class=" col-11 row pl-3">
+            <div class="form-group col-2 px-1">
+                {{ form_label (filterForm.sourceBooks) }}
+                {{ form_widget(filterForm.sourceBooks, { 'attr': {'class': 'selectpicker cus-index-over-thead'} }) }}
+            </div>
+            <div class="form-group col-2 px-1">
+                {{ form_label (filterForm.name) }}
+                {{ form_widget(filterForm.name) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.minCost) }}
+                {{ form_widget(filterForm.minCost) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.maxCost) }}
+                {{ form_widget(filterForm.maxCost) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.minLevel) }}
+                {{ form_widget(filterForm.minLevel) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.maxLevel) }}
+                {{ form_widget(filterForm.maxLevel) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.minRawDamage) }}
+                {{ form_widget(filterForm.minRawDamage) }}
+            </div>
+            <div class="form-group col-1 px-1">
+                {{ form_label (filterForm.maxRawDamage) }}
+                {{ form_widget(filterForm.maxRawDamage) }}
+            </div>
+            <div class="form-group col-2 px-1 text-center">
+                <span class="btn btn-secondary h-100 w-100" data-toggle="filter-advanced" value="hide"><i
+                            class="far fa-arrow-alt-circle-down fa-1x p-1"></i></span>
+            </div>
+            <div id="target-filter-advanced" class="col-12 d-none">
+                <div class="row">
+                    <div class="form-group col-6 px-1">
+                        <div class="text-center w-100">
+                            <b class="">
+                                {{ form_widget(filterForm.specialTypesOr) }}
+                                {{ form_label (filterForm.specialTypesOr) }}
+                            </b>
+                        </div>
+                        <hr class="bg-primary">
+                        <div class="row">
+                            {# Is the 2 col version of {{ form_label (filterForm.criticalTypes) }}{{ form_widget(filterForm.criticalTypes) }} #}
+                            {% for special in filterForm.specialTypes %}
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="{{ special.vars.id }}"
+                                               name="{{ special.vars.full_name }}"
+                                               class="form-check-input" value="{{ special.vars.value }}"
+                                               {% if special.vars.checked %}checked="checked"{% endif %}>
+                                        <label class="form-check-label"
+                                               for="{{ special.vars.id }}">{{ special.vars.label }}</label>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="form-group col-4 px-1">
+                        <div class="text-center w-100">
+                            <b class="">
+                                {{ form_widget(filterForm.criticalTypesOr) }}
+                                {{ form_label (filterForm.criticalTypesOr) }}
+                            </b>
+                        </div>
+                        <hr class="bg-secondary">
+                        <div class="row">
+                            {% for special in filterForm.criticalTypes %}
+                                <div class="col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="{{ special.vars.id }}"
+                                               name="{{ special.vars.full_name }}"
+                                               class="form-check-input" value="{{ special.vars.value }}"
+                                               {% if special.vars.checked %}checked="checked"{% endif %}>
+                                        <label class="form-check-label"
+                                               for="{{ special.vars.id }}">{{ special.vars.label }}</label>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="form-group col-2 px-1">
+                        <div class="text-center w-100">
+                            <b class="">
+                                {{ form_widget(filterForm.damageTypesOr) }}
+                                {{ form_label (filterForm.damageTypesOr) }}
+                            </b>
+                        </div>
+                        <hr class="bg-warning">
+                        {{ form_label (filterForm.damageTypes) }}
+                        {{ form_widget(filterForm.damageTypes) }}
+                    </div>
+                </div>
+                {% if not filterForm.vars.valid %}
+                    <div class="form-group col-12 px-1">
+                        {{ form_errors(filterForm.sourceBook) }}
+                        {{ form_help(filterForm.sourceBook) }}
+                        {{ form_errors(filterForm.name) }}
+                        {{ form_help(filterForm.name) }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class=" col-1 row pl-3">
+            <div class="form-group col-1 px-1">
+                <button type="submit" class="btn btn-primary h-100 "><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    {{ form_end(filterForm, {'render_rest': false}) }}
+{% endif %}
+
+{% block  javascripts %}
+    <script>
+        $(document).ready(function () {
+            let scrollRefresh = 1;
+            $('[data-toggle="filter-advanced"]').click(
+                function () {
+                    if (this.classList.contains('badge-primary')) {
+                        this.setAttribute('value', 'hide');
+                        this.classList.remove('badge-primary');
+                        this.classList.add('badge-secondary');
+                        $('#target-filter-advanced')[0].classList.add('d-none');
+                    } else {
+                        this.setAttribute('value', 'show');
+                        this.classList.remove('badge-secondary');
+                        this.classList.add('badge-primary');
+                        $('#target-filter-advanced')[0].classList.remove('d-none');
+                    }
+                    // It refresh the scroll so that's okay.
+                    window.scrollTo(0, scrollRefresh);
+                    if (scrollRefresh === 1) {
+                        scrollRefresh = 2;
+                    } else {
+                        scrollRefresh = 1;
+                    }
+                }
+            );
+        });
+    </script>
+{% endblock %}

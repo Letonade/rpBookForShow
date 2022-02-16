@@ -1,0 +1,12 @@
+{% if item.name is defined %}
+    <td class="text-left">
+        {% if item.familyDescription is defined %}
+            <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+               title="Description"
+               data-content='{% include 'Depository/_partials/Popover/familyDescriptionPopoverContent.html.twig' with {"famDesc": item.familyDescription} %}'>
+                <i class="far fa-question-circle fa-sm"></i>
+            </a>
+        {% endif %}
+        {{ item.name }}
+    </td>
+{% endif %}

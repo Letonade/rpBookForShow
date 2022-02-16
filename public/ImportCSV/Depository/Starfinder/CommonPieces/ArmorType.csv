@@ -1,0 +1,12 @@
+Name;description;Entity
+light;"Armor is usually the easiest and most cost-effective way for creatures to protect themselves. Whether you are skimming through space aboard a mercenary vessel, attending a diplomatic meeting on a space station, or descending to a planet’s surface to explore, armor provides you with protection against attacks and hostile environments.
+
+Modern armor is made of many different substances, including carbon fiber, ceramic, fabric, metal, and polymers. Most are constructed from a combination of materials, and some even use archaic materials such as animal hide. Creatures wear armor to protect themselves, but also to express their personal style.
+
+Most suits of armor consist of a helmet, gloves, boots, and a bodysuit that offers head-to-toe protection. Unless otherwise specified, the boots include a functionality that can anchor your feet to a solid surface in a zero-gravity environment, allowing you to orient yourself or return to normal footing when needed.";item
+heavy;"Armor is usually the easiest and most cost-effective way for creatures to protect themselves. Whether you are skimming through space aboard a mercenary vessel, attending a diplomatic meeting on a space station, or descending to a planet’s surface to explore, armor provides you with protection against attacks and hostile environments.
+
+Modern armor is made of many different substances, including carbon fiber, ceramic, fabric, metal, and polymers. Most are constructed from a combination of materials, and some even use archaic materials such as animal hide. Creatures wear armor to protect themselves, but also to express their personal style.
+
+Most suits of armor consist of a helmet, gloves, boots, and a bodysuit that offers head-to-toe protection. Unless otherwise specified, the boots include a functionality that can anchor your feet to a solid surface in a zero-gravity environment, allowing you to orient yourself or return to normal footing when needed.";item
+powered;Unlike light and heavy armor, powered armor requires its own battery, and comes with a fully charged battery at purchase. Powered armor uses the same type of batteries as other items, including charged weapons, and the battery for a suit of powered armor can be recharged as normal using a generator or recharging station (see page 234), or it can be replaced with a new battery when spent (see Table 7–9: Ammunition for battery pricing).;item

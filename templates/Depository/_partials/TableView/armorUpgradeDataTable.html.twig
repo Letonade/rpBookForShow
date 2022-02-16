@@ -1,0 +1,51 @@
+<h4>{{ tableTitle }}
+    {% if hint is defined %}
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           data-content='{{ hint }}'><i class="fas fa-tags fa-xs"></i></a>
+    {% endif %}
+</h4>
+
+<table class="table cus-table-striped table-sm text-center cus-table-hover sticky-header">
+    <thead class="cus-thead-bg-grey">
+    <tr>
+        {% set PartThDir %}Depository/_partials/TableView/_partials/th/th{% endset %}
+        <th>#</th>
+        {# Files must start by 'th'.... #}
+        {% include PartThDir~'SourceBook.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SourcePage.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Level.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Name.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Cost.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'ArmorTypes.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'TechType.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'CapacityAndUsages.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'NumberOfUpgradeSlot.html.twig' with {'item': collection[0]} %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for key, item in collection %}
+        {% set armorTypesString = 'void' %}
+        {% for extrafield in item.extrafields %}
+            {% if extrafield.handle is same as 'armorTypesString' %}{% set armorTypesString = extrafield.value %}{% endif %}
+        {% endfor %}
+        {% if armorTypesString is same as 'void' %}{% set armorTypesString = false %}{% endif %}
+        <tr>
+            {% set PartTdDir %}Depository/_partials/TableView/_partials/td/td{% endset %}
+            <td class="d-block d-md-none"><a href="javascript:void(0);" data-toggle="popover-bottom-click"
+                                             data-content='{{ key }}'><i class="fas fa-list-ol"></i></a></td>
+            <td class="d-none d-md-block">{{ key }}</td>
+
+            {# Files must start by 'td'.... #}
+            {% include PartTdDir~'SourceBook.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SourcePage.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Level.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Name.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Cost.html.twig' with {'item': item} %}
+            {% include PartTdDir~'ArmorTypes.html.twig' with {'item': item} %}
+            {% include PartTdDir~'TechType.html.twig' with {'item': item} %}
+            {% include PartTdDir~'CapacityAndUsages.html.twig' with {'item': item} %}
+            {% include PartTdDir~'NumberOfUpgradeSlot.html.twig' with {'item': collection[0]} %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

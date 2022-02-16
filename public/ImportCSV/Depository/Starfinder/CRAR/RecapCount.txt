@@ -1,0 +1,32 @@
+CR+AR
+
+Incremental Sum:
+Start
+->bmw->88
+->amw->350
+->sa->519
+->la->694
+->hw->866
+->sw->906
+->spcw->915
+->swc->970
+->gre->1027
+->ammo->1062
+->WeaponFusion->1129
+->lightArmor->1198
+->heavyArmor->1260
+
+Incremetal Count:
+(BasicMeleeWeapon 88)
+->(AdvancedMeleeWeapon 262)
+->(SmallArm 169)
+->(Longarm 175)
+->(HeavyWeapon 173)
+->(SniperWeapon 40)
+->(SpecialWeapon 9)
+->(SolarianCrystal 55)
+->(Grenade 57)
+->(Ammunition 35)
+->(WeaponFusion 67)
+->(lightArmor 69)
+->(heavyArmor 62)

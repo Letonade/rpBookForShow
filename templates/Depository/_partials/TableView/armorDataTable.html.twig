@@ -1,0 +1,83 @@
+<h4>{{ tableTitle }}
+    {% if hint is defined %}
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           data-content='{{ hint }}'><i class="fas fa-tags fa-xs"></i></a>
+    {% endif %}
+</h4>
+
+<table class="table cus-table-striped table-sm text-center cus-table-hover sticky-header">
+    <thead class="cus-thead-bg-grey">
+    <tr>
+        {% set PartThDir %}Depository/_partials/TableView/_partials/th/th{% endset %}
+        <th>#</th>
+        {# Files must start by 'th'.... #}
+        {% include PartThDir~'SourceBook.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SourcePage.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Name.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'TechType.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Level.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Cost.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Damages.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'CapacityAndUsages.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Bulk.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'EnergeticArmorClassModificator.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'KineticArmorClassModificator.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'MaximumDexterityModificator.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'ArmorCheckModificator.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SpeedModificator.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'NumberOfUpgradeSlot.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'NumberOfWeaponSlot.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'FixedReach.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'Size.html.twig' with {'item': collection[0]} %}
+        {% include PartThDir~'SpeedMovements.html.twig' with {'item': collection[0]} %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for key, item in collection %}
+        {# Ca fonctionne aussi:   {% set damageString, speedMovementString, capacityAndUsagesString = 'void', 'void', 'void' %} #}
+        {% set damageString = 'void' %}
+        {% set speedMovementString = 'void' %}
+        {% set capacityAndUsagesString = 'void' %}
+        {% for extrafield in item.extrafields %}
+            {% if extrafield.handle is same as 'damagesString' %}{% set damageString = extrafield.value %}{% endif %}
+            {% if extrafield.handle is same as 'speedMovementString' %}{% set speedMovementString = extrafield.value %}{% endif %}
+            {% if extrafield.handle is same as 'capacityAndUsagesString' %}
+                {% set capacityAndUsagesString = extrafield.value %}
+            {% endif %}
+        {% endfor %}
+        {% if damageString is same as 'void' %}{% set damageString = false %}{% endif %}
+        {% if speedMovementString is same as 'void' %}{% set speedMovementString = false %}{% endif %}
+        {% if capacityAndUsagesString is same as 'void' %}{% set capacityAndUsagesString = false %}{% endif %}
+
+
+
+        <tr>
+            {% set PartTdDir %}Depository/_partials/TableView/_partials/td/td{% endset %}
+            <td class="d-block d-md-none"><a href="javascript:void(0);" data-toggle="popover-bottom-click"
+                                             data-content='{{ key }}'><i class="fas fa-list-ol"></i></a></td>
+            <td class="d-none d-md-block">{{ key }}</td>
+
+            {# Files must start by 'td'.... #}
+            {% include PartTdDir~'SourceBook.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SourcePage.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Name.html.twig' with {'item': item} %}
+            {% include PartTdDir~'TechType.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Level.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Cost.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Damages.html.twig' with {'item': item} %}
+            {% include PartTdDir~'CapacityAndUsages.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Bulk.html.twig' with {'item': item} %}
+            {% include PartTdDir~'EnergeticArmorClassModificator.html.twig' with {'item': item} %}
+            {% include PartTdDir~'KineticArmorClassModificator.html.twig' with {'item': item} %}
+            {% include PartTdDir~'MaximumDexterityModificator.html.twig' with {'item': item} %}
+            {% include PartTdDir~'ArmorCheckModificator.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SpeedModificator.html.twig' with {'item': item} %}
+            {% include PartTdDir~'NumberOfUpgradeSlot.html.twig' with {'item': item} %}
+            {% include PartTdDir~'NumberOfWeaponSlot.html.twig' with {'item': item} %}
+            {% include PartTdDir~'FixedReach.html.twig' with {'item': item} %}
+            {% include PartTdDir~'Size.html.twig' with {'item': item} %}
+            {% include PartTdDir~'SpeedMovements.html.twig' with {'item': item} %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

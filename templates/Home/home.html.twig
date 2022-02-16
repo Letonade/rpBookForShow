@@ -1,0 +1,26 @@
+{% extends 'Common/base.html.twig' %}
+{% set active_page = 'homePage' %}
+
+{% block main %}
+
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom ">
+            <h1 class="h2">Datas</h1>
+        </div>
+        <div class="card-columns">
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Intels', 'imageSrc': '/assets/img/Common/intel.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_filter_store',{}), 'text': 'Depository', 'imageSrc': '/assets/img/Common/depository.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Story', 'imageSrc': '/assets/img/Common/story.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Spell Library', 'imageSrc': '/assets/img/Common/spellshop.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Maps', 'imageSrc': '/assets/img/Common/mapview.png'} %}
+        </div>
+        {# Players part #}
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom ">
+            <h1 class="h2">Players</h1>
+        </div>
+        <div class="card-columns">
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Sets', 'imageSrc': '/assets/img/Common/playerset.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Inventory', 'imageSrc': '/assets/img/Common/playerinventory.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Spell Book', 'imageSrc': '/assets/img/Common/spellbook.png'} %}
+            {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': '#', 'text': 'Wishlist', 'imageSrc': '/assets/img/Common/wishlist.png'} %}
+        </div>
+{% endblock %}

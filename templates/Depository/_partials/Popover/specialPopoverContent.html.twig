@@ -1,0 +1,32 @@
+{% for special in specials %}
+    <div style="">
+        <h6>
+            <b class="text-primary">{{ special.specialType.name }}</b> {{ special.specialType.startDelimiter }}{{ special.specialType.arguments }}{{ special.specialType.endDelimiter }}
+        </h6>
+        <hr>
+        <i>
+            {{ special.specialType.description }}
+        </i>
+        <hr>
+        {% for subSpe in special.otherSubSpecials %}
+            <h6>
+                <b class="text-primary">{{ subSpe.name }}</b> {{ subSpe.startDelimiter }}{{ subSpe.arguments }}{{ subSpe.endDelimiter }}
+            </h6>
+            <hr>
+            <i>
+                {{ subSpe.description }}
+            </i>
+            <hr>
+        {% endfor %}
+        {% for subCond in special.otherSubConditions %}
+            <h6>
+                <b class="text-primary">{{ subCond.name }}</b>
+            </h6>
+            <hr>
+            <i>
+                {{ subCond.description }}
+            </i>
+            <hr>
+        {% endfor %}
+    </div>
+{% endfor %}

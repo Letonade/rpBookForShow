@@ -1,0 +1,94 @@
+Book;Page;Name;Level;Price;Slots ;ArmorType;Bulk;Capacity;Usage;Used By;TechType;FamilyDescriptionSlug
+CR;205;Automated loader;2;750;1;Powered;1;;;;technology;cr-armor-upgrade-automated-loader
+CR;205;Backup generator;4;2100;1;Any;1;;;;technology;cr-armor-upgrade-backup-generator
+CR;205;Deflective reinforcement;7;7500;1;Any;1;;;;technology;cr-armor-upgrade-deflective-reinforcement
+CR;205;Electrostatic field, mk 1;5;3000;1;Any;—;;;;technology;cr-armor-upgrade-electrostatic-field
+CR;205;Electrostatic field, mk 2;9;13000;1;Any;—;;;;technology;cr-armor-upgrade-electrostatic-field
+CR;205;Electrostatic field, mk 3;12;35000;1;Any;—;;;;technology;cr-armor-upgrade-electrostatic-field
+CR;205;Exit pod;4;1750;1;Heavy, powered;2;;;;technology;cr-armor-upgrade-exit-pod
+CR;205;Filtered rebreather;6;4600;1;Any;1;;;;technology;cr-armor-upgrade-filtered-rebreather
+CR;205;Force field, black;8;10500;2;Any;L;10 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, blue;17;280000;2;Any;L;40 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, brown;3;1600;2;Any;L;10 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, gray;12;40000;2;Any;L;20 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, green;14;80000;2;Any;L;20 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, orange;18;400000;2;Any;L;40 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, prismatic;20;1000000;2;Any;L;100 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, purple;6;4550;2;Any;L;10 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, red;16;180000;2;Any;L;40 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Force field, white;10;20000;2;Any;L;20 charges;1;round;technology;cr-armor-upgrade-force-field
+CR;205;Forcepack;9;13100;1;Light, heavy;1;100 charges;2;round;hybrid;cr-armor-upgrade-forcepack
+CR;205;Haste circuit;8;9250;1;Light, heavy;L;10 charges;1;round;magic;cr-armor-upgrade-haste-circuit
+CR;205;Infrared sensors;1;200;1;Any;L;;;;technology;cr-armor-upgrade-infrared-sensors
+CR;205;Jetpack;5;3100;1;Light, heavy;1;40 charges;2;round;technology;cr-armor-upgrade-jetpack
+CR;205;Jump jets;2;1000;1;Light, heavy;L;20 charges;2;action;technology;cr-armor-upgrade-jump-jets
+CR;205;Load lifter;5;2550;1;Any;—;;;;technology;cr-armor-upgrade-load-lifter
+CR;205;Phase shield;6;4325;1;Heavy, powered;1;40 charges;2;use;technology;cr-armor-upgrade-phase-shield
+CR;205;Quick-release sheath;1;325;1;Any;L;;;;technology;cr-armor-upgrade-quick-release-sheath
+CR;205;Radiation buffer;1;200;1;Any;L;;;;technology;cr-armor-upgrade-radiation-buffer
+CR;205;Sonic dampener;7;7150;1;Any;L;;;;technology;cr-armor-upgrade-sonic-dampener
+CR;205;Spell reflector, mk 1;13;47950;1;Light, heavy;1;;;;magic;cr-armor-upgrade-spell-reflector
+CR;205;Spell reflector, mk 2;18;360000;1;Light, heavy;1;1 charges;1;use;magic;cr-armor-upgrade-spell-reflector
+CR;205;Targeting computer;4;2250;1;Any;—;;;;technology;cr-armor-upgrade-targeting-computer
+CR;205;Tensile reinforcement;1;150;1;Any;—;;;;technology;cr-armor-upgrade-tensile-reinforcement
+CR;205;Thermal capacitor, mk 1;5;3600;1;Any;—;;;;technology;cr-armor-upgrade-thermal-capacitor
+CR;205;Thermal capacitor, mk 2;12;36250;1;Any;—;;;;technology;cr-armor-upgrade-thermal-capacitor
+CR;205;Thermal capacitor, mk 3;15;120000;1;Any;—;;;;technology;cr-armor-upgrade-thermal-capacitor
+CR;205;Titan shield;14;75000;1;Powered;2;40 charges;10;use;technology;cr-armor-upgrade-titan-shield
+AR;81;Absorption shield;7;6500;1;Heavy, powered;1;40 charges;10;use;hybrid;ar-armor-upgrade-absorption-shield
+AR;81;Adaptive energy shield;10;17500;1;Any;L;;;;technology;ar-armor-upgrade-adaptive-energy-shield
+AR;81;Agility enhancer, mk 1;1;375;1;Light, heavy;L;;;;technology;ar-armor-upgrade-agility-enhancer
+AR;81;Agility enhancer, mk 2;5;3000;1;Light, heavy;L;;;;technology;ar-armor-upgrade-agility-enhancer
+AR;81;Agility enhancer, mk 3;9;13000;1;Light, heavy;L;;;;technology;ar-armor-upgrade-agility-enhancer
+AR;81;Agility enhancer, mk 4;13;46000;1;Light, heavy;L;;;;technology;ar-armor-upgrade-agility-enhancer
+AR;81;Agility enhancer, mk 5;17;216000;1;Light, heavy;L;;;;technology;ar-armor-upgrade-agility-enhancer
+AR;81;Attractor field;11;24000;1;Any;L;5 charges;1;use;hybrid;ar-armor-upgrade-attractor-field
+AR;81;Auto-CPR unit;2;850;1;Any;L;;;;technology;ar-armor-upgrade-auto-cpr-unit
+AR;81;Auto-injector;7;7000;1;Any;—;;;;technology;ar-armor-upgrade-auto-injector
+AR;81;Battery unit;9;12000;1;Any;L;;;;technology;ar-armor-upgrade-battery-unit
+AR;81;Bodyguard module;11;24400;1;Heavy, powered;L;;;;magic;ar-armor-upgrade-bodyguard-module
+AR;81;Brightlight projector;6;3000;1;Any;1;20 charges;1;hour;hybrid;ar-armor-upgrade-brightlight-projector
+AR;81;Computer interface;7;6000;1;Any;—;;;;technology;ar-armor-upgrade-computer-interface
+AR;81;Concealed compartments;1;175;1;Any;L;;;;technology;ar-armor-upgrade-concealed-compartments
+AR;81;Courage module;10;18300;1;Any;L;1 charges;1;use;hybrid;ar-armor-upgrade-courage-module
+AR;81;Displacement field;15;120000;2;Any;1;10 charges;1;round;hybrid;ar-armor-upgrade-displacement-field
+AR;81;Easy access kit;1;125;1;Any;—;;;;technology;ar-armor-upgrade-easy-access-kit
+AR;81;Endurance module;6;4500;1;Any;L;1 charges;1;use;hybrid;ar-armor-upgrade-endurance-module
+AR;81;Explosive defense unit;8;9000;1;Any;L;;;;technology;ar-armor-upgrade-explosive-defense-unit
+AR;81;Fortified plates, mk 1;14;65500;1;Heavy, powered;2;;;;technology;ar-armor-upgrade-fortified-plates
+AR;81;Fortified plates, mk 2;15;104000;1;Heavy, powered;2;;;;technology;ar-armor-upgrade-fortified-plates
+AR;81;Fortified plates, mk 3;16;151000;1;Heavy, powered;2;;;;technology;ar-armor-upgrade-fortified-plates
+AR;81;Fortified plates, mk 4;17;262000;1;Heavy, powered;2;;;;technology;ar-armor-upgrade-fortified-plates
+AR;81;Fortified plates, mk 5;19;550000;1;Heavy, powered;1;;;;technology;ar-armor-upgrade-fortified-plates
+AR;81;Ghost armor;5;2900;1;Any;—;;;;magic;ar-armor-upgrade-ghost-armor
+AR;81;Glamer projector;3;1350;1;Light, heavy;—;;;;magic;ar-armor-upgrade-glamer-projector
+AR;81;Holodouble module;10;18000;1;Light, heavy;L;10 charges;1;round;hybrid;ar-armor-upgrade-holodouble-module
+AR;81;Hover field;4;1800;1;Light;—;;;;technology;ar-armor-upgrade-hover-field
+AR;81;Hydrojet;3;1400;1;Light, heavy;L;20 charges;2;hour;technology;ar-armor-upgrade-hydrojet
+AR;81;Indomitability module;13;50000;1;Any;L;1 charges;1;day;hybrid;ar-armor-upgrade-indomitability-module
+AR;81;Invisibility detector;10;17000;1;Any;L;5 charges;1;minute;hybrid;ar-armor-upgrade-invisibility-detector
+AR;81;Juggernaut boosters;3;1200;1;Heavy, powered;1;;;;technology;ar-armor-upgrade-juggernaut-boosters
+AR;81;Leapers;1;205;1;Light;L;20 charges;1;use;technology;ar-armor-upgrade-leapers
+AR;81;Life shield;14;64000;1;Any;L;10 charges;1;minute;magic;ar-armor-upgrade-life-shield
+AR;81;Light projector;1;150;1;Any;1;20 charges;1;hour;technology;ar-armor-upgrade-light-projector
+AR;81;Lingual scrambler;12;32800;1;Any;—;;;;hybrid;ar-armor-upgrade-lingual-scrambler
+AR;81;Longstrider module;4;2200;1;Light;L;;;;technology;ar-armor-upgrade-longstrider-module
+AR;81;Magic resistor, mk 1;11;23500;1;Any;1;;;;magic;ar-armor-upgrade-magic-resistor
+AR;81;Magic resistor, mk 2;14;70000;2;Any;2;;;;magic;ar-armor-upgrade-magic-resistor
+AR;81;Magic resistor, mk 3;17;240000;2;Heavy, powered;2;;;;magic;ar-armor-upgrade-magic-resistor
+AR;81;Magic resistor, mk 4;20;800000;2;Heavy, powered;2;;;;magic;ar-armor-upgrade-magic-resistor
+AR;81;Medical interface, mk 1;9;14000;1;Any;L;;;;hybrid;ar-armor-upgrade-medical-interface
+AR;81;Medical interface, mk 2;15;100000;1;Any;L;;;;hybrid;ar-armor-upgrade-medical-interface
+AR;81;Medical interface, mk 3;19;600000;1;Any;L;;;;hybrid;ar-armor-upgrade-medical-interface
+AR;81;Mobility enhancer, mk 1;3;1500;1;Heavy;L;;;;technology;ar-armor-upgrade-mobility-enhancer
+AR;81;Mobility enhancer, mk 2;8;9500;1;Heavy;L;;;;technology;ar-armor-upgrade-mobility-enhancer
+AR;81;Privacy shield;12;35500;1;Any;—;;;;magic;ar-armor-upgrade-privacy-shield
+AR;81;Quicksuit;3;1300;1;Light, heavy;L;;;;hybrid;ar-armor-upgrade-quicksuit
+AR;81;Rampart plates;5;2850;1;Heavy;1;;;;technology;ar-armor-upgrade-rampart-plates
+AR;81;Reaction accelerator;9;13500;1;Any;L;;;;hybrid;ar-armor-upgrade-reaction-accelerator
+AR;81;Slickskin;1;300;1;Light;—;;;;technology;ar-armor-upgrade-slickskin
+AR;81;Stabilizer springs;1;400;1;Light, heavy;L;;;;technology;ar-armor-upgrade-stabilizer-springs
+AR;81;Tactical scaffold;6;4450;2;Heavy;2;;;;technology;ar-armor-upgrade-tactical-scaffold
+AR;81;Teleportation unit;13;52000;1;Any;1;2 charges;1;use;hybrid;ar-armor-upgrade-teleportation-unit
+AR;81;Thrower arms;2;1000;1;Any;L;;;;technology;ar-armor-upgrade-thrower-arms
+AR;81;Vibration sensors;18;360000;1;Any;—;;;;technology;ar-armor-upgrade-vibration-sensors

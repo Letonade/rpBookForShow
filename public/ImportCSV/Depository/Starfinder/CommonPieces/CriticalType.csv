@@ -1,0 +1,103 @@
+Book;Page;Name;Label;Arguments;start delimiter;end delimiter;description
+CR;182;Arc;Arc;Damage;;;The attack’s energy leaps to a second creature. This secondary target must be within 10 feet of your original target and must be the creature closest to the original target (you choose if multiple creatures are equidistant). Roll the amount of damage listed in the weapon’s arc—the secondary target takes this damage (not multiplied by the critical hit), of whatever type the weapon deals.
+CR;182;Bleed;Bleed;Damage;;;"The target gains the bleeding condition (see page 273).
+
+Bleeding
+You take the listed amount of damage at the beginning of your 
+turn each round until this condition ends. Your bleeding can be 
+stopped with a successful DC 15 Medicine check as a standard 
+action, or through the application of any ability that restores Hit 
+Points. If you take two or more bleed effects, you take only the 
+damage from the worst effect."
+CR;182;Burn;Burn;Damage;;;"The target gains the burning condition (see page 273).
+
+Burning
+You are on fire. As long as you have this condition, at the start of 
+your turn each round before you take any actions (or attempt the 
+Reflex saving throw described below), you take the listed amount 
+of damage as fire damage (or 1d6 fire damage, if no amount is 
+listed in the effect that causes burning). Fire damage from 
+multiple sources that inflict the burning condition is cumulative.
+At the end of each round you are burning, you can attempt 
+a Reflex saving throw to remove this condition. The DC of this 
+saving throw is equal to 10 + the amount of fire damage you took 
+this round from the burning condition. If you succeed at this 
+saving throw, you lose the burning condition. You can attempt 
+a new saving throw each round you have this condition, and 
+you receive a +2 bonus for each previous saving throw you’ve 
+attempted in consecutive rounds.
+You can also automatically end this condition by jumping into 
+enough water to douse yourself. If you don’t have enough water 
+on hand, you can spend a full action to roll on the ground or 
+otherwise smother the fire to attempt a new saving throw with 
+a +4 bonus (plus any bonuses from previously failed consecutive 
+attempts) to end the condition."
+CR;182;Corrode;Corrode;Damage;;;The target takes corrode damage equal to the amount listed. This functions as the burning condition but deals acid damage rather than fire damage.
+CR;182;Deafen;Deafen;;;;"The target must succeed at a Fortitude saving throw or be deafened (see page 275) for 1d4 minutes.
+
+Deafened
+You can’t hear. You take a –4 penalty to initiative checks 
+and opposed Perception checks, and you automatically fail 
+Perception checks based on sound. Characters who remain 
+deafened for a long time grow accustomed to these drawbacks 
+and can overcome some of them."
+CR;182;Injection DC +2;Injection DC +2;;;;If the weapon is used to deliver a poison or drug of some kind, the save DC of that poison is increased by 2 when delivered on a critical hit.
+CR;182;Knockdown;Knockdown;;;;"The target is knocked prone (see page 277).
+
+Prone
+You are lying on the ground. You take a –4 penalty to melee 
+attack rolls. You gain a +4 bonus to your Armor Class against 
+ranged attacks, but you take a –4 penalty to your Armor Class 
+against melee attacks. Standing up from prone is a move action."
+CR;182;Severe Wound;Severe Wound;;;;"Roll twice on Table 7–11: Wounding Weapons and choose your desired result. The target can still attempt any associated save.
+
+<div class=""row"">
+<div class=""col-12"">D20 LOCATION SAVE EFFECT</div>
+<div class=""col-4""> 1-10 General</div><div class=""col-2""> -</div><div class=""col-6""> Bleed 1d6</div>
+<div class=""col-4""> 11-13 Eye (sensory)</div><div class=""col-2""> Ref</div><div class=""col-6""> Lost eye, -2 Perception</div>
+<div class=""col-4""> 14-15 Leg (mobility)</div><div class=""col-2""> Fort</div><div class=""col-6""> Severed limb, -10 land speed</div>
+<div class=""col-4""> 16-17 Arm (manipulation)</div><div class=""col-2""> Ref</div><div class=""col-6""> Severed limb, lose a hand</div>
+<div class=""col-4""> 18-19 Vital organ</div><div class=""col-2""> Fort,</div><div class=""col-6"">1d4 Con damage</div>
+<div class=""col-4""> 20 Brain</div><div class=""col-2""> Fort</div><div class=""col-6""> Stunned 1 round</div>
+</div>"
+CR;182;Staggered;Staggered;;;;"The target must succeed at a Fortitude save or be staggered (see page 277) for 1 round.
+
+Staggered
+You can take a single move action or standard action each 
+round, but not both, nor can you take full actions. You can still 
+take swift actions, but not reactions"
+CR;182;Stunned;Stunned;;;;"The target is stunned (see page 277) for 1 round.
+
+Stunned
+You drop everything you are holding, you can’t take actions, and 
+you are flat-footed"
+CR;182;Wound;Wound;;;;"Roll on Table 7–11: Wounding Weapons. The target must succeed at a saving throw of the listed type (if any) or suffer the listed effect. If the creature lacks a specified location, use the general location.
+
+
+<div class=""row"">
+<div class=""col-12"">D20 LOCATION SAVE EFFECT</div>
+<div class=""col-4""> 1-10 General</div><div class=""col-2""> -</div><div class=""col-6""> Bleed 1d6</div>
+<div class=""col-4""> 11-13 Eye (sensory)</div><div class=""col-2""> Ref</div><div class=""col-6""> Lost eye, -2 Perception</div>
+<div class=""col-4""> 14-15 Leg (mobility)</div><div class=""col-2""> Fort</div><div class=""col-6""> Severed limb, -10 land speed</div>
+<div class=""col-4""> 16-17 Arm (manipulation)</div><div class=""col-2""> Ref</div><div class=""col-6""> Severed limb, lose a hand</div>
+<div class=""col-4""> 18-19 Vital organ</div><div class=""col-2""> Fort,</div><div class=""col-6"">1d4 Con damage</div>
+<div class=""col-4""> 20 Brain</div><div class=""col-2""> Fort</div><div class=""col-6""> Stunned 1 round</div>
+</div>
+"
+AR;31;Bind;Bind;;;;The target is entangled, as if the weapon had the entangle weapon special property (Core Rulebook 181).
+AR;31;Blind;Blind;;;;The target must succeed at a Reflex saving throw or gain the blinded condition for 1d3 round.
+AR;31;Confuse;Confuse;;;;The target must succeed at a Will saving throw or gain the confused condition for 1 round.
+AR;31;Demoralize;Demoralize;;;;You can attempt an Intimidate check with a –5 penalty to demoralize your foes as a reaction. Compare the result of this check to the DC of each creature that took damage from this attack using the guidelines from the demoralize task of the Intimidate skill (Core Rulebook 142).
+AR;31;Embed;Embed;Damage;;;The attack embeds a barbed needle or another lingering effect in the target. The first time each round the target moves 5 feet or more in a single action (voluntarily or not), it takes the listed damage. The target can remove the embedded object with a standard action, dealing the listed damage in the process. Alternatively, with a successful Medicine check (DC = 15 + 1-1/2 the weapon’s item level), another creature can remove the object from the target and deal no damage. Multiple embedded objects each deal their listed damage and must be removed one at a time.
+AR;31;Fatigue;Fatigue;;;;The target must succeed at a Fortitude saving throw or gain the fatigued condition for 1 round per item level of the weapon. This condition can be removed as normal.
+AR;31;Irradiate;Irradiate;;;;The target must succeed at a Fortitude save or contract radiation sickness (Core Rulebook 404). The DC for this disease is equal to the weapon’s critical hit DC. This is considered low- level radiation, regardless of the save DC.
+AR;31;Jet;Jet;Damage;;;The attack emits a jet of energy that suffuses the target and extends to strike a second creature. This secondary target must be adjacent to the original target and on the opposite border or opposite corner of the target’s space from you. When in doubt about whether a second creature’s position compared to a target makes it subject to a jet attack, trace a line from the center of your space to the center of the second creature’s space. If the line passes through opposite borders or corners of the primary target’s space, then the second creature is a valid target for the jet attack. If multiple valid targets of the jet damage are present, you choose which is the secondary target. Roll the amount of damage listed in the weapon’s jet: the secondary target takes this damage (not multiplied by the critical hit) of whatever energy damage type the weapon deals.
+AR;31;Leech;Leech;;;;This weapon can leach life force from a target, draining its vitality and leaving it feeling unsteady. The target must succeed at a Fortitude save or gain the off-target condition for 1 round per item level of the weapon. This has no effect if the target is immune to disease.
+AR;31;Nauseate;Nauseate;;;;The target must succeed at a Fortitude saving throw or gain the nauseated condition for 1 round.
+AR;31;Pulse;Pulse;;;;The weapon’s output explodes in a pulse of energy. All creatures adjacent to the original target take the amount of damage listed in the pulse entry, of the same type dealt by the weapon’s initial attack.
+AR;31;Push;Push;Range;(;);The target is pushed the listed distance away from you. If the target runs into an obstacle, it stops moving and falls prone.
+AR;31;Second Arc;Second Arc;Damage;;;"The attack’s energy continues leaping from a secondary target to a tertiary target. This functions identically to the arc critical hit effect (Core Rulebook 182), except the second arc can’t target either the original target of the attack or the creature struck by the first arc special property.
+Arc: This secondary target must be within 10 feet of your original target and must be the creature closest to the original target . Roll the amount of damage listed in the weapon’s arc—the secondary target takes this damage (not multiplied by the critical hit), of whatever type the weapon deals."
+AR;31;Sicken;Sicken;;;;The target must succeed at a Fortitude saving throw or become sickened for 1d4 minutes. This has no effect if the target is immune to disease.
+AR;31;Stifle;Stifle;;;;The target can’t speak or make vocalizations of any kind for 1 round.
+AR;31;Suffocate;Suffocate;;;;The weapon sucks the atmosphere away from the target. If the target is wearing armor or a space suit that has activated environmental protections, the weapon depletes a number of days of that protection equal to half the weapon’s item level. If this depletes the environmental protections entirely, or if the target was not wearing any such protections, the target must succeed at a Fortitude save or gain the exhausted condition.

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {# Headers #}
+    {% block  stylesheetsBase %}
+        <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+        <link href="/assets/fontAwesome/css/all.css" rel="stylesheet"/>
+        <link href="/assets/CustomAdds/feather.css" rel="stylesheet"/>
+        <link href="/assets/CustomAdds/appCustom.css" rel="stylesheet"/>
+        <link href="/assets/bootstrap/css/bootstrap-select.min.css" rel="stylesheet">
+
+    {% endblock %}
+    {% block  stylesheets %}{% endblock %}
+    {% block  javascriptsBase %}
+        <script src="/assets/Ajax/Ajax.js" crossorigin="anonymous"></script>
+        <script src="/assets/bootstrap/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+        <script src="/assets/CustomAdds/floatthead.js"></script>
+        <script src="/assets/bootstrap/js/bootstrap-select.min.js"></script>
+
+        <script type="text/javascript">
+            $('.selectpicker').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {});
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".sticky-header").floatThead({top: 0});
+            });
+        </script>
+        <script>
+            {# For the popover see if "template" can be used. #}
+            $(document).ready(function () {
+                $('[data-toggle="popover-bottom"]').popover({
+                    html: true, trigger: "hover", placement: "bottom", delay: {hide: 250}
+                });
+            });
+            $(document).ready(function () {
+                $('[data-toggle="popover-bottom-click"]').popover({
+                    // html: true, trigger: "popover", placement: "bottom", delay: {hide: 25000}
+                    html: true, trigger: "focus", placement: "bottom", delay: {hide: 250}
+                });
+            });
+        </script>
+    {% endblock %}
+    {% block  javascripts %}{% endblock %}
+    {% block active_page_define %}
+        {% set active_page = 'basePage' %}
+    {% endblock %}
+
+</head>
+<body>
+{# BODY #}
+{% block  body %}
+    {# {% include 'Common/headbar.html.twig'%} #}
+    {# Please for page style look at https://getbootstrap.com/docs/4.0/examples/dashboard/ #}
+
+    {# MAIN CONTAINER & ROW DIV ################################################################## #}
+    <div class="container-fluid">
+        <div class="row">
+
+            {# SIDEBAR       ################################################################## #}
+            {# <nav class="col-md-1 col-lg-2 d-none d-md-block bg-light sidebar"> #}
+            <nav class="col-2 col-sm-1 col-md-1 col-lg-2 d-block bg-light sidebar">
+                {% include 'Common/sidebar.html.twig' with { active_page } %}
+            </nav>
+
+            {# MAIN CONTAINER ################################################################## #}
+            <main role="main" class="col-10 col-sm-11 col-md-11 col-lg-10 pt-3 px-4">
+                {% block main %}
+                    {% include 'Common/exempleMainBlock.html.twig' %}
+                {% endblock %}
+            </main>
+
+        </div>
+    </div>
+
+{% endblock %}
+</body>
+</html>

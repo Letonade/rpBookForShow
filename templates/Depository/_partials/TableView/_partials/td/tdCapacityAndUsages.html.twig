@@ -1,0 +1,11 @@
+{% if item.capacityAndUsages is defined %}
+    <td>
+        {% if capacityAndUsagesString is defined %}
+            {{ capacityAndUsagesString }}
+        {% else %}
+            {% for key, cap in item.capacityAndUsages %}
+                {% if key is same as 0 %}{{ cap }}{% else %}, {{ cap }}{% endif %}
+            {% endfor %}
+        {% endif %}
+    </td>
+{% endif %}

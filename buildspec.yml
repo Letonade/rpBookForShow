@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            php: 7.4
+        commands:
+            - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+            - apt-get update
+            - apt-get -y install php-pear
+            - pecl channel-update pecl.php.net
+            - pecl install mongodb
+            - echo "extension=mongodb.so" > /root/.phpenv/versions/7.3.19/etc/php.ini
+    build:
+        commands:
+            - echo Installing Composer Dependencies on `date`
+            - mkdir ./var
+            - composer install -o --no-progress --no-suggest
+    post_build:
+        commands:
+            - echo Build Completed on `date`
+artifacts:
+    type: zip
+    files:
+        - ./**/*

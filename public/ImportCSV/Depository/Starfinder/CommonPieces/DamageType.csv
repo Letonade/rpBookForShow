@@ -1,0 +1,10 @@
+name;acronym;description;is_kinetic;is_energy
+NoDamage;-;No damage.;false;false
+Slashing;S;Damage from blades, claws, and sharp edges.;true;false
+Piercing;P;Damage from spikes, bullets, and punctures.;true;false
+Bludgeoning;B;Damage from blunt force.;true;false
+Sonic;So;Damage dealt by loud noise or damaging frequencies.;false;true
+Fire;F;Damage dealt by flames, lasers, and extreme heat.;false;true
+Electricity;E;Damage dealt by ice and cryogenic energy.;false;true
+Cold;C;Damage dealt by ice and cryogenic energy.;false;true
+Acid;A;Damage dealt by corrosive substances and effects.;false;true

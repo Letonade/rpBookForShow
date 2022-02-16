@@ -1,0 +1,11 @@
+{% if item.armorTypes is defined %}
+    <td>
+        {% if armorTypesString is defined %}
+            {{ armorTypesString }}
+        {% else %}
+            {% for key, armorType in item.armorTypes %}
+                {% if key is same as 0 %}{{ armorType.name }}{% else %}, {{ armorType.name }}{% endif %}
+            {% endfor %}
+        {% endif %}
+    </td>
+{% endif %}

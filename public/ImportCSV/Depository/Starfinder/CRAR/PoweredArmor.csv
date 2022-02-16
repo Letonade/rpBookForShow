@@ -1,0 +1,24 @@
+Book;Page;ARMOR MODEL;LEVEL;PRICE;EAC BONUS;KAC BONUS;MAXIMUM DEX BONUS;ARMOR CHECK PENALTY;SPEED;STR;DAMAGE;SIZE;REACH;CAPACITY;USAGE;Used By;WEAPON SLOTS ;UPGRADE SLOTS;BULK;REACH WITh VOIDS (We replace void by 5 ft. Also this column is to warn about draw back);TechType;FamilyDescriptionSlug
+CR;204;Cargo lifter;4;2150;0;7;0;-10;15 ft.;20;1d10 B;Large;5 ft.;40 charges;1;minute;0;0;34;5 ft.;technology;cr-cargo-lifter
+CR;204;Battle harness;5;3450;9;2;2;-4;30 ft.;18;1d10 B;Medium;5 ft.;20 charges;1;hour;1;1;20;;technology;cr-battle-harness
+CR;204;Spider harness;10;19500;10;13;5;-4;25 ft.;18;1d10 P;Large;10 ft.;40 charges;1;minute;1;2;28;10 ft.;technology;cr-spider-harness
+CR;204;Flight frame;11;27100;12;19;3;-5;30 ft, fly 30 ft.;22;2d6 B;Huge;10 ft.;100 charges;1;minute;3;4;40;10 ft.;technology;cr-flight-frame
+CR;204;Jarlslayer;15;125500;18;24;4;-6;20 ft;29;2d8 B;Large;10 ft.;100 charges;1;minute;2;2;43;10 ft.;technology;cr-jarlslayer
+AR;78;Scrapper’s rig;4;2150;5;9;2;-6;20 ft.;16;1d8 B;Medium;5 ft.;20 charges;1;hour;3;1;22;;technology;ar-scrapper's-rig
+AR;74;Absorptive shell;5;3375;7;12;3;-3;30 ft.;18;1d10 B;Medium;5 ft.;20 charges;1;hour;0;1;18;;technology;ar-absorptive-shell
+AR;78;Spacer carapace;6;4650;8;13;2;-3;30 ft.;18;1d10 B;Medium;5 ft.;20 charges;1;hour;1;2;20;;technology;ar-spacer-carapace
+AR;78;Personal submersible;7;7200;10;14;2;-4;20 ft.;18;1d10 P;Large;5 ft.;40 charges;1;hour;1;2;32;5 ft.;technology;ar-personal-submersible
+AR;79;Spellcaster’s aegis;8;10250;12;16;3;-3;20 ft.;19;1d10 B;Large;5 ft.;40 charges;1;hour;1;2;35;5 ft.;hybrid;ar-spellcaster's-aegis-(hybrid)
+AR;75;Brawler frame;9;14500;12;18;3;-3;30 ft.;20;3d6 B;Large;10 ft.;40 charges;1;minute;3;2;38;10 ft.;technology;ar-brawler-frame
+AR;78;Ironclad bulwark;10;19250;16;19;2;-6;20 ft.;20;1d10 B;Large;5 ft.;100 charges;4;hour;2;3;32;5 ft.;technology;ar-ironclad-bulwark
+AR;79;Stag-step suit;11;26400;16;18;4;-3;20 ft.;20;2d6 P;Large;10 ft.;40 charges;1;hour;3;3;30;10 ft.;hybrid;ar-stag-step-suit-(hybrid)
+AR;75;Celerity rigging;12;38500;16;20;5;-2;50 ft.;22;2d6 B;Medium;5 ft.;40 charges;1;hour;2;2;4;;technology;ar-celerity-rigging-(hybrid)
+AR;79;Winter walker;13;52100;16;22;4;-4;30 ft.;26;2d6 P;Large;10 ft.;20 charges;1;hour;2;3;34;10 ft.;technology;ar-winter-walker
+AR;75;Explorer’s cradle;14;79000;17;23;3;-3;30 ft.;23;3d6 B;Large;10 ft.;100 charges;1;hour;2;2;35;10 ft.;technology;ar-explorer's-cradle
+AR;75;Commander’s harness;15;122500;19;24;3;-3;30 ft.;28;2d8 B;Large;10 ft.;40 charges;1;hour;3;2;40;10 ft.;technology;ar-commander's-harness
+AR;78;Kyton bloodsuit;16;187750;20;25;4;-2;30 ft.;27;3d6 P;Large;10 ft.;100 charges;1;minute;2;3;30;10 ft.;hybrid;ar-kyton-bloodsuit-(hybrid)
+AR;75;Extradimensional armor;17;278200;22;28;3;-3;30 ft.;26;2d10 P;Medium;10 ft.;20 charges;1;hour;3;3;20;10 ft.;hybrid;ar-extradimensional-armor-(hybrid)
+AR;78;Reactor guard;17;271000;24;27;4;-4;25 ft.;30;4d6 B;Large;5 ft.;40 charges;1;minute;3;4;35;5 ft.;technology;ar-reactor-guard
+AR;79;Surnoch suit;18;405000;23;27;3;-4;30 ft.;29;3d10 S;Large;10 ft.;20 charges;1;hour;4;3;35;10 ft.;technology;ar-surnoch-suit
+AR;79;Warmaster’s harness;19;610000;24;28;3;-5;30 ft.;31;5d10 S;Gargantuan;20 ft.;20 charges;1;hour;5;4;110;20 ft.;technology;ar-warmaster's-harness
+AR;79;Starguard;20;904500;27;29;4;-3;30 ft.;30;4d8 B;Medium;10 ft.;40 charges;1;hour;4;5;10;10 ft.;technology;ar-starguard

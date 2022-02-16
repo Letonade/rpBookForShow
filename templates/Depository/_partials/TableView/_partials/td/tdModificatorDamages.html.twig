@@ -1,0 +1,11 @@
+{% if item.modificatorDamages is defined %}
+    <td>
+        {% if modificatorDamageString is defined %}
+            {{ modificatorDamageString }}
+        {% else %}
+            {% for key, modDamage in item.modificatorDamages %}
+                {% if key is same as 0 %}{{ modDamage }}{% else %} or {{ modDamage }}{% endif %}
+            {% endfor %}
+        {% endif %}
+    </td>
+{% endif %}

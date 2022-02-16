@@ -1,0 +1,89 @@
+Book;Page;HandNeeded;SubCategory;Name;Level;Price;Damage;Critical;Bulk;Special;TechType;FamilyDescription
+CR;171;1;Uncategorized;Baton, advanced;19;540,000;8d6 B;—;L;Operative, powered (capacity 20, usage 1);technology;cr-baton
+CR;171;1;Uncategorized;Baton, tactical;1;90;1d4 B;—;L;Analog, operative;technology;cr-baton
+CR;171;1;Uncategorized;Battleglove, cestus;1;100;1d4 B;—;L;Analog;technology;cr-battleglove
+CR;171;1;Uncategorized;Battleglove, gravity;17;214,850;5d10 B;—;L;Powered (capacity 20, usage 1);technology;cr-battleglove
+CR;171;1;Uncategorized;Battleglove, nova;13;52,500;3d10 B;—;L;Powered (capacity 20, usage 1);technology;cr-battleglove
+CR;171;1;Uncategorized;Battleglove, power;10;16,100;2d8 B;—;L;Powered (capacity 20, usage 1);technology;cr-battleglove
+CR;171;1;Uncategorized;Club;0;—;1d6 B;—;L;Analog, archaic;technology;cr-club
+CR;171;1;Uncategorized;Dagger, molecular rift;17;275,000;10d4 S;—;L;Analog, operative;technology;cr-dagger
+CR;171;1;Uncategorized;Dagger, ultrathin;12;32,800;4d4 S;—;L;Analog, operative;technology;cr-dagger
+CR;171;1;Uncategorized;Dagger, zero-edge;14;64,400;6d4 S;—;L;Analog, operative;technology;cr-dagger
+CR;171;1;Uncategorized;Dueling sword, buzzblade;8;9,500;2d6 S;—;L;Powered (capacity 20, usage 1);technology;cr-dueling-sword
+CR;171;1;Uncategorized;Dueling sword, molecular rift;18;331,200;10d6 S;—;L;Analog;technology;cr-dueling-sword
+CR;171;1;Uncategorized;Dueling sword, ripper;15;109,250;7d6 S;—;L;Powered (capacity 20, usage 1);technology;cr-dueling-sword
+CR;171;1;Uncategorized;Dueling sword, tactical;2;475;1d6 S;—;L;Analog;technology;cr-dueling-sword
+CR;171;1;Uncategorized;Dueling sword, ultrathin;11;26,000;3d6 S;—;L;Analog;technology;cr-dueling-sword
+CR;171;1;Uncategorized;Incapacitator;9;14,200;3d4 B;Staggered;L;Nonlethal, operative, powered (capacity 20, usage 2);technology;cr-incapacitator
+CR;171;1;Uncategorized;Knife, survival;1;95;1d4 S;—;L;Analog, operative;technology;cr-knife
+CR;171;1;Uncategorized;Knife, tactical;7;6,000;2d4 S;—;L;Analog, operative;technology;cr-knife
+CR;171;1;Uncategorized;Peacemaker;16;185,300;6d6 B;Knockdown;L;Operative, powered (capacity 20, usage 2), stun;technology;cr-peacemaker
+CR;171;2;Uncategorized;Spear, buzzblade;11;22,650;3d6 P;—;1;Block, powered (capacity 40, usage 2), thrown (20 ft.);technology;cr-spear
+CR;171;2;Uncategorized;Spear, gravity;19;552,000;12d6 P;—;1;Block, powered (capacity 40, usage 2), thrown (20 ft.);technology;cr-spear
+CR;171;2;Uncategorized;Spear, sentinel;8;10,000;2d6 P;—;1;Analog, block, thrown (20 ft.);technology;cr-spear
+CR;171;2;Uncategorized;Spear, tactical;1;375;1d6 P;—;1;Analog, block, thrown (20 ft.);technology;cr-spear
+CR;171;2;Uncategorized;Spear, zero-edge;15;107,350;7d6 P;—;1;Analog, block, thrown (20 ft.);technology;cr-spear
+CR;171;2;Uncategorized;Staff, battle;1;80;1d4 B;Knockdown;1;Analog, block;technology;cr-staff
+CR;171;2;Uncategorized;Staff, carbon;7;6,150;1d8 B;Knockdown;1;Analog, block;technology;cr-staff
+CR;171;2;Uncategorized;Staff, hardlight;18;320,800;8d8 B;Knockdown;1;Analog, block;technology;cr-staff
+CR;171;1;Uncategorized;Unarmed strike;—;—;1d3 B;—;—;Archaic, nonlethal;technology;cr-unarmed-strike
+AR;9;2;Uncategorized;Chitinblade, microserrated;9;12,400;4d4 S;Bleed 2d4;1;Analog;technology;ar-chitinblade
+AR;9;2;Uncategorized;Chitinblade, nanoserrated;13;46,400;4d8 S;Bleed 2d8;1;Analog;technology;ar-chitinblade
+AR;9;2;Uncategorized;Chitinblade, tactical;4;1,890;1d6 S;Bleed 1d6;1;Analog;technology;ar-chitinblade
+AR;9;2;Uncategorized;Chitinblade, ultraserrated;17;219,000;8d8 S;Bleed 3d8;1;Analog;technology;ar-chitinblade
+AR;9;2;Uncategorized;Garrote, microfilament;12;34,800;4d4 S;Bleed 1d6;L;Analog, conceal, grapple, operative, throttle;technology;ar-garrote
+AR;9;2;Uncategorized;Garrote, monowire;17;225,000;5d8 B;Bleed 2d6;L;Analog, conceal, grapple, operative, throttle;technology;ar-garrote
+AR;9;2;Uncategorized;Garrote, nanofiber;7;6,700;2d4 S;—;L;Analog, conceal, grapple, operative, throttle;technology;ar-garrote
+AR;9;2;Uncategorized;Garrote, wire;2;900;1d2 S;—;L;Analog, conceal, grapple, operative, throttle;technology;ar-garrote
+AR;9;2;Uncategorized;Greataxe, molecular rift;14;69,800;4d12 S;—;1;Analog;technology;ar-greataxe
+AR;9;2;Uncategorized;Greataxe, sintered;6;4,150;3d6 S;—;1;Analog;technology;ar-greataxe
+AR;9;2;Uncategorized;Greataxe, tactical;3;1,100;1d12 S;—;1;Analog;technology;ar-greataxe
+AR;9;2;Uncategorized;Greataxe, ultrathin;10;18,100;2d12 S;—;1;Analog;technology;ar-greataxe
+AR;8;1;Uncategorized;Handaxe, basic;1;90;1d4 S;—;L;Analog, thrown (20 ft.);technology;ar-handaxe
+AR;8;1;Uncategorized;Handaxe, molecular rift;19;502,000;12d6 S;—;L;Analog, thrown (40 ft.);technology;ar-handaxe
+AR;8;1;Uncategorized;Handaxe, sintered;9;12,500;2d6 S;—;L;Analog, thrown (30 ft.);technology;ar-handaxe
+AR;8;1;Uncategorized;Handaxe, tactical;4;1,825;1d6 S;—;L;Analog, thrown (20 ft.);technology;ar-handaxe
+AR;8;1;Uncategorized;Handaxe, ultrathin;14;66,800;6d6 S;—;L;Analog, thrown (30 ft.);technology;ar-handaxe
+AR;8;1;Uncategorized;Hook knife;7;6,300;1d8 S;Bleed 1d6;L;Analog;technology;ar-hook-knife
+AR;9;2;Uncategorized;Lance, advanced;8;9,400;2d6 P;—;1;Analog, reach;technology;ar-lance
+AR;9;2;Uncategorized;Lance, elite;13;50,800;5d6 P;—;1;Analog, reach;technology;ar-lance
+AR;9;2;Uncategorized;Lance, paragon;18;365,000;11d6 P;—;1;Analog, reach;technology;ar-lance
+AR;9;2;Uncategorized;Lance, tactical;3;1,450;1d6 P;—;1;Analog, reach;technology;ar-lance
+AR;9;2;Uncategorized;Living staff, advanced;12;39,500;4d6 B;Bind;1;Block, living, powered (capacity 20, usage 1), reach;technology;ar-living-staff
+AR;9;2;Uncategorized;Living staff, elite;16;181,000;12d6 B;Bind;1;Block, living, powered (capacity 20, usage 1), reach;technology;ar-living-staff
+AR;9;2;Uncategorized;Living staff, paragon;20;919,000;14d6 B;Bind;1;Block, living, powered (capacity 20, usage 1), reach;technology;ar-living-staff
+AR;9;2;Uncategorized;Living staff, tactical;5;3,300;1d6 B;Bind;1;Block, living, powered (capacity 20, usage 1), reach;technology;ar-living-staff
+AR;9;2;Uncategorized;Maul, advanced;10;17,200;3d8 B;Knockdown;1;Analog, unwieldy;technology;ar-maul
+AR;9;2;Uncategorized;Maul, elite;15;95,000;7d8 B;Knockdown;1;Analog, unwieldy;technology;ar-maul
+AR;9;2;Uncategorized;Maul, paragon;20;724,000;15d8 B;Knockdown;1;Analog, unwieldy;technology;ar-maul
+AR;9;2;Uncategorized;Maul, tactical;5;2,750;1d8 B;Knockdown;1;Analog, unwieldy;technology;ar-maul
+AR;9;2;Uncategorized;Puzzleblade, conviction;4;2,100;1d6 S;—;1;Breakdown;technology;ar-puzzleblade
+AR;9;2;Uncategorized;Puzzleblade, dedication;9;13,700;3d6 S;—;1;Breakdown;technology;ar-puzzleblade
+AR;9;2;Uncategorized;Puzzleblade, moderation;14;77,400;7d6 S;—;1;Breakdown;technology;ar-puzzleblade
+AR;9;2;Uncategorized;Puzzleblade, tradition;19;605,000;14d6 S;—;1;Breakdown;technology;ar-puzzleblade
+AR;8;1;Uncategorized;Retractable spike, advanced;10;18,400;3d4 P;—;L;Conceal, integrated (1 slot), operative;technology;ar-retractable-spike
+AR;8;1;Uncategorized;Retractable spike, elite;15;119,000;7d4 P;—;L;Conceal, integrated (1 slot), operative;technology;ar-retractable-spike
+AR;8;1;Uncategorized;Retractable spike, paragon;20;895,000;6d10 P;–;L;Conceal, integrated (1 slot), operative;technology;ar-retractable-spike
+AR;8;1;Uncategorized;Retractable spike, tactical;5;3,150;1d4 P;—;L;Conceal, integrated (1 slot), operative;technology;ar-retractable-spike
+AR;8;1;Uncategorized;Sap, heavy;11;23,100;2d8 B;—;L;Analog, nonlethal, operative;technology;ar-sap
+AR;8;1;Uncategorized;Sap, light;2;450;1d4 B;—;L;Analog, nonlethal, operative;technology;ar-sap
+AR;8;1;Uncategorized;Sap, medium;6;3,900;1d6 B;—;L;Analog, nonlethal, operative;technology;ar-sap
+AR;9;2;Uncategorized;Scythe, sintered;11;23,200;4d6 S;—;1;Analog, trip;technology;ar-scythe
+AR;9;2;Uncategorized;Scythe, tactical;6;3,900;1d8 S;—;1;Analog, trip;technology;ar-scythe
+AR;9;2;Uncategorized;Scythe, ultrathin;16;160,000;7d8 S;—;1;Analog, trip;technology;ar-scythe
+AR;8;1;Uncategorized;Shell knuckles, advanced;12;32,500;4d8 B;—;L;Analog, shells (2, usage 2);technology;ar-shell-knuckles
+AR;8;1;Uncategorized;Shell knuckles, elite;16;151,000;10d8 B;—;L;Analog, shells (3, usage 3);technology;ar-shell-knuckles
+AR;8;1;Uncategorized;Shell knuckles, paragon;20;525,000;14d8 B;—;L;Analog, shells (4, usage 4);technology;ar-shell-knuckles
+AR;8;1;Uncategorized;Shell knuckles, tactical;6;4,050;3d4 B;—;L;Analog, shells (1, usage 1);technology;ar-shell-knuckles
+AR;8;1;Uncategorized;Sledge;3;1,050;1d8 B;—;1;Analog, unwieldy;technology;ar-sledge
+AR;8;1;Uncategorized;Spined blade, basic;5;2,600;1d6 P;Injection DC +2;L;Analog;technology;ar-spined-blade
+AR;8;1;Uncategorized;Spined blade, buzzblade;8;9,400;1d10 P;Injection DC +2;L;Powered (capacity 20, usage 1);technology;ar-spined-blade
+AR;8;1;Uncategorized;Spined blade, gravity;14;62,400;4d10 P;Injection DC +2;L;Powered (capacity 40, usage 2);technology;ar-spined-blade
+AR;8;1;Uncategorized;Spined blade, ripper;11;24,500;2d10 P;Injection DC +2;L;Powered (capacity 20, usage 1);technology;ar-spined-blade
+AR;8;1;Uncategorized;Spined blade, rivener;18;325,000;8d10 P;Injection DC +2;L;Powered (capacity 40, usage 2);technology;ar-spined-blade
+AR;8;1;Uncategorized;Switchblade, molecular rift;18;354,000;11d4 S;—;L;Analog, conceal, operative;technology;ar-switchblade
+AR;8;1;Uncategorized;Switchblade, tactical;3;1,300;1d4 S;—;L;Analog, conceal, operative;technology;ar-switchblade
+AR;8;1;Uncategorized;Switchblade, ultrathin;8;9,100;2d4 S;—;L;Analog, conceal, operative;technology;ar-switchblade
+AR;8;1;Uncategorized;Switchblade, zero-edge;13;48,600;5d4 S;—;L;Analog, conceal, operative;technology;ar-switchblade
+AR;8;1;Uncategorized;Tailblade;4;2,300;1d4 S;—;L;Analog, operative, tail;technology;ar-tailblade
+AR;9;2;Uncategorized;Warclub;2;450;1d10 B;—;1;Analog;technology;ar-warclub

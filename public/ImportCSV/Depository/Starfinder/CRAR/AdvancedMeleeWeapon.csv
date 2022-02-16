@@ -1,0 +1,263 @@
+Book;Page;HandNeeded;SubCategory;Name;Level;Price;Damage;Critical;Bulk;Special;TechType;FamilyDescriptionSlug
+CR;172;2;CRYO;Cryopike, advanced;12;34800;2d8 C;Staggered;2;Powered (capacity 40, usage 2), reach;technology;cr-cryopike
+CR;172;2;CRYO;Cryopike, tactical;5;3360;1d8 C;—;2;Powered (capacity 40, usage 2), reach;technology;cr-cryopike
+CR;173;2;UNCATEGORIZED;Curve blade, buzzblade;16;184300;8d10 S;Bleed 5d6;2;Powered (capacity 40, usage 2);technology;cr-curve-blade
+CR;172;2;UNCATEGORIZED;Curve blade, carbon steel;4;2230;1d10 S;Bleed 1d6;2;Analog;technology;cr-curve-blade
+CR;173;2;UNCATEGORIZED;Curve blade, dimensional slice;20;815000;12d10 S;Bleed 6d6;2;Powered (capacity 40, usage 2);technology;cr-curve-blade
+CR;172;2;UNCATEGORIZED;Curve blade, ultrathin;10;18100;3d10 S;Bleed 2d6;1;Analog;technology;cr-curve-blade
+CR;173;2;UNCATEGORIZED;Devastation blade, apocalypse;18;410200;12d8 S;—;1;Analog;technology;cr-devastation-blade
+CR;172;2;UNCATEGORIZED;Devastation blade, ruin;13;43900;5d8 S;—;1;Analog;technology;cr-devastation-blade
+CR;172;2;UNCATEGORIZED;Devastation blade, wrack;7;5500;2d8 S;—;1;Analog;technology;cr-devastation-blade
+CR;172;2;UNCATEGORIZED;Doshko, advanced;7;5300;2d12 P;—;1;Analog, unwieldy;technology;cr-doshko
+CR;173;2;UNCATEGORIZED;Doshko, dimensional blade;19;546100;13d12 P;—;1;Analog, unwieldy;technology;cr-doshko
+CR;173;2;UNCATEGORIZED;Doshko, molecular rift;17;248000;10d12 P;—;1;powered (capacity 20, usage 1), unwieldy;technology;cr-doshko
+CR;172;2;UNCATEGORIZED;Doshko, tactical;1;240;1d12 P;—;1;Analog, unwieldy;technology;cr-doshko
+CR;172;2;UNCATEGORIZED;Doshko, ultrathin;11;24600;4d12 P;—;1;Analog, unwieldy;technology;cr-doshko
+CR;172;2;UNCATEGORIZED;Doshko, zero-edge;14;71500;7d12 P;—;1;Analog, unwieldy;technology;cr-doshko
+CR;172;1;UNCATEGORIZED;Fangblade;7;5430;1d12 S;Bleed 1d8;1;Powered (capacity 20, usage 1);technology;cr-fangblade
+CR;172;2;FLAME;Flame doshko, blaze;8;8500;2d8 F;Wound;1;Powered (capacity 20, usage 1);technology;cr-flame-doshko
+CR;172;2;FLAME;Flame doshko, ember;2;750;1d8 F;Wound;1;Powered (capacity 20, usage 1);technology;cr-flame-doshko
+CR;172;2;FLAME;Flame doshko, inferno;13;53200;5d8 F;Wound;1;Powered (capacity 20, usage 1);technology;cr-flame-doshko
+CR;172;2;FLAME;Flame doshko, solar flare;19;595000;10d8 F;Severe wound;1;Powered (capacity 20, usage 1);technology;cr-flame-doshko
+CR;172;1;UNCATEGORIZED;Grindblade;13;45700;4d10 S;Bleed 2d8;1;Analog;technology;cr-grindblade
+CR;172;1;UNCATEGORIZED;Hammer, assault;1;95;1d6 B;—;1;Analog;technology;cr-hammer
+CR;172;1;UNCATEGORIZED;Hammer, comet;10;16900;4d6 B;—;1;Powered (capacity 20, usage 2);technology;cr-hammer
+CR;172;1;UNCATEGORIZED;Hammer, gravity well;19;551000;15d6 B;—;1;Powered (capacity 40, usage 2);technology;cr-hammer
+CR;172;1;UNCATEGORIZED;Hammer, meteoric;16;164500;11d6 B;—;1;Analog;technology;cr-hammer
+CR;172;1;UNCATEGORIZED;Injection glove;2;490;1d4 P;Injection DC +2;L;Analog, injection;technology;cr-hammer
+CR;172;1;UNCATEGORIZED;Longsword;1;375;1d8 S;—;1;Analog;technology;cr-longsword
+CR;172;1;UNCATEGORIZED;Longsword, dimensional slice;20;727300;14d8 S;—;1;Analog;technology;cr-longsword-dimensional-slice
+CR;172;1;UNCATEGORIZED;Longsword, microserrated;9;12100;2d10 S;Bleed 2d6;1;Analog;technology;cr-longsword-1
+CR;172;1;UNCATEGORIZED;Longsword, molecular rift;17;245200;10d8 S;—;1;Analog;technology;cr-longsword-molecular-rift
+CR;172;1;UNCATEGORIZED;Longsword, sintered;7;8420;2d8 S;—;1;Analog;technology;cr-longsword-sintered
+CR;172;1;UNCATEGORIZED;Longsword, ultraserrated;18;368100;8d10 S;Bleed 6d6;1;Analog;technology;cr-longsword-1
+CR;172;1;UNCATEGORIZED;Longsword, ultrathin;11;26300;4d8 S;—;1;Analog;technology;cr-longsword-ultrathin
+CR;172;1;UNCATEGORIZED;Longsword, zero-edge;14;79500;7d8 S;Severe wound;L;Analog;technology;cr-longsword-zero-edge
+CR;172;1;UNCATEGORIZED;Monowhip;15;107000;10d4 S;Severe wound;L;Analog, disarm, reach, trip;technology;cr-monowhip
+CR;172;2;UNCATEGORIZED;Pike, advanced;9;12200;2d8 P;Bleed 1d8;2;Analog, reach;technology;cr-pike
+CR;172;2;UNCATEGORIZED;Pike, elite;15;95700;7d8 P;Bleed 3d8;2;Analog, reach;technology;cr-pike
+CR;172;2;UNCATEGORIZED;Pike, tactical;2;475;1d8 P;—;2;Analog, reach;technology;cr-pike
+CR;172;2;PLASMA;Plasma doshko, blue star;18;364100;7d10 E & F;Severe wound;1;Powered (capacity 20, usage 2);technology;cr-plasma-doshko
+CR;172;2;PLASMA;Plasma doshko, red star;6;4650;1d10 E & F;Severe wound;1;Powered (capacity 20, usage 2);technology;cr-plasma-doshko
+CR;172;2;PLASMA;Plasma doshko, white star;15;126800;5d10 E & F;Severe wound;1;Powered (capacity 20, usage 2);technology;cr-plasma-doshko
+CR;172;2;PLASMA;Plasma doshko, yellow star;10;17000;2d10 E & F;Severe wound;1;Powered (capacity 20, usage 2);technology;cr-plasma-doshko
+CR;171;1;PLASMA;Plasma sword, blue star;20;920250;10d8 E & F;Severe wound;1;Powered (capacity 40, usage 4);technology;cr-plasma-sword
+CR;171;1;PLASMA;Plasma sword, red star;13;54300;4d8 E & F;Severe wound;1;Powered (capacity 40, usage 4);technology;cr-plasma-sword
+CR;171;1;PLASMA;Plasma sword, tactical;9;14550;2d8 E & F;Severe wound;1;Powered (capacity 20, usage 2);technology;cr-plasma-sword
+CR;171;1;PLASMA;Plasma sword, white star;18;415600;8d8 E & F;Severe wound;1;Powered (capacity 40, usage 4);technology;cr-plasma-sword
+CR;171;1;PLASMA;Plasma sword, yellow star;15;127000;5d8 E & F;Severe wound;1;Powered (capacity 40, usage 4);technology;cr-plasma-sword
+CR;171;1;SONIC;Pulse gauntlet, banshee;16;148200;10d6 B & So;Knockdown;1;Powered (capacity 20, usage 1);technology;cr-pulse-gauntlet
+CR;171;1;SONIC;Pulse gauntlet, HFD;12;31300;5d6 B & So;Knockdown;1;Powered (capacity 20, usage 1);technology;cr-pulse-gauntlet
+CR;171;1;SONIC;Pulse gauntlet, LFD;7;7340;2d6 B & So;Knockdown;1;Powered (capacity 20, usage 1);technology;cr-pulse-gauntlet
+CR;171;1;SONIC;Pulse gauntlet, thunderstrike;2;475;1d6 B & So;Knockdown;1;Powered (capacity 20, usage 1);technology;cr-pulse-gauntlet
+CR;171;1;SHOCK;Shock truncheon, aurora;11;23000;2d12 E;Arc 2d4;1;Powered (capacity 20, usage 2), stun;technology;cr-shock-truncheon
+CR;171;1;SHOCK;Shock truncheon, static;8;9150;1d12 E;Arc 1d4;1;Powered (capacity 20, usage 2), stun;technology;cr-shock-truncheon
+CR;171;1;SHOCK;Shock truncheon, storm;16;80200;3d12 E;Arc 3d4;1;Powered (capacity 40, usage 2), stun;technology;cr-shock-truncheon
+CR;171;1;SHOCK;Shock truncheon, tempest;19;545000;6d12 E;Arc 6d4;1;Powered (capacity 40, usage 2), stun;technology;cr-shock-truncheon
+CR;171;1;FLAME;Skyfire sword, inferno;17;246000;7d8 F;Burn 4d12;1;Powered (capacity 20, usage 1);technology;cr-skyfire-sword
+CR;171;1;FLAME;Skyfire sword, tactical;7;6120;2d4 F;Burn 1d8;1;Powered (capacity 20, usage 2);technology;cr-skyfire-sword
+CR;172;2;UNCATEGORIZED;Staff, repeller;13;45200;3d8 B;Knockdown;1;Block, powered (capacity 20, usage 1), stun;technology;cr-staff
+CR;172;2;UNCATEGORIZED;Staff, sentinel;7;6320;1d10 B;—;1;Block, powered (capacity 20, usage 1), stun;technology;cr-staff
+CR;172;1;UNCATEGORIZED;Starknife, accelerated;12;40400;4d8 F & P;—;L;Powered (capacity 20, usage 1), thrown (30 ft.);technology;cr-starknife
+CR;172;1;UNCATEGORIZED;Starknife, dimensional slice;19;602200;8d12 P;—;L;Analog, thrown (80 ft.);technology;cr-starknife
+CR;172;1;UNCATEGORIZED;Starknife, lightspeed;16;183400;8d8 F & P;—;L;Powered (capacity 20, usage 2), thrown (50 ft.);technology;cr-starknife
+CR;172;1;UNCATEGORIZED;Starknife, sintered;8;9810;4d4 P;—;L;Analog, thrown (50 ft.);technology;cr-starknife
+CR;172;1;UNCATEGORIZED;Starknife, tactical;1;110;1d4 P;—;L;Analog, thrown (20 ft.);technology;cr-starknife
+CR;172;2;UNCATEGORIZED;Swoop hammer, advanced;9;14300;3d10 B;Knockdown;2;Analog, reach, unwieldy;technology;cr-swoop-hammer
+CR;172;2;UNCATEGORIZED;Swoop hammer, mach I;13;44100;5d10 B;Knockdown;2;Powered (capacity 40, usage 4), reach, unwieldy;technology;cr-swoop-hammer
+CR;173;2;UNCATEGORIZED;Swoop hammer, mach II;17;273000;10d10 B;Knockdown;2;Analog, reach, unwieldy;technology;cr-swoop-hammer
+CR;173;2;UNCATEGORIZED;Swoop hammer, mach III;20;905700;14d10 B & F;Knockdown;2;Powered (capacity 40, usage 4), reach, unwieldy;technology;cr-swoop-hammer
+CR;172;2;UNCATEGORIZED;Swoop hammer, tactical;5;3360;1d10 B;Knockdown;2;Analog, reach, unwieldy;technology;cr-swoop-hammer
+CR;172;1;UNCATEGORIZED;Taclash, numbing;11;24800;5d4 S;—;L;Disarm, powered (capacity 20, usage 2), reach, stun, trip;technology;cr-taclash
+CR;172;1;UNCATEGORIZED;Taclash, standard;1;240;1d4 S;—;L;Analog, disarm, nonlethal, reach, trip;technology;cr-taclash
+AR;10;1;PLASMA;Angel wing, astral;10;17100;4d6 E & F;Burn 2d6;L;Powered (capacity 20, usage 2), unwieldy;technology;ar-angel-wing
+AR;10;1;PLASMA;Angel wing, monadic;7;5500;2d6 E & F;Burn 2d6;L;Powered (capacity 20, usage 2), unwieldy;technology;ar-angel-wing
+AR;10;1;PLASMA;Angel wing, movanic;4;1890;1d6 E & F;Burn 1d6;L;Powered (capacity 20, usage 2), unwieldy;technology;ar-angel-wing
+AR;13;2;UNCATEGORIZED;Battle ribbon, micro-edge;8;9400;3d8 S;Wound;1;Analog, operative, professional (dancer);technology;ar-battle-ribbon
+AR;13;2;UNCATEGORIZED;Battle ribbon, traditional;3;270;1d8 S;—;1;Analog, operative, professional (dancer);technology;ar-battle-ribbon
+AR;13;2;UNCATEGORIZED;Battle ribbon, zero-edge;12;35200;5d8 S;Severe wound;1;Analog, operative, professional (dancer);technology;ar-battle-ribbon
+AR;9;1;CRYO;Bone scepter, cadaver;19;598000;12d6 C;Leech;L;Analog, antibiological;technology;ar-bone-scepter
+AR;9;1;CRYO;Bone scepter, chill;3;1490;1d6 C;Leech;L;Analog, antibiological;technology;ar-bone-scepter
+AR;9;1;CRYO;Bone scepter, rigor;13;51800;5d6 C;Leech;L;Analog, antibiological;technology;ar-bone-scepter
+AR;9;1;CRYO;Bone scepter, void;8;9850;2d6 C;Leech;L;Analog, antibiological;technology;ar-bone-scepter
+AR;12;2;FLAME;Burning chains, archdevil-class;16;178000;5d12 F;Fatigue;2;Analog, disarm, fueled (capacity 20, usage 1), reach, trip;technology;ar-burning-chains
+AR;12;2;FLAME;Burning chains, fiend-class;3;1450;1d8 F;Fatigue;2;Analog, disarm, fueled (capacity 20, usage 1), reach, trip;technology;ar-burning-chains
+AR;12;2;FLAME;Burning chains, malebranche-class;9;13900;2d8 F;Fatigue;2;Analog, disarm, fueled (capacity 20, usage 1), reach, trip;technology;ar-burning-chains
+AR;12;2;PLASMA;Core hammer, advanced;8;9150;3d6 E & F;Jet 2d6;2;Powered (capacity 40, usage 2);technology;ar-core-hammer
+AR;12;2;PLASMA;Core hammer, fusion;13;48200;6d6 E & F;Jet 4d6;2;Powered (capacity 40, usage 5);technology;ar-core-hammer
+AR;12;2;PLASMA;Core hammer, reactor;20;725000;15d6 E & F;Jet 8d6;2;Powered (capacity 80, usage 8);technology;ar-core-hammer
+AR;12;2;PLASMA;Core hammer, tactical;3;1320;1d6 E & F;Jet 1d6;2;Powered (capacity 40, usage 2);technology;ar-core-hammer
+AR;9;1;CRYO;Cryospike, industrial;15;114000;9d4 C;—;L;Extinguish, integrated (2 slots), powered (capacity 20, usage 2);technology;ar-cryospike
+AR;9;1;CRYO;Cryospike, personal;2;1100;1d4 C;—;L;Extinguish, integrated (2 slots), powered (capacity 20, usage 2);technology;ar-cryospike
+AR;9;1;CRYO;Cryospike, residential;9;13700;3d4 C;—;L;Extinguish, integrated (2 slots), powered (capacity 20, usage 2);technology;ar-cryospike
+AR;10;1;DISINTEGRATOR;Disintegration lash, decimator;8;9800;1d10 A;Corrode 1d6;L;Living, powered (capacity 20, usage 1), reach;technology;ar-disintegration-lash
+AR;10;1;DISINTEGRATOR;Disintegration lash, eradicator;20;850000;4d20 A;Corrode 4d6;L;Living, powered (capacity 20, usage 1), reach;technology;ar-disintegration-lash
+AR;10;1;DISINTEGRATOR;Disintegration lash, executioner;16;113000;2d20 A;Corrode 2d6;L;Living, powered (capacity 20, usage 1), reach;technology;ar-disintegration-lash
+AR;10;1;DISINTEGRATOR;Disintegration lash, liquidator;3;1450;1d6 A;Corrode 1d6;L;Living, powered (capacity 20, usage 1), reach;technology;ar-disintegration-lash
+AR;12;2;SHOCK;Electroflail, advanced;9;12800;3d6 E;Arc 2d6;1;Disarm, powered (capacity 20, usage 1);technology;ar-electroflail
+AR;12;2;SHOCK;Electroflail, elite;14;69900;7d6 E;Arc 3d6;1;Disarm, powered (capacity 20, usage 1);technology;ar-electroflail
+AR;13;2;SHOCK;Electroflail, paragon;18;360000;11d6 E;Arc 4d6;1;Disarm, powered (capacity 20, usage 1);technology;ar-electroflail
+AR;12;2;SHOCK;Electroflail, tactical;5;2910;1d6 E;Arc 1d6;1;Disarm, powered (capacity 20, usage 1);technology;ar-electroflail
+AR;12;2;FLAME;Flame spinner, fireball;1;225;1d6 F;Burn 1d4;1;Analog, free hands (2), fueled (capacity 20, usage 1), unwieldy;technology;ar-flame-spinner
+AR;12;2;FLAME;Flame spinner, fission;20;802000;8d12 F;Burn 5d6;1;Analog, free hands (2), fueled (capacity 20, usage 1), unwieldy;technology;ar-flame-spinner
+AR;12;2;FLAME;Flame spinner, immolation;5;2860;1d8 F;Burn 1d6;1;Analog, free hands (2), fueled (capacity 20, usage 2), unwieldy;technology;ar-flame-spinner
+AR;12;2;FLAME;Flame spinner, supernova;12;33900;3d10 F;Burn 2d6;1;Analog, free hands (2), fueled (capacity 20, usage 1), unwieldy;technology;ar-flame-spinner
+AR;12;2;PLASMA;Flare axe, blue star;16;148000;5d12 E & F;Burn 3d6;1;Powered (capacity 20, usage 1);technology;ar-flare-axe
+AR;12;2;PLASMA;Flare axe, red star;1;120;1d4 E & F;Burn 1d4;1;Powered (capacity 20, usage 1);technology;ar-flare-axe
+AR;12;2;PLASMA;Flare axe, white star;11;23100;3d10 E & F;Burn 1d10;1;Powered (capacity 20, usage 1);technology;ar-flare-axe
+AR;12;2;PLASMA;Flare axe, yellow star;5;2710;1d8 E & F;Burn 1d8;1;Powered (capacity 20, usage 1);technology;ar-flare-axe
+AR;11;2;CRYO;Frost maul, aufeis;3;1240;1d8 B & C;Staggered;2;Powered (capacity 20, usage 2), sunder;technology;ar-frost-maul
+AR;11;2;CRYO;Frost maul, floe;13;46100;6d8 B & C;Staggered;2;Powered (capacity 20, usage 2), sunder;technology;ar-frost-maul
+AR;12;2;CRYO;Frost maul, glacier;17;224000;10d8 B & C;Staggered;2;Powered (capacity 40, usage 2), sunder;technology;ar-frost-maul
+AR;11;2;CRYO;Frost maul, iceberg;8;8700;3d8 B & C;Staggered;2;Powered (capacity 20, usage 2), sunder;technology;ar-frost-maul
+AR;9;1;CRYO;Gale baton, cyclone;11;24500;3d8 C;Staggered;L;Deflect, operative, powered (capacity 80, usage 4);technology;ar-gale-baton
+AR;9;1;CRYO;Gale baton, hurricane;17;245000;9d6 C;Staggered;L;Deflect, operative, powered (capacity 80, usage 4);technology;ar-gale-baton
+AR;9;1;CRYO;Gale baton, tempest;6;4240;1d6 C;Staggered;L;Deflect, operative, powered (capacity 80, usage 4);technology;ar-gale-baton
+AR;11;1;SHOCK;Glass blade, impulse;13;46500;6d6 E & P;—;L;Powered (capacity 20, usage 2);technology;ar-glass-blade
+AR;10;1;SHOCK;Glass blade, jolt;7;5440;2d6 E & P;—;L L;Powered (capacity 20, usage 2);technology;ar-glass-blade
+AR;10;1;SHOCK;Glass blade, live;3;1230;1d6 E & P;—;L;Powered (capacity 20, usage 1);technology;ar-glass-blade
+AR;11;1;SHOCK;Glass blade, surge;18;327000;13d6 E & P;—;L;Powered (capacity 20, usage 2);technology;ar-glass-blade
+AR;11;1;UNCATEGORIZED;Hook sword;3;1420;1d8 S;Bleed 1d4;L;Analog, trip;technology;ar-hook-sword
+AR;9;1;CRYO;Ice needle, artifice;10;18400;4d6 C & P;Injection DC +2;L;Conceal, injection, powered (capacity 40, usage 4);technology;ar-ice-needle
+AR;9;1;CRYO;Ice needle, espionage;14;74100;7d6 C & P;Injection DC +2;L;Conceal, injection, powered (capacity 40, usage 4);technology;ar-ice-needle
+AR;9;1;CRYO;Ice needle, furtive;5;3140;1d6 C & P;Injection DC +2;L;Conceal, injection, powered (capacity 40, usage 4);technology;ar-ice-needle
+AR;9;1;CRYO;Ice needle, subterfuge;18;384000;13d6 C & P;Injection DC +2;L;Conceal, injection, powered (capacity 80, usage 4);technology;ar-ice-needle
+AR;9;1;CRYO;Ice needle, undercover;1;330;1d4 C & P;Injection DC +2;L;Conceal, injection, powered (capacity 20, usage 4);technology;ar-ice-needle
+AR;11;2;CRYO;Icestar staff, defender;4;2080;1d6 C or F;—;1;Block, double (flame), powered (capacity 40, usage 2);technology;ar-icestar-staff
+AR;12;2;CRYO;Icestar staff, drifter;14;73100;6d6 C or F;—;1;Block, double (flame), powered (capacity 40, usage 2);technology;ar-icestar-staff
+AR;12;2;CRYO;Icestar staff, leader;17;251000;10d6 C or F;—;1;Block, double (flame), powered (capacity 40, usage 2);technology;ar-icestar-staff
+AR;11;2;CRYO;Icestar staff, seeker;7;6320;2d6 C or F;—;1;Block, double (flame), powered (capacity 40, usage 2);technology;ar-icestar-staff
+AR;11;2;CRYO;Icestar staff, warrior;11;25200;4d6 C or F;—;1;Block, double (flame), powered (capacity 40, usage 2);technology;ar-icestar-staff
+AR;13;2;SONIC;Interference blade, harmonic;10;18700;3d10 So;Wound;1;Powered (capacity 40, usage 8);technology;ar-interference-blade
+AR;13;2;SONIC;Interference blade, monophonic;6;4420;1d10 So;Wound;1;Powered (capacity 40, usage 4);technology;ar-interference-blade
+AR;13;2;SONIC;Interference blade, multiphonic;19;597000;8d10 So;Wound;1;Powered (capacity 100, 20 usage);technology;ar-interference-blade
+AR;13;2;SONIC;Interference blade, polyphonic;14;76700;4d10 So;Wound;1;Powered (capacity 100, usage 10);technology;ar-interference-blade
+AR;10;1;FLAME;Junk censer ;1;125;1d6 B & F;Burn 1d4;L;Analog, fueled (capacity 20, usage 4), thrown (10 ft.);technology;ar-junk-censer
+AR;11;1;UNCATEGORIZED;Living lash;6;4150;1d8 S;Bind;L;Living, powered (capacity 20, usage 1), reach, thought, unwieldy;technology;ar-living-lash
+AR;10;1;FLAME;Magma blade, andesite;8;10900;2d8 F & S;Wound;1;Powered (capacity 40, usage 2);technology;ar-magma-blade
+AR;10;1;FLAME;Magma blade, basalt;14;79400;7d8 F & S;Wound;1;Powered (capacity 40, usage 2);technology;ar-magma-blade
+AR;10;1;FLAME;Magma blade, plagioclase;19;610000;13d8 F & S;Wound;1;Powered (capacity 80, usage 2);technology;ar-magma-blade
+AR;10;1;FLAME;Magma blade, rhyolite;4;2300;1d8 F & S;Wound;1;Powered (capacity 20, usage 2);technology;ar-magma-blade
+AR;12;2;FLAME;Meteor glaive, advanced;10;18200;3d8 F & S;Wound;2;Fueled (capacity 40, usage 4), reach;technology;ar-meteor-glaive
+AR;12;2;FLAME;Meteor glaive, elite;15;112000;5d10 F & S;Wound;2;Fueled (capacity 40, usage 4), reach;technology;ar-meteor-glaive
+AR;12;2;FLAME;Meteor glaive, paragon;18;385000;10d10 F & S;Severe wound;2;Fueled (capacity 40, usage 4), reach;technology;ar-meteor-glaive
+AR;12;2;FLAME;Meteor glaive, tactical;6;4390;1d12 F & S;Wound;2;Fueled (capacity 40, usage 4), reach;technology;ar-meteor-glaive
+AR;10;1;FLAME;Mirage dagger, distortion;6;4450;1d4 F;—;L;Feint, operative, powered (capacity 20, usage 1);technology;ar-mirage-dagger
+AR;10;1;FLAME;Mirage dagger, hallucination;13;50800;4d4 F;—;L;Feint, operative, powered (capacity 20, usage 1);technology;ar-mirage-dagger
+AR;10;1;FLAME;Mirage dagger, illusion;20;897000;10d4 F;—;L;Feint, operative, powered (capacity 20, usage 1);technology;ar-mirage-dagger
+AR;10;1;SHOCK;Neural lash, amperometric;9;14600;3d4 E;Arc 2d4;;Living, powered (capacity 20, usage 1), reach, stun, thought, unwieldy;technology;ar-neural-lash
+AR;10;1;SHOCK;Neural lash, electroplax;4;2230;1d4 E;Arc 1d4;L;Living, powered (capacity 20, usage 1), reach, stun, thought, unwieldy;technology;ar-neural-lash
+AR;11;1;SHOCK;Neural lash, galvanic;14;79400;8d4 E;Arc 4d4;L;Living, powered (capacity 20, usage 1), reach, stun, thought, unwieldy;technology;ar-neural-lash
+AR;11;1;SHOCK;Neural lash, voltaic;20;909000;8d10 E;Arc 3d10;L;Living, powered (capacity 20, usage 1), reach, stun, thought, unwieldy;technology;ar-neural-lash
+AR;12;2;PLASMA;Nova lance, blue star;17;279000;8d6 E & F;Severe wound;2;Reach, powered (capacity 40, usage 4);technology;ar-nova-lance
+AR;12;2;PLASMA;Nova lance, red star;2;995;1d4 E & F;Wound;2;Powered (capacity 20, usage 1), reach;technology;ar-nova-lance
+AR;12;2;PLASMA;Nova lance, white star;12;39500;7d4 E & F;Severe wound;2;Reach, powered (capacity 40, usage 2);technology;ar-nova-lance
+AR;12;2;PLASMA;Nova lance, yellow star;7;6870;3d4 E & F;Wound;2;Reach, powered (capacity 20, usage 1);technology;ar-nova-lance
+AR;10;1;PLASMA;Plasma lash, blue star;19;912000;15d4 E & F;Knockdown;L;Powered (capacity 20, usage 1), reach, trip;technology;ar-plasma-lash
+AR;10;1;PLASMA;Plasma lash, red star;3;1550;1d4 E & F;Knockdown;L;Powered (capacity 20, usage 1), reach, trip;technology;ar-plasma-lash
+AR;10;1;PLASMA;Plasma lash, white star;14;80500;6d4 E & F;Knockdown;L;Powered (capacity 20, usage 1), reach, trip;technology;ar-plasma-lash
+AR;10;1;PLASMA;Plasma lash, yellow star;8;11000;3d4 E & F;Knockdown;L;Powered (capacity 20, usage 1), reach, trip;technology;ar-plasma-lash
+AR;12;2;PLASMA;Plasma ribbon, champion;19;578000;6d10 E & F;—;L;Operative, professional (dancer), powered (capacity 20, usage 1);technology;ar-plasma-ribbon
+AR;12;2;PLASMA;Plasma ribbon, competitor;14;74100;3d10 E & F;—;L;Operative, professional (dancer), powered (capacity 20, usage 1);technology;ar-plasma-ribbon
+AR;12;2;PLASMA;Plasma ribbon, professional;9;13600;2d10 E & F;—;L;Operative, professional (dancer), powered (capacity 20, usage 1);technology;ar-plasma-ribbon
+AR;12;2;PLASMA;Plasma ribbon, student;4;2120;1d6 E & F;—;L;Operative, professional (dancer), powered (capacity 20, usage 1);technology;ar-plasma-ribbon
+AR;12;2;SHOCK;Polarity gauntlets, aurora;8;10600;2d6 E;—;1;Operative, polarize 1d6, powered (capacity 40, usage 4);technology;ar-polarity-gauntlets
+AR;12;2;SHOCK;Polarity gauntlets, current;12;39100;3d6 E;—;1;Operative, polarize 2d6, powered (capacity 80, usage 4);technology;ar-polarity-gauntlets
+AR;12;2;SHOCK;Polarity gauntlets, spark;1;410;1d3 E;—;1;Operative, polarize 1d3, powered (capacity 20, usage 2);technology;ar-polarity-gauntlets
+AR;12;2;SHOCK;Polarity gauntlets, static;4;2350;1d6 E;—;1;Operative, polarize 1d4, powered (capacity 40, usage 2);technology;ar-polarity-gauntlets
+AR;13;2;SHOCK;Polarity gauntlets, storm;15;122000;5d6 E;—;1;Operative, polarize 3d6, powered (capacity 80, usage 8);technology;ar-polarity-gauntlets
+AR;13;2;SHOCK;Polarity gauntlets, tempest;19;615000;9d6 E;—;1;Operative, polarize 4d6, powered (capacity 100, usage 10);technology;ar-polarity-gauntlets
+AR;10;1;FLAME;Pyrod, beacon;16;164000;8d6 F;Jet 4d6;L;Analog, fueled (capacity 20, usage 1), professional (dancer);technology;ar-pyrod
+AR;10;1;FLAME;Pyrod, luminous;3;1300;1d6 F;Jet 1d4;L;Analog, fueled (capacity 20, usage 1), professional (dancer);technology;ar-pyrod
+AR;10;1;FLAME;Pyrod, torch;10;13500;3d6 F;Jet 2d6;L;Analog, fueled (capacity 20, usage 1), professional (dancer);technology;ar-pyrod
+AR;10;1;FLAME;Resistance rod, induction;15;94200;10d4 F;Burn 4d4;L;Powered (capacity 20, usage 1);technology;ar-resistance-rod
+AR;10;1;FLAME;Resistance rod, piezoresistor;12;31500;6d4 F;Burn 3d4;L;Powered (capacity 20, usage 1);technology;ar-resistance-rod
+AR;10;1;FLAME;Resistance rod, strain-gauge;2;510;1d4 F;Burn 1d4;L;Powered (capacity 20, usage 1);technology;ar-resistance-rod
+AR;10;1;FLAME;Resistance rod, thermistor;9;12600;4d4 F;Burn 2d4;L;Powered (capacity 20, usage 1);technology;ar-resistance-rod
+AR;11;1;SONIC;Resonant gauntlet, atomic;15;124000;8d4 So;Nauseate;L;Boost 4d4, powered (capacity 20, usage 1);technology;ar-resonant-gauntlet
+AR;11;1;SONIC;Resonant gauntlet, cellular;5;3230;1d4 So;Nauseate;L;Boost 1d4, powered (capacity 20, usage 1);technology;ar-resonant-gauntlet
+AR;11;1;SONIC;Resonant gauntlet, molecular;10;19900;3d4 So;Nauseate;L;Boost 3d4, powered (capacity 20, usage 1);technology;ar-resonant-gauntlet
+AR;11;1;SONIC;Resonant gauntlet, quantum;20;901000;6d12 So;Nauseate;L;Boost 3d12, powered (capacity 20, usage 1);technology;ar-resonant-gauntlet
+AR;13;2;SONIC;Resonant staff, reverberant;13;49900;5d6 So;Knockdown;1;Block, boost 2d6, powered (capacity 20, usage 1);technology;ar-resonant-staff
+AR;13;2;SONIC;Resonant staff, sonorous;3;1380;1d4 So;Knockdown;1;Block, boost 1d4, powered (capacity 20, usage 1);technology;ar-resonant-staff
+AR;13;2;SONIC;Resonant staff, stentorian;18;381000;8d6 So;Knockdown;1;Block, boost 5d6, powered (capacity 20, usage 1);technology;ar-resonant-staff
+AR;10;1;FLAME;Searing grip, high-heat;11;25200;3d8 F;Burn 2d6;L;Grapple, powered (capacity 20, usage 2);technology;ar-searing-grip
+AR;10;1;FLAME;Searing grip, low-heat;5;3010;1d6 F;Burn 1d6;L;Grapple, powered (capacity 20, usage 2);technology;ar-searing-grip
+AR;10;1;FLAME;Searing grip, weaponized;18;364000;11d6 F;Burn 3d6;L;Grapple, powered (capacity 20, usage 2);technology;ar-searing-grip
+AR;13;2;SONIC;Seismic pick, demolition;15;101000;6d8 So;Deafen;1;Penetrating, powered (capacity 20, usage 1), professional (miner);technology;ar-seismic-pick
+AR;13;2;SONIC;Seismic pick, driver;9;12600;4d6 So;Deafen;1;Penetrating, powered (capacity 20, usage 1), professional (miner);technology;ar-seismic-pick
+AR;13;2;SONIC;Seismic pick, heavy;5;2790;1d8 So;Deafen;1;Penetrating, powered (capacity 20, usage 1), professional (miner);technology;ar-seismic-pick
+AR;13;2;SONIC;Seismic pick, light;1;180;1d4 So;Deafen;1;Penetrating, powered (capacity 20, usage 1), professional (miner);technology;ar-seismic-pick
+AR;11;2;CRYO;Shadow chains, acolyte;7;6800;3d4 C;Bind;2;Analog, disarm, reach, trip;technology;ar-shadow-chains
+AR;12;2;CRYO;Shadow chains, devotional;18;261000;9d8 C;Bind;2;Analog, disarm, reach, trip;technology;ar-shadow-chains
+AR;12;2;CRYO;Shadow chains, ecclesiastic;14;76800;9d4 C;Bind;1;Analog, disarm, reach, trip;technology;ar-shadow-chains
+AR;11;2;CRYO;Shadow chains, follower;1;390;1d3 C;Bind;2;Analog, disarm, reach, trip;technology;ar-shadow-chains
+AR;11;2;CRYO;Shadow chains, penitent;10;18800;5d4 C;Bind;2;Analog, disarm, reach, trip;technology;ar-shadow-chains
+AR;10;1;SHOCK;Shock pad, aurora;6;4900;2d4 E;Staggered;L;Integrated (1 slot), powered (capacity 20, usage 1), stun;technology;ar-shock-pad
+AR;10;1;SHOCK;Shock pad, static;2;1100;1d4 E;Staggered;L;Integrated (1 slot), powered (capacity 20, usage 1), stun;technology;ar-shock-pad
+AR;11;1;SHOCK;Shock pad, storm;12;37500;6d4 E;Staggered;L;Integrated (1 slot), powered (capacity 20, usage 1), stun;technology;ar-shock-pad
+AR;11;1;SHOCK;Shock pad, tempest;17;268000;13d4 E;Staggered;L;Integrated (1 slot), powered (capacity 20, usage 1), stun;technology;ar-shock-pad
+AR;11;1;SONIC;Shrieking knife, harmonic;4;2180;1d4 So;—;L;Operative, powered (capacity 20, usage 2);technology;ar-shrieking-knife
+AR;11;1;SONIC;Shrieking knife, infrasonic;14;77400;4d4 So;—;L;Operative, powered (capacity 20, usage 4);technology;ar-shrieking-knife
+AR;11;1;SONIC;Shrieking knife, interference;9;13700;2d4 So;—;L;Operative, powered (capacity 20, usage 2);technology;ar-shrieking-knife
+AR;11;1;SONIC;Shrieking knife, ultrasonic;17;259000;7d4 So;—;L;Operative, powered (capacity 20, usage 4);technology;ar-shrieking-knife
+AR;11;1;SONIC;Singing disk, alto;11;23600;3d6 So;Confuse;L;Analog, thrown (40 ft.);technology;ar-singing-disk
+AR;11;1;SONIC;Singing disk, bass;19;482000;10d6 So;Confuse;L;Analog, thrown (80 ft.);technology;ar-singing-disk
+AR;11;1;SONIC;Singing disk, sopranino;1;115;1d4 So;Confuse;L;Analog, thrown (20 ft.);technology;ar-singing-disk
+AR;11;1;SONIC;Singing disk, soprano;6;3900;1d6 So;Confuse;L;Analog, thrown (30 ft.);technology;ar-singing-disk
+AR;11;1;SONIC;Singing disk, tenor;16;146000;7d6 So;Confuse;L;Analog, thrown (60 ft.);technology;ar-singing-disk
+AR;13;2;SONIC;Singing spear, alto;12;35200;4d8 P & So;Confuse;1;Analog, thrown (20 ft.);technology;ar-singing-spear
+AR;13;2;SONIC;Singing spear, sopranino;4;2200;1d8 P & So;Confuse;1;Analog, thrown (20 ft.);technology;ar-singing-spear
+AR;13;2;SONIC;Singing spear, soprano;8;9500;2d8 P & So;Confuse;1;Analog, thrown (20 ft.);technology;ar-singing-spear
+AR;13;2;SONIC;Singing spear, tenor;17;247000;11d8 P & So;Confuse;1;Analog, thrown (20 ft.);technology;ar-singing-spear
+AR;10;1;PLASMA;Solar brand, blue star;17;245000;7d8 E & F;Severe wound;L;Powered (capacity 80, usage 4);technology;ar-solar-brand
+AR;10;1;PLASMA;Solar brand, red star;2;790;1d6 E & F;—;L;Powered (capacity 20, usage 2);technology;ar-solar-brand
+AR;10;1;PLASMA;Solar brand, white star;12;35200;3d8 E & F;Wound;L;Powered (capacity 80, usage 4);technology;ar-solar-brand
+AR;10;1;PLASMA;Solar brand, yellow star;6;4250;1d8 E & F;Wound;L;Powered (capacity 40, usage 4);technology;ar-solar-brand
+AR;11;1;SHOCK;Spark knife, boss;15;112000;5d6 E & S;Arc 3d6;L;Drain charge, operative, powered (capacity 20, usage 1);technology;ar-spark-knife
+AR;11;1;SHOCK;Spark knife, crew;10;18200;2d6 E & S;Arc 2d6;L;Drain charge, operative, powered (capacity 20, usage 1);technology;ar-spark-knife
+AR;10;1;SHOCK;Spark knife, recruit;5;3070;1d6 E & S;Arc 1d6;L;Drain charge, operative, powered (capacity 20, usage 1);technology;ar-spark-knife
+AR;10;1;SHOCK;Spark knife, runner;1;390;1d4 E & S;Arc 1d4;L;Drain charge, operative, powered (capacity 20, usage 1);technology;ar-spark-knife
+AR;12;2;CRYO;Spined iceblade, avalanche-class;19;570000;10d6 C;Staggered;1;Powered (capacity 20, usage 1);technology;ar-spined-iceblade
+AR;12;2;CRYO;Spined iceblade, blizzard-class;16;170000;7d6 C;Staggered;1;Powered (capacity 20, usage 1);technology;ar-spined-iceblade
+AR;11;2;CRYO;Spined iceblade, frostbite-class;4;2150;1d6 C;Staggered;1;Powered (capacity 20, usage 1);technology;ar-spined-iceblade
+AR;11;2;CRYO;Spined iceblade, hailstorm-class;9;13700;3d6 C;Staggered;1;Powered (capacity 20, usage 1);technology;ar-spined-iceblade
+AR;13;2;SHOCK;Storm hammer, antiferromagnetic;16;145000;12d6 B & E;Knockdown;1;Powered (capacity 20, usage 2);technology;ar-storm-hammer
+AR;12;2;SHOCK;Storm hammer, diamagnetic;3;1300;1d8 B & E;Knockdown;1;Powered (capacity 20, usage 2);technology;ar-storm-hammer
+AR;12;2;SHOCK;Storm hammer, ferromagnetic;11;22900;6d6 B & E;Knockdown;1;Powered (capacity 20, usage 2);technology;ar-storm-hammer
+AR;13;2;SHOCK;Storm hammer, metamagnetic;20;728000;20d6 B & E;Knockdown;1;Powered (capacity 20, usage 2);technology;ar-storm-hammer
+AR;12;2;SHOCK;Storm hammer, paramagnetic;7;5520;3d6 B & E;Knockdown;1;Powered (capacity 20, usage 2);technology;ar-storm-hammer
+AR;12;2;SHOCK;Stun staff, aurora;10;18100;3d8 E;Staggered;1;Block, powered (capacity 20, usage 1), stun;technology;ar-stun-staff
+AR;12;2;SHOCK;Stun staff, static;6;4210;1d10 E;Staggered;1;Block, powered (capacity 20, usage 1), stun;technology;ar-stun-staff
+AR;12;2;SHOCK;Stun staff, storm;13;50200;4d10 E;Staggered;1;Block, powered (capacity 20, usage 1), stun;technology;ar-stun-staff
+AR;12;2;SHOCK;Stun staff, tactical;2;750;1d4 E;Staggered;1;Block, powered (capacity 20, usage 1), stun;technology;ar-stun-staff
+AR;13;2;SHOCK;Stun staff, tempest;17;244000;6d10 E;Staggered;1;Block, powered (capacity 20, usage 1), stun;technology;ar-stun-staff
+AR;11;1;UNCATEGORIZED;Talon, drone;4;2400;1d6 A or S;Corrode 1d6;L;Modal, powered (capacity 20, usage 1);technology;ar-talon
+AR;11;1;UNCATEGORIZED;Talon, god;20;925000;8d12 A or S;Corrode 4d6;L;Modal, powered (capacity 40, usage 2);technology;ar-talon
+AR;11;1;UNCATEGORIZED;Talon, knight;12;39100;4d6 A or S;Corrode 2d6;L;Modal, powered (capacity 20, usage 1);technology;ar-talon
+AR;11;1;UNCATEGORIZED;Talon, queen;16;195000;8d6 A or S;Corrode 3d6;L;Modal, powered (capacity 40, usage 2);technology;ar-talon
+AR;11;1;UNCATEGORIZED;Talon, warrior;8;10500;2d6 A or S;Corrode 1d6;L;Modal, powered (capacity 20, usage 1);technology;ar-talon
+AR;13;2;SONIC;Vibrogarrote, basic;2;410;1d3 So;Deafen;L;Conceal, grapple, operative, powered (capacity 20, usage 1), throttle;technology;ar-vibrogarrote
+AR;13;2;SONIC;Vibrogarrote, harmonic;7;7200;2d4 So;Deafen;L;Conceal, grapple, operative, powered (capacity 20, usage 1), throttle;technology;ar-vibrogarrote
+AR;13;2;SONIC;Vibrogarrote, infrasonic;16;189000;6d6 So;Deafen;L;Conceal, grapple, operative, powered (capacity 20, usage 1), throttle;technology;ar-vibrogarrote
+AR;13;2;SONIC;Vibrogarrote, interference;11;27100;3d6 So;Deafen;L;Conceal, grapple, operative, powered (capacity 20, usage 1), throttle;technology;ar-vibrogarrote
+AR;13;2;SONIC;Vibrogarrote, ultrasonic;20;927000;10d6 So;Deafen;L;Conceal, grapple, operative, powered (capacity 20, usage 1), throttle;technology;ar-vibrogarrote
+AR;12;2;CRYO;Void staff, barrow-class;20;904000;9d10 C;Suffocate;1;Analog, block;technology;ar-void-staff
+AR;11;2;CRYO;Void staff, crypt-class;6;4600;1d10 C;Suffocate;1;Analog, block;technology;ar-void-staff
+AR;11;2;CRYO;Void staff, grave-class;2;1080;1d4 C;Suffocate;1;Analog, block;technology;ar-void-staff
+AR;12;2;CRYO;Void staff, ossuary-class;15;123000;5d10 C;Suffocate;1;Analog, block;technology;ar-void-staff
+AR;11;2;CRYO;Void staff, tomb-class;11;27100;3d10 C;Suffocate;1;Analog, block;technology;ar-void-staff
+AR;11;1;SONIC;Wailing blade, euphonic;8;9080;2d8 S & So;Deafen;L;Powered (capacity 40, usage 2);technology;ar-wailing-blade
+AR;11;1;SONIC;Wailing blade, strident;13;47100;6d6 S & So;Deafen;L;Powered (capacity 40, usage 4);technology;ar-wailing-blade
+AR;11;1;SONIC;Wailing blade, tymbal;3;1270;1d6 S & So;Deafen;L;Powered (capacity 20, usage 2);technology;ar-wailing-blade
+AR;11;1;SONIC;Wailing blade, warbler;18;363000;15d6 S & So;Deafen;L;Powered (capacity 80, usage 4);technology;ar-wailing-blade
+AR;11;1;UNCATEGORIZED;Warfan;5;3070;1d8 S;—;L;Analog, block;technology;ar-warfan
+AR;10;1;PLASMA;Welder, industrial;5;3100;2d4 E & F;—;L;Powered (capacity 40, usage 2), professional (contractor);technology;ar-welder
+AR;10;1;PLASMA;Welder, offensive;16;164000;11d4 E & F;—;L;Powered (capacity 40, usage 4), professional (contractor);technology;ar-welder
+AR;10;1;PLASMA;Welder, starship;11;25800;5d4 E & F;—;L;Powered (capacity 40, usage 2), professional (contractor);technology;ar-welder
+AR;10;1;PLASMA;Welder, utility;1;300;1d4 E & F;—;L;Powered (capacity 20, usage 1), professional (contractor);technology;ar-welder
+AR;9;1;CRYO;Zero knife, avalanche-class;16;145000;5d6 C;Staggered;L;Conceal, operative, powered (capacity 40, usage 1);technology;ar-zero-knife
+AR;9;1;CRYO;Zero knife, blizzard-class;12;32400;2d6 C;Staggered;L;Conceal, operative, powered (capacity 40, usage 1);technology;ar-zero-knife
+AR;9;1;CRYO;Zero knife, frostbite-class;4;2810;1d4 C;Staggered;L;Conceal, operative, powered (capacity 40, usage 1);technology;ar-zero-knife
+AR;9;1;CRYO;Zero knife, hailstorm-class;7;5540;1d6 C;Staggered;L;Conceal, operative, powered (capacity 40, usage 1);technology;ar-zero-knife
+AR;10;1;CRYO;Zero knife, icequake-class;20;729000;7d6 C;Staggered;L;Conceal, operative, powered (capacity 40, usage 1);technology;ar-zero-knife

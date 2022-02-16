@@ -1,0 +1,19 @@
+
+<a href={{ a_link|default('#') }}>
+    <div class="card shadow bg-light border-primary " style="width: 18rem;">
+        {% if imageSrc %}
+            <img class="card-img-top" src='{{ imageSrc }}' alt="Card image cap">
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title text-center text-dark font-weight-bolder ">
+                {% if text %}
+                    {{ text }}
+                {% endif %}
+            </h5>
+            {# <h5 class="card-title">Go Check the Depository</h5> #}
+            {# <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> #}
+            {# <a href="#" class="btn btn-primary">Go somewhere</a> #}
+        </div>
+    </div>
+
+</a>

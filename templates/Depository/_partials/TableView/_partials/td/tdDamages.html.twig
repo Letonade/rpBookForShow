@@ -1,0 +1,11 @@
+{% if item.damages is defined %}
+    <td>
+        {% if damageString is defined %}
+            {{ damageString }}
+        {% else %}
+            {% for key, damage in item.damages %}
+                {% if key is same as 0 %}{{ damage }}{% else %} or {{ damage }}{% endif %}
+            {% endfor %}
+        {% endif %}
+    </td>
+{% endif %}

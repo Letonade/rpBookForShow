@@ -1,0 +1,56 @@
+Book;Page;Name;Level;Price;ModificatorDamage;Critical;Bulk;Special;TechType;FamilyDescriptionSlug
+CR;180;Gluon crystal, greater;18;330300;+4d6;Severe wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Gluon crystal, least;6;3900;+1d4;Wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Gluon crystal, lesser;12;30800;+2d6;Severe wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Gluon crystal, minor;9;11500;+1d6;Severe wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Gluon crystal, standard;15;94200;+3d6;Severe wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Gluon crystal, true;20;916200;+6d6;Severe wound;—;—;hybrid;cr-gluon-crystal
+CR;180;Graviton crystal, greater;17;251000;+4d6;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;179;Graviton crystal, least;5;2900;+1d3;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;180;Graviton crystal, lesser;11;24000;+2d6;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;180;Graviton crystal, minor;8;9200;+1d6;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;180;Graviton crystal, standard;14;69800;+3d6;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;180;Graviton crystal, true;20;727100;+6d6;Knockdown;—;—;hybrid;cr-graviton-crystal
+CR;180;Photon crystal, greater;17;246200;+4d6 F;Burn 3d6;—;—;hybrid;cr-photon-crystal
+CR;180;Photon crystal, least;5;2950;+1d3 F;Burn 1d6;—;—;hybrid;cr-photon-crystal
+CR;180;Photon crystal, lesser;11;25100;+2d6 F;Burn 1d6;—;—;hybrid;cr-photon-crystal
+CR;180;Photon crystal, minor;8;9300;+1d6 F;Burn 1d6;—;—;hybrid;cr-photon-crystal
+CR;180;Photon crystal, standard;14;71200;+3d6 F;Burn 2d6;—;—;hybrid;cr-photon-crystal
+CR;180;Photon crystal, true;20;729500;+6d6 F;Burn 5d6;—;—;hybrid;cr-photon-crystal
+CR;180;W-boson crystal, greater;17;274100;+4d6;Bleed 4d6;—;—;hybrid;cr-w-boson-crystal
+CR;180;W-boson crystal, least;5;3050;+1d4;Bleed 1d6;—;—;hybrid;cr-w-boson-crystal
+CR;180;W-boson crystal, lesser;11;26200;+2d6;Bleed 2d6;—;—;hybrid;cr-w-boson-crystal
+CR;180;W-boson crystal, minor;8;9800;+1d6;Bleed 2d6;—;—;hybrid;cr-w-boson-crystal
+CR;180;W-boson crystal, standard;14;81300;+3d6;Bleed 3d6;—;—;hybrid;cr-w-boson-crystal
+CR;180;W-boson crystal, true;20;806000;+6d6;Bleed 6d6;—;—;hybrid;cr-w-boson-crystal
+AR;26;Electron crystal, greater;15;93000;+4d4 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, least;3;1430;+1d2 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, lesser;9;12100;+1d6 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, minor;6;3850;+1d4 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, shard;1;280;+1 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, standard;12;30500;+3d4 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Electron crystal, true;18;332000;+6d4 E;—;—;Stun;hybrid;ar-electron-crystal
+AR;26;Gluon crystal, shard;2;770;1;Wound;—;—;hybrid;ar-gluon-crystal
+AR;26;Muon crystal, greater;20;760000;+10d4;—;—;Penetrating;hybrid;ar-muon-crystal
+AR;26;Muon crystal, least;2;760;1;—;—;Penetrating;hybrid;ar-muon-crystal
+AR;26;Muon crystal, lesser;10;18100;+2d4;—;—;Penetrating;hybrid;ar-muon-crystal
+AR;26;Muon crystal, minor;4;2200;+1d2;—;—;Penetrating;hybrid;ar-muon-crystal
+AR;26;Muon crystal, standard;16;166000;+6d4;—;—;Penetrating;hybrid;ar-muon-crystal
+AR;26;Photon crystal, shard;1;145;+1 F;Burn 1d4;—;—;hybrid;ar-photon-crystal
+AR;26;Positron crystal, least;3;1310;+1d2 F;Irradiate;—;—;hybrid;ar-positron-crystal
+AR;26;Positron crystal, lesser;19;528000;+5d6 F;Irradiate;—;—;hybrid;ar-positron-crystal
+AR;26;Positron crystal, minor;13;47700;+2d8 F;Irradiate;—;—;hybrid;ar-positron-crystal
+AR;26;T-quark crystal, greater;16;175000;+3d6;—;—;Variant boost 3d6 (5/day);hybrid;ar-t-quark-crystal
+AR;26;T-quark crystal, least;2;750;1;—;—;Variant boost 1d3 (2/day);hybrid;ar-t-quark-crystal
+AR;26;T-quark crystal, lesser;7;6950;+1d4;—;—;Variant boost 2d4 (3/day);hybrid;ar-t-quark-crystal
+AR;26;T-quark crystal, minor;5;3000;+1d3;—;—;Variant boost 1d4 (3/day);hybrid;ar-t-quark-crystal
+AR;26;T-quark crystal, standard;13;45000;+1d12;—;—;Variant boost 2d6 (4/day);hybrid;ar-t-quark-crystal
+AR;26;T-quark crystal, true;20;750000;+6d6;—;—;Variant boost 6d6 (5/day);hybrid;ar-t-quark-crystal
+AR;26;W-boson crystal, shard;1;215;1;Bleed 1d4;—;—;hybrid;ar-w-boson-crystal
+AR;26;Z-boson crystal, greater;16;177500;+3d8;Push (25 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, least;4;1950;+1d2;Push (5 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, lesser;10;17500;+1d8;Push (10 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, minor;7;7000;+1d4;Push (10 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, shard;1;115;1;Push (5 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, standard;13;47500;+2d8;Push (20 ft.);—;—;hybrid;ar-z-boson-crystal
+AR;26;Z-boson crystal, true;19;561000;+4d8;Push (30 ft.);—;—;hybrid;ar-z-boson-crystal

@@ -1,0 +1,9 @@
+{% if item.size is defined %}
+    <td class="text-left">
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           title="Description"
+           data-content='{% include 'Depository/_partials/Popover/sizePopoverContent.html.twig' with {"size": item.size} %}'>
+            {{ item.size.name }}
+        </a>
+    </td>
+{% endif %}

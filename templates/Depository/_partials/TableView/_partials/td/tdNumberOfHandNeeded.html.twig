@@ -1,0 +1,10 @@
+{% if item.numberOfHandNeeded is defined %}
+    <td>
+        {# {{ item.numberOfHandNeeded }} #}
+        {% for i in range(0, item.numberOfHandNeeded) %}
+            {% if not i is same as 0 %}
+                <i class="fas fa-hand-point-up"></i>
+            {% endif %}
+        {% endfor %}
+    </td>
+{% endif %}

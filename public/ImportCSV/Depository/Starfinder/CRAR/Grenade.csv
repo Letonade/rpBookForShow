@@ -1,0 +1,58 @@
+Book;Page;Name;Level;Price;Range;Capacity;Bulk;Special;TechType;FamilyDescription
+CR;178;Cryo grenade I;6;1220;20 ft.;Drawn;L;Explode (1d8 C, staggered, 10 ft.);technology;cr-cryo-grenade
+CR;178;Cryo grenade II;10;5000;20 ft.;Drawn;L;Explode (2d8 C, staggered, 15 ft.);technology;cr-cryo-grenade
+CR;179;Cryo grenade III;14;21100;20 ft.;Drawn;L;Explode (4d8 C, staggered, 20 ft.);technology;cr-cryo-grenade
+CR;179;Cryo grenade IV;18;108500;20 ft.;Drawn;L;Explode (6d8 C, staggered, 20 ft.);technology;cr-cryo-grenade
+CR;178;Flash grenade I;2;275;20 ft.;Drawn;L;Explode (blinded 1d4 rounds, 5 ft.);technology;cr-flash-grenade
+CR;178;Flash grenade II;6;1350;20 ft.;Drawn;L;Explode (blinded 1d4 rounds, 10 ft.);technology;cr-flash-grenade
+CR;178;Flash grenade III;12;10400;20 ft.;Drawn;L;Explode (blinded 1d6 rounds, 15 ft.);technology;cr-flash-grenade
+CR;179;Flash grenade IV;16;53000;20 ft.;Drawn;L;Explode (blinded 1d8 rounds, 20 ft.);technology;cr-flash-grenade
+CR;178;Frag grenade I;1;35;20 ft.;Drawn;L;Explode (1d6 P, 15 ft.);technology;cr-frag-grenade
+CR;178;Frag grenade II;4;700;20 ft.;Drawn;L;Explode (2d6 P, 15 ft.);technology;cr-frag-grenade
+CR;178;Frag grenade III;8;2560;20 ft.;Drawn;L;Explode (4d6 P, 15 ft.);technology;cr-frag-grenade
+CR;178;Frag grenade IV;10;5750;20 ft.;Drawn;L;Explode (6d6 P, 15 ft.);technology;cr-frag-grenade
+CR;179;Frag grenade V;14;18750;20 ft.;Drawn;L;Explode (10d6 P, 15 ft.);technology;cr-frag-grenade
+CR;179;Frag grenade VI;16;44600;20 ft.;Drawn;L;Explode (12d6 P, 15 ft.);technology;cr-frag-grenade
+CR;179;Frag grenade VII;18;96900;20 ft.;Drawn;L;Explode (16d6 P, 15 ft.);technology;cr-frag-grenade
+CR;179;Frag grenade VIII;20;216000;20 ft.;Drawn;L;Explode (20d6 P, 15 ft.);technology;cr-frag-grenade
+CR;178;Incendiary grenade I;2;375;20 ft.;Drawn;L;Explode (1d6 F, 1d4 burn, 5 ft.);technology;cr-incendiary-grenade
+CR;178;Incendiary grenade II;6;1040;20 ft.;Drawn;L;Explode (2d6 F, 1d6 burn, 10 ft.);technology;cr-incendiary-grenade
+CR;178;Incendiary grenade III;8;2800;20 ft.;Drawn;L;Explode (3d6 F, 1d6 burn, 10 ft.);technology;cr-incendiary-grenade
+CR;179;Incendiary grenade IV;12;9380;20 ft.;Drawn;L;Explode (5d6 F, 3d6 burn, 15 ft.);technology;cr-incendiary-grenade
+CR;179;Incendiary grenade V;16;44000;20 ft.;Drawn;L;Explode (10d6 F, 5d6 burn, 15 ft.);technology;cr-incendiary-grenade
+CR;179;Incendiary grenade VI;18;108800;20 ft.;Drawn;L;Explode (12d6 F, 6d6 burn, 15 ft.);technology;cr-incendiary-grenade
+CR;178;Screamer grenade I;4;725;20 ft.;Drawn;L;Explode (1d10 So, deafened 1d4 minutes, 15 ft.);technology;cr-screamer-grenade
+CR;178;Screamer grenade II;8;2720;20 ft.;Drawn;L;Explode (2d10 So, deafened 1d4 minutes, 20 ft.);technology;cr-screamer-grenade
+CR;179;Screamer grenade III;12;11300;20 ft.;Drawn;L;Explode (4d10 So, deafened 1d4 minutes, 25 ft.);technology;cr-screamer-grenade
+CR;179;Screamer grenade IV;16;43500;20 ft.;Drawn;L;Explode (7d10 So, deafened 1d4 minutes, 30 ft.);technology;cr-screamer-grenade
+CR;178;Shock grenade I;1;130;20 ft.;Drawn;L;Explode (1d8 E, 15 ft.);technology;cr-shock-grenade
+CR;178;Shock grenade II;4;650;20 ft.;Drawn;L;Explode (1d12 E, 15 ft.);technology;cr-shock-grenade
+CR;178;Shock grenade III;10;5380;20 ft.;Drawn;L;Explode (3d12 E, 15 ft.);technology;cr-shock-grenade
+CR;179;Shock grenade IV;14;23600;20 ft.;Drawn;L;Explode (6d12 E, 15 ft.);technology;cr-shock-grenade
+CR;179;Shock grenade V;20;110000;20 ft.;Drawn;L;Explode (9d12 E, 15 ft.);technology;cr-shock-grenade
+CR;178;Smoke grenade;1;40;20 ft.;Drawn;L;Explode (smoke cloud 1 minute, 20 ft.);technology;cr-smoke-grenade
+CR;178;Stickybomb grenade I;1;170;20 ft.;Drawn;L;Explode (entangled 2d4 rounds, 10 ft.);technology;cr-stickybomb-grenade
+CR;178;Stickybomb grenade II;4;675;20 ft.;Drawn;L;Explode (entangled 2d4 rounds, 15 ft.);technology;cr-stickybomb-grenade
+CR;178;Stickybomb grenade III;10;5410;20 ft.;Drawn;L;Explode (entangled 2d4 rounds, 20 ft.);technology;cr-stickybomb-grenade
+AR;26;Foam grenade I;3;410;20 ft.;Drawn;L;Explode (extinguish, 10 ft.);technology;ar-foam-grenade
+AR;26;Foam grenade II;9;3520;20 ft.;Drawn;L;Explode (extinguish, 20 ft.);technology;ar-foam-grenade
+AR;26;Foam grenade III;15;26100;20 ft.;Drawn;L;Explode (extinguish, 30 ft.);technology;ar-foam-grenade
+AR;26;Holy water grenade I;2;375;20 ft.;Drawn;L;Explode (2d6 B, holy water, 20 ft.);technology;ar-holy-water-grenade
+AR;26;Holy water grenade II;5;940;20 ft.;Drawn;L;Explode (4d6 B, holy water, 20 ft.);technology;ar-holy-water-grenade
+AR;26;Holy water grenade III;11;7680;20 ft.;Drawn;L;Explode (4d12 B, holy water, 20 ft.);technology;ar-holy-water-grenade
+AR;26;Holy water grenade IV;19;175000;20 ft.;Drawn;L;Explode (8d12 B, holy water, 20 ft.);technology;ar-holy-water-grenade
+AR;26;Pulse grenade I;5;950;20 ft.;Drawn;L;Explode (1d10 E, entangled 1 round, 20 ft.);technology;ar-pulse-grenade
+AR;26;Pulse grenade II;9;4350;20 ft.;Drawn;L;Explode (3d10 E, entangled 1d4 rounds, 20 ft.);technology;ar-pulse-grenade
+AR;26;Pulse grenade III;15;37500;20 ft.;Drawn;L;Explode (6d10 E, entangled 1d4 rounds, 20 ft.);technology;ar-pulse-grenade
+AR;26;Pulse grenade IV;17;82500;20 ft.;Drawn;L;Explode (14d6 E, entangled 2d4 rounds, 20 ft.);technology;ar-pulse-grenade
+AR;26;Riot grenade I;2;185;20 ft.;Drawn;L;Explode (staggered, 10 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade II;5;810;20 ft.;Drawn;L;Explode (staggered, 15 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade III;7;1640;20 ft.;Drawn;L;Explode (1d8 S, nonlethal, staggered, 15 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade IV;11;6910;20 ft.;Drawn;L;Explode (2d10 S, nonlethal, staggered, 20 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade V;15;28200;20 ft.;Drawn;L;Explode (4d10 S, nonlethal, staggered, 20 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade VI;17;67000;20 ft.;Drawn;L;Explode (4d12 S, nonlethal, staggered, 25 ft.);technology;ar-riot-grenade
+AR;26;Riot grenade VII;20;222000;20 ft.;Drawn;L;Explode (6d12 S, nonlethal, staggered, 25 ft.);technology;ar-riot-grenade
+AR;26;Web grenade I;3;490;20 ft.;Drawn;L;Explode (mire 1d4 rounds, 10 ft.);technology;ar-web-grenade
+AR;26;Web grenade II;9;3950;20 ft.;Drawn;L;Explode (mire 2d4 rounds, 10 ft.);technology;ar-web-grenade
+AR;26;Web grenade III;13;14700;20 ft.;Drawn;L;Explode (mire 1 minute, 15 ft.);technology;ar-web-grenade
+AR;26;Web grenade IV;19;163000;20 ft.;Drawn;L;Explode (mire 1 minute, 25 ft.);technology;ar-web-grenade

@@ -1,0 +1,6 @@
+{% if item.weaponCategory.name is defined %}
+    <td class="d-block d-md-none text-left"><a href="javascript:void(0);" data-toggle="popover-bottom-click"
+                                               data-content='{{ item.weaponCategory.name }}'><i
+                    class="far fa-question-circle"></i></a></td>
+    <td class="d-none d-md-block text-left">{{ item.weaponCategory.name }}</td>
+{% endif %}

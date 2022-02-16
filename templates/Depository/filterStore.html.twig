@@ -1,0 +1,33 @@
+{% extends 'Common/base.html.twig' %}
+{% set active_page = 'datasDepositoryFilterStore' %}
+
+{% block main %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom ">
+        <h1 class="h2">
+            <a class="{{ (active_page is same as 'homePage') ? 'active' : '' }} text-muted"
+               href="{{ url('front_twig_home',{}) }}">
+                <i class="fas fa-chevron-circle-left fa-sm px-2"></i>
+            </a>
+            Stores
+        </h1>
+    </div>
+    <div class="py-2 mb-3 border-bottom border-top">
+        <h3 class="h3">
+            Equipments
+        </h3>
+    </div>
+    <div class="card-columns py-6">
+        {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_armors',{'type': defaultArmorType}), 'text': 'Armors', 'imageSrc': '/assets/img/DepositoryStore/armor.png'} %}
+        {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_weapons',{'type': defaultWeaponType}), 'text': 'Weapons', 'imageSrc': '/assets/img/DepositoryStore/weapon.png'} %}
+        {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_battle_wares',{'type': defaultBattleWareType}), 'text': 'Battle Wares', 'imageSrc': '/assets/img/DepositoryStore/battleWare.png'} %}
+    </div>
+    <div class="py-2 mb-3 border-bottom border-top">
+        <h3 class="h3">
+            Upgrades
+        </h3>
+    </div>
+    <div class="card-columns">
+        {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_fusions',{'type': defaultFusionType}), 'text': 'Fusions', 'imageSrc': '/assets/img/DepositoryStore/fusion.png'} %}
+        {% include 'Common/_partials/simpleImageCards.html.twig' with {'a_link': url('front_twig_depository_armor_upgrades',{'type': defaultArmorUpgradeType}), 'text': 'Armor Upgrades', 'imageSrc': '/assets/img/DepositoryStore/armorUpgrade.png'} %}
+    </div>
+{% endblock %}

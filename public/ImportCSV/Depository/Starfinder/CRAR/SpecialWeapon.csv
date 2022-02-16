@@ -1,0 +1,10 @@
+Book;Page;HandNeeded;SubCategory;Name;Level;Price;Damage;Range;Critical;Capacity;Usage;Bulk;Special;TechType;FamilyDescriptionSlug
+CR;179;1;UNCATEGORIZED;Carbonedge shuriken (10);1;85;1d4 P;10 ft.;bleed 1d4;Drawn;—;—;Quick reload, thrown;technology;cr-carbonedge-shuriken
+CR;179;1;UNCATEGORIZED;Nyfiber net;2;460;—;10 ft.;—;Drawn;—;1;;technology;cr-nyfiber-net
+CR;179;2;UNCATEGORIZED;Bow;1;255;1d6 P;60 ft.;—;Drawn;1;1;Quick reload;technology;cr-bow
+AR;25;1;UNCATEGORIZED;Shuriken, grooved (10);4;370;1d8 P;20 ft.;Injection DC +2;Drawn;—;L;Injection, quick reload, thrown;technology;ar-grooved-shuriken
+AR;25;1;UNCATEGORIZED;Shuriken, microserrated (10);7;1,120;3d6 P;20 ft.;Bleed;Drawn;—;L;Quick reload, thrown;technology;ar-microserrated-shuriken
+AR;25;1;UNCATEGORIZED;Shuriken, flash (10);10;3,120;4d6 F;20 ft.;Blind;Drawn;—;L;Quick reload, thrown;technology;ar-flash-shuriken
+AR;25;1;UNCATEGORIZED;Shuriken, singing (10);13;8,550;6d6 So;20 ft.;Confuse;Drawn;—;L;Quick reload, thrown;technology;ar-singing-shuriken
+AR;25;1;UNCATEGORIZED;Shuriken, ultraserrated (10);16;29,100;7d10 P;20 ft.;Bleed;Drawn;—;L;Quick reload, thrown;technology;ar-ultraserrated-shuriken
+AR;25;1;UNCATEGORIZED;Shuriken, dynamo (10);19;98,000;12d6 E;40 ft.;—;Drawn;—;L;Quick reload, recall, thrown;technology;ar-dynamo-shuriken

@@ -1,0 +1,16 @@
+
+{% if item.specials is defined %}
+    <td class="text-left">
+        <a href="javascript:void(0);" data-toggle="popover-bottom-click"
+           title="Description"
+           data-content='{% include 'Depository/_partials/Popover/specialPopoverContent.html.twig' with {"specials": item.specials} %}'>
+            {% if specialsString is defined %}
+                {{ specialsString }}
+            {% else %}
+                {% for key, special in item.specials %}
+                    {% if key is same as 0 %}{{ special }}{% else %}, {{ special }}{% endif %}
+                {% endfor %}
+            {% endif %}
+        </a>
+    </td>
+{% endif %}

@@ -1,0 +1,4 @@
+
+front_twig_home:
+    path: /
+    controller: App\Controller\FrontTwig\Home\FrontTwigHomeAction

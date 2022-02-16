@@ -1,0 +1,364 @@
+Name;Discriminator Name;Description
+Ammunitions;Ammunition;"Weapons often employ electrical charges (typically stored in batteries), cartridges of ammunition, or individual missiles.
+</br> A weapon’s capacity measures what size battery it uses or the number of cartridges it can hold, and its usage is how much ammunition it uses with each attack.
+</br> You can use launchers to fire their corresponding missiles, which must be loaded individually.
+</br> Reloading a weapon or inserting a new battery (including ejecting a spent cartridge or battery if necessary) takes a move action.
+</br>
+Weapons that use standard ammunition (arrows, charges, darts, mini-rockets, petrol, rounds, scattergun shells, etc.) are sold preloaded.
+</br> For weapons with other forms of ammunition (such as grenades), ammunition must be purchased separately.
+</br>
+<h6>Cartridges</h6>
+This type of ammunition includes bullets (often called rounds or shells), bolts, darts, mini-rockets, pellets, and other physical projectiles with any necessary casing and propellant.
+</br> Cartridges are typically either contained in a multi-cartridge magazine or loaded into the weapon individually; a weapon is assumed to come with enough magazines that you can load spare ones for reloading the weapon in battle.
+</br> If you buy more cartridges than can be held in a single magazine of your weapon, the purchase includes additional magazines of the same capacity, up to the number needed to fit all your cartridges into magazines.
+</br> The same rules apply to petrol for flame weapons.
+</br>
+Rounds are standardized by weapon type.
+</br> For example, small arms all use the same size of round, but you can’t use a small arm round in a longarm.
+</br> Most projectile weapons fire one cartridge per attack unless they have special firing modes that shoot multiple cartridges in a short time.
+</br>
+<h6>Charges</h6>
+This ammunition powers energy or projectile weapons using charges stored in batteries.
+</br> Since each energy weapon varies in intensity, stronger weapons use up more charges per shot.
+</br> You can restore a weapon’s charges by attaching it to a generator or a recharging station (see Professional Services on page 234) and thereby recharging its battery, or by swapping out its battery for another fully charged battery.
+</br>
+Recharging a weapon’s battery from a generator takes 1 minute per charge restored, and using a recharging station takes 1 round per charge, but swapping out a battery takes only a move action.
+</br> Most batteries can hold 20 charges, but some high-capacity versions made of rare materials can hold more (see Table 7–9: Ammunition).
+</br>
+A weapon’s battery cannot be recharged to hold more charges than its capacity.
+</br> A weapon that holds a high-capacity battery still works when a lower-capacity battery is inserted into it, but if a battery has fewer charges remaining than the minimum number required to fire a shot, the weapon doesn’t fire.
+</br>
+In addition to weapons, batteries can be used to power a wide array of items, including powered armor and technological items.
+</br>
+<h6>Missiles</h6>
+This special ammunition is loaded and fired one at a time, and it includes arrows and explosive rounds fired from launchers.
+</br> Some weapons that fire missiles have the quick reload special property (see page 182), allowing you to draw the ammunition and fire it as part of your attack or attacks.
+</br> Attacks with missile weapons often have the explode special property (see page 181).
+</br>"
+Basic Melee Weapons;BasicMeleeWeapon;"Any handheld weapon that must touch a target to deal damage is considered a melee weapon.
+</br> Basic melee weapons can be easily used by almost anyone and generally require no special training.
+</br> While basic melee weapons deal less damage than more sophisticated weapons of the same item level, they have the advantage of not usually requiring power sources and operating under almost any conditions.
+</br> Basic melee weapons are divided into one-handed and two-handed weapons, as shown on Table 7–1.
+</br>"
+Advanced Melee Weapons;AdvancedMeleeWeapon;"Any handheld weapon that must touch a target to damage it is considered a melee weapon.
+</br> Advanced melee weapons require a degree of training and skill to use properly.
+</br> Advanced melee weapons are divided into one-handed and two-handed weapons, as shown on Table 7–2.
+</br>"
+Small Arms;SmallArm;"Small arms are handheld ranged weapons that can be held and operated with one hand.
+</br> Various pistols are the most common type, though many types of small arms exist.
+</br> Small arms require a battery or ammunition of the proper size and type to function, as shown on Table 7–3.
+</br>"
+Longarms;Longarm;"Longarms are handheld, long-ranged weapons that must be held and operated with two hands.
+</br> Various rifles are the most common type, though many types of longarms exist.
+</br> Some longarms support automatic fire as well.
+</br> Longarms require a battery or ammunition of the proper size and type to function, as shown on Table 7–4.
+</br>"
+Heavy Weapons;HeavyWeapon;"Heavy weapons are military-grade, high-damage weapons that require specialized training to use.
+</br> Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential.
+</br> Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function, as shown on Table 7–5.
+</br> <h6>Minimum Strength: </h6>
+The minimum Strength score is 12 for 1st- through 10th-level heavy weapons and 14 for 11th- level and higher heavy weapons.
+</br> A character using a heavy weapon without the appropriate minimum Strength takes a –2 penalty to attack rolls with that weapon.
+</br>
+"
+Sniper Weapons;SniperWeapon;"Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands.
+</br> They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential.
+</br> Sniper weapons require a battery or ammunition of the proper size and type to function, as shown on Table 7–6.
+</br>"
+Special Weapons;SpecialWeapon;"Special weapons resist classification into any other category. 
+</br>Some adventurers favor special weapons for the abilities they offer or for their unique beauty."
+Ammunition and Grenades;;"Ammunition includes standard items (such as batteries that can replenish charged weapons), small arm and longarm rounds, and special units such as grenade arrows and missiles.
+</br> Grenades are a special type of thrown weapon that can deal a variety of types of damage as well as create special hindering effects, as shown on Table 7–7.
+</br>"
+Solarian Weapon Crystals;SolarianWeaponCrystal;"A solarian weapon crystal adds damage to a solarian’s solar weapond 
+</br>The solarian can place the crystal inside his mote as a standard actiond 
+</br>While within a mote, a crystal applies its effects any time that mote is in a solar weapon formd 
+</br>A crystal within a mote can’t be interacted with in any way other than via abilities that specifically target a moted 
+</br>The solarian can remove the crystal from his mote as a standard action, and the crystal falls loose if the mote is deactivated in any wayd 
+</br>A solarian can’t have more than one crystal in his mote at a given timed
+</br>A solarian weapon crystal doesn’t give a solarian the option to create a solar weapon if he did not choose that option for his solar manifestationd 
+</br>Most weapon crystals increase the amount of damage attacks with the solar weapon deald 
+</br>This increased damage is normally the same type of damage the solarian weapon deals (typically bludgeoning, piercing, or slashing)d 
+</br>If a solarian crystal’s damage entry lists an abbreviation after the damage, however, the additional damage the solar weapon deals is of the indicated typed 
+</br>Even if a solarian weapon crystal’s extra damage is a type of energy damage, attacks with the solar weapon still target KAC, not EACd 
+</br>If a solarian crystal lists a critical effect, that critical effect applies to any critical hit the solar weapon makes while the
+solarian crystal is within the solarian’s moted
+
+</br>For example, a solarian with a minor photon crystal and a base solar weapon damage of 2d6 deals 2d6 bludgeoning, piercing, or slashing damage, plus 1d6 fire damage, on a hit with his solar weapond
+</br>A solarian weapon crystal is a hybrid item that blends magic and technologyd 
+</br>When a weapon crystal is within a mote and the solarian uses the mote in solar weapon form, the solar weapon is considered magic for the purpose of overcoming damage reductiond 
+</br><h6>Broken Solarian Crystals: </h6>
+If a solarian weapon crystal with the broken condition is inside a solarian’s solar mote, the solarian takes a –2 penalty to attack and damage rolls with the solar weapon, and the solar weapon can’t deal extra critical effectsd 
+</br>Both effects last until the crystal is repairedd 
+</br>As hybrid items, solarian crystals can be repaired using the make whole or mending spells, or with the Engineering or Mysticism skills, as
+described in the Skills chapterd
+
+</br>"
+Weapon Fusions;WeaponFusion;"A weapon fusion is a small, prepackaged add-on that can be attached to any weapon to infuse it with magic.
+</br> Adventurers use weapon fusions to customize their weapons for a specific enemy or to increase a weapon’s overall effectiveness.
+</br> Weapon fusions are magic unless stated otherwise.
+</br> While this causes the weapons they are installed in to be considered hybrid items, in truth the weapon and the fusion still operate separately.
+</br> An ability that affects a magic item could affect the fusion installed in a weapon, but that would not prevent the weapon’s core function from operating normally unless the weapon was also independently a magic device.
+</br> The hybridized fusion (see page 194) is an exception to this rule, as noted in its description.
+</br> Weapons with fusions are considered magic for the purpose of overcoming damage reduction.
+</br>
+</br><h6>Installing and Transferring Fusions</h6>
+A fusion can be installed in a chosen weapon when it’s purchased or at any point afterward.
+</br> It’s also possible, though difficult and fairly expensive, to transfer fusions from one weapon to another.
+</br> Any character trained in Mysticism can transfer a fusion; this costs half as much as it would to initially purchase the fusion, using the level of the new weapon to determine the price.
+</br> Characters trained in Engineering or Mysticism can also install fusions, if necessary (for instance, if the PCs find an unused fusion as part of a treasure cache, or in the case of a character who used Mysticism to craft a fusion; see page 235 for more about crafting items).
+</br> In either case, installing or transferring a fusion takes about 10 minutes of uninterrupted tinkering.
+</br>
+</br><h6>Fusion Seals</h6>
+It is also possible to place a weapon fusion into a physical object, called a fusion seal, which can then be affixed to a specific weapon and even moved among different weapons.
+</br> A fusion seal affects only weapons of a given level or less, as noted in parentheses after the name of the fusion seal.
+</br> For example, a holy fusion seal that could be applied to any weapon of 10th level or lower would be written holy fusion seal (10th).
+</br> Any decisions that must be made when a fusion is added to a weapon are made when a fusion seal is created, and they can’t be changed.
+</br>
+A fusion seal’s cost is based on the highest-level weapon the fusion seal can affect, and it is equal to 110% of the price of a weapon fusion for a weapon of that level.
+</br> Removing a fusion seal and transferring it to a new weapon takes only 1 minute and does not require any specific skill training, but the fusion doesn’t function until the seal has been in place on a weapon for 24 hours.
+</br> A fusion seal can’t be added to a weapon if doing so would cause the weapon’s total level of fusions (including the level of the fusion seal) to exceed its item level or if the weapon is not a legitimate choice for the fusion within the fusion seal.
+</br> Grenades, ammunition, and other consumable items can benefit from fusion seals, but the fusion seal is destroyed when the item is used.
+</br>
+A fusion seal can take the form of nearly any medallion or symbol, and when affixed to a weapon, it can even alter the aesthetics of that weapon.
+</br> A thundering fusion seal might cause a weapon to be etched with storm clouds, runes of weather, or possibly even symbols of a god of storms if affixed by a worshiper of such a god.
+</br> However, these alterations of appearance are not enough to conceal a weapon’s basic function or type (a heavy reaction cannon with a vorpal fusion seal is still clearly a heavy reaction cannon, even if its appearance is altered to feature skulls and symbols of the Devourer).
+</br> Fusion seals that alter weapons to feature a specific group’s iconography are often used by organizations as a way of unifying the appearance of their members’ weaponry.
+</br>
+</br><h6>Item Level</h6>
+Each weapon fusion has an item level, and a fusion can’t be placed on a weapon that has a lower level than the fusion’s item level.
+</br> Once it is attached to a weapon, a weapon fusion uses the weapon’s item level for any of the weapon fusion’s level-based effects.
+</br>
+Multiple Fusions and Multiple Targets
+You can place multiple fusions on the same weapon, but only if the weapon’s item level is equal to or greater than the combined total of all the fusions’ item levels.
+</br> A weapon cannot hold or benefit from additional fusions beyond this limit.
+</br> A fusion that applies an effect to attacks applies it to all targets for spread weapons, automatic fire, explode weapons, and other effects with multiple targets.
+</br>
+</br><h6>Price</h6>
+The price of a weapon fusion depends on the item level of the weapon into which it’s being installed.
+</br> Installing a fusion into a 7th-level weapon costs more than applying the same fusion into a 6th-level weapon, for instance.
+</br> You can install a fusion into a grenade, a piece of ammunition, or another consumable item; such a fusion costs half the normal price of a weapon fusion for a weapon of the same level.
+</br>
+</br>
+
+<div class=""row"">
+ <div class=""col-12"">TABLE 7-13: WEAPON FUSION PRICES</div>
+ <div class=""col-5"">WEAPON`S ITEM LEVEL</div><div class=""col-7"">FUSION PRICE</div>
+ <div class=""col-5"">1</div><div class=""col-7""> 120</div>
+ <div class=""col-5"">2</div><div class=""col-7""> 360</div>
+ <div class=""col-5"">3</div><div class=""col-7""> 440</div>
+ <div class=""col-5"">4</div><div class=""col-7""> 680</div>
+ <div class=""col-5"">5</div><div class=""col-7""> 720</div>
+ <div class=""col-5"">6</div><div class=""col-7""> 1040</div>
+ <div class=""col-5"">7</div><div class=""col-7""> 1560</div>
+ <div class=""col-5"">8</div><div class=""col-7""> 2300</div>
+ <div class=""col-5"">9</div><div class=""col-7""> 2600</div>
+ <div class=""col-5"">10</div><div class=""col-7""> 3580</div>
+ <div class=""col-5"">11</div><div class=""col-7""> 4880</div>
+ <div class=""col-5"">12</div><div class=""col-7""> 6920</div>
+ <div class=""col-5"">13</div><div class=""col-7""> 9760</div>
+ <div class=""col-5"">14</div><div class=""col-7""> 11700</div>
+ <div class=""col-5"">15</div><div class=""col-7""> 17800</div>
+ <div class=""col-5"">16</div><div class=""col-7""> 27000</div>
+ <div class=""col-5"">17</div><div class=""col-7""> 40500</div>
+ <div class=""col-5"">18</div><div class=""col-7""> 60300</div>
+ <div class=""col-5"">19</div><div class=""col-7""> 90000</div>
+ <div class=""col-5"">20</div><div class=""col-7""> 135000</div>
+</div>
+"
+Grenades;Grenade;"Grenades are thrown weapons that detonate in an explosive radius when they reach the target.
+</br> A grenade’s listing on Table 7–7: Grenades shows its explosion radius.
+</br> Some grenades have additional effects, such as blinded or entangled, that apply only to creatures in the explosion radius that fail a Reflex save against the grenade.
+</br> The DC of the save is equal to 10 + half the grenade’s item level + your Dexterity modifier.
+</br> Any penalty you take to your attack roll also applies to this save DC.
+</br>"
+Light Armors;LightArmor;"Armor is usually the easiest and most cost-effective way for creatures to protect themselves.
+</br> Whether you are skimming through space aboard a mercenary vessel, attending a diplomatic meeting on a space station, or descending to a planet’s surface to explore, armor provides you with protection
+against attacks and hostile environments.
+</br>
+Modern armor is made of many different substances, including carbon fiber, ceramic, fabric, metal, and polymers.
+</br> Most are constructed from a combination of materials, and some even use archaic materials such as animal hide.
+</br> Creatures wear armor to protect themselves, but also to express their personal style.
+</br>
+Most suits of armor consist of a helmet, gloves, boots, and a bodysuit that offers head-to-toe protection.
+</br> Unless otherwise specified, the boots include a functionality that can anchor your feet to a solid surface in a zero-gravity environment, allowing you to orient yourself or return to normal footing when needed (for more about moving in zero-g, see page 402).
+</br>
+<h6>Donning Armor</h6>
+The time required to don or remove armor depends on its type.
+</br> Light armor requires 4 rounds to don or remove, while heavy armor requires 16 rounds to don or remove.
+</br>
+Armor that is at least 8th level but less than 16th level takes half the normal time to don or remove.
+</br> Armor of 16th level or higher takes one-quarter the normal time to don or remove, to a minimum of one full action.
+</br>
+Modern suits of armor are designed so that you can don or remove armor without assistance.
+</br>
+<h6>Don Hastily</h6>
+You can hastily don armor in half the normal time, to a minimum of one full action.
+</br> The armor check penalty, maximum Dexterity bonus, and armor bonus for hastily donned armor are each 1 worse than normal.
+</br>
+<h5>ARMOR SIZE</h5>
+Armor comes in different sizes for different creatures, and you might have to adjust a suit of armor to fit you if it wasn’t made for your race.
+</br> A ysoki can’t effectively wear armor made for a human, and a kasatha needs to adjust armor that was made for a two-armed creature.
+</br> If it’s in doubt whether a creature can fit the suit, the GM decides whether the armor needs to be adjusted.
+</br> When you buy armor new, the purchase price includes any adjustments.
+</br>
+<h6>Adjusting Armor</h6>
+If you get secondhand armor that wasn’t tailored for you, you can have it adjusted, which requires a successful Engineering check (DC = 10 + 2 × the armor’s level).
+</br> Alternatively, you can spend 10% of the armor’s purchase price to have it adjusted by a professional—typically an armorsmith or anyone with multiple ranks in Engineering.
+</br>
+<h5>ENVIRONMENTAL PROTECTIONS</h5>
+Space can be an inhospitable place, with countless dangerous worlds within it.
+</br> Unless otherwise specified, all armors protect you from a range of hazards to ensure that you can survive for at least a few days if you must make emergency repairs to the hull of a starship, explore an alien world, or endure exposure to an environmental breach in a space station.
+</br> Some armors do this through an environmental field (a minor force field specially attuned to pressure and temperature that does not reduce damage from attacks), while others can be closed with helmets and airtight seals.
+</br> The most common environmental dangers are detailed in Environment beginning on page 394.
+</br>
+<h6>Activation and Duration</h6>
+A suit of armor’s environmental protections last for a number of days equal to its item level.
+</br> Activating or deactivating these environmental protections takes a standard action if you are wearing the suit (assuming the armor was properly donned).
+</br> If you have access to a suit that is unattended or worn by a helpless creature, you can turn on its environmental protection as a full action, but turning it off requires a Computers check to hack the system, treating the suit as a computer with a tier equal to half the suit’s item level (the base DC to hack a computer is equal to 13 + 4 per tier).
+</br>
+The duration of a suit’s environmental protections does not need to be expended all at once, but it must be expended in 1-hour increments.
+</br> Recharging this duration requires access to a functioning starship or an environment recharging station (publicly available in most technologically advanced or average settlements) and takes 1 minute per day recharged.
+</br> Most of the recharging stations that replenish devices, such as batteries and power cells (see page 234), also recharge armor’s environmental protections, and using them to recharge suits is typically free of price.
+</br> All other functions on a suit of armor with no duration remaining still work normally.
+</br>
+<h6>Breathing and Pressure</h6>
+All armor can facilitate self-contained breathing, protecting you against vacuums, smoke, and thick, thin, and toxic atmospheres (including any airborne poison or disease).
+</br> Self-contained breathing functions underwater and in similar liquid environments.
+</br> This protection allows you to breathe in a corrosive atmosphere (see page 395) to prevent suffocation, but it isn’t strong enough to prevent a corrosive atmosphere from dealing acid damage to both you and your armor.
+</br> A suit of armor with an upgrade that grants acid resistance reduces any acid damage taken from a corrosive atmosphere normally.
+</br> Any vision impairment from the environment (such as smoke or water) still applies.
+</br>
+<h6>Radiation</h6>
+Armor protects you against low levels of radiation (see page 403) and grants a +4 circumstance bonus to saving throws against higher levels of radiation.
+</br> Armor of 7th level and higher grants immunity to medium radiation levels and provides a +6 circumstance bonus to saving throws against higher levels of radiation.
+</br> No armor’s bonuses apply to saves against radiation sickness, regardless of the level of radiation exposure that caused you to contract it.
+</br>
+<h6>Temperature</h6>
+Armor’s environmental protections reasonably protect you against both cold (temperatures below –20° F) and heat (air temperatures over 140° F).
+</br> This prevents you from having to attempt Fortitude saving throws to avoid damage from the environment, and it prevents you from taking any damage listed for breathing in the environment.
+</br> This does not protect against cold or fire damage from other sources or against environments that deal damage without allowing a Fortitude saving throw or breathing the atmosphere (such as lava).
+"
+Heavy Armors;HeavyArmor;"Armor is usually the easiest and most cost-effective way for creatures to protect themselves.
+</br> Whether you are skimming through space aboard a mercenary vessel, attending a diplomatic meeting on a space station, or descending to a planet’s surface to explore, armor provides you with protection
+against attacks and hostile environments.
+</br>
+Modern armor is made of many different substances, including carbon fiber, ceramic, fabric, metal, and polymers.
+</br> Most are constructed from a combination of materials, and some even use archaic materials such as animal hide.
+</br> Creatures wear armor to protect themselves, but also to express their personal style.
+</br>
+Most suits of armor consist of a helmet, gloves, boots, and a bodysuit that offers head-to-toe protection.
+</br> Unless otherwise specified, the boots include a functionality that can anchor your feet to a solid surface in a zero-gravity environment, allowing you to orient yourself or return to normal footing when needed (for more about moving in zero-g, see page 402).
+</br>
+<h6>Donning Armor</h6>
+The time required to don or remove armor depends on its type.
+</br> Light armor requires 4 rounds to don or remove, while heavy armor requires 16 rounds to don or remove.
+</br>
+Armor that is at least 8th level but less than 16th level takes half the normal time to don or remove.
+</br> Armor of 16th level or higher takes one-quarter the normal time to don or remove, to a minimum of one full action.
+</br>
+Modern suits of armor are designed so that you can don or remove armor without assistance.
+</br>
+<h6>Don Hastily</h6>
+You can hastily don armor in half the normal time, to a minimum of one full action.
+</br> The armor check penalty, maximum Dexterity bonus, and armor bonus for hastily donned armor are each 1 worse than normal.
+</br>
+<h5>ARMOR SIZE</h5>
+Armor comes in different sizes for different creatures, and you might have to adjust a suit of armor to fit you if it wasn’t made for your race.
+</br> A ysoki can’t effectively wear armor made for a human, and a kasatha needs to adjust armor that was made for a two-armed creature.
+</br> If it’s in doubt whether a creature can fit the suit, the GM decides whether the armor needs to be adjusted.
+</br> When you buy armor new, the purchase price includes any adjustments.
+</br>
+<h6>Adjusting Armor</h6>
+If you get secondhand armor that wasn’t tailored for you, you can have it adjusted, which requires a successful Engineering check (DC = 10 + 2 × the armor’s level).
+</br> Alternatively, you can spend 10% of the armor’s purchase price to have it adjusted by a professional—typically an armorsmith or anyone with multiple ranks in Engineering.
+</br>
+<h5>ENVIRONMENTAL PROTECTIONS</h5>
+Space can be an inhospitable place, with countless dangerous worlds within it.
+</br> Unless otherwise specified, all armors protect you from a range of hazards to ensure that you can survive for at least a few days if you must make emergency repairs to the hull of a starship, explore an alien world, or endure exposure to an environmental breach in a space station.
+</br> Some armors do this through an environmental field (a minor force field specially attuned to pressure and temperature that does not reduce damage from attacks), while others can be closed with helmets and airtight seals.
+</br> The most common environmental dangers are detailed in Environment beginning on page 394.
+</br>
+<h6>Activation and Duration</h6>
+A suit of armor’s environmental protections last for a number of days equal to its item level.
+</br> Activating or deactivating these environmental protections takes a standard action if you are wearing the suit (assuming the armor was properly donned).
+</br> If you have access to a suit that is unattended or worn by a helpless creature, you can turn on its environmental protection as a full action, but turning it off requires a Computers check to hack the system, treating the suit as a computer with a tier equal to half the suit’s item level (the base DC to hack a computer is equal to 13 + 4 per tier).
+</br>
+The duration of a suit’s environmental protections does not need to be expended all at once, but it must be expended in 1-hour increments.
+</br> Recharging this duration requires access to a functioning starship or an environment recharging station (publicly available in most technologically advanced or average settlements) and takes 1 minute per day recharged.
+</br> Most of the recharging stations that replenish devices, such as batteries and power cells (see page 234), also recharge armor’s environmental protections, and using them to recharge suits is typically free of price.
+</br> All other functions on a suit of armor with no duration remaining still work normally.
+</br>
+<h6>Breathing and Pressure</h6>
+All armor can facilitate self-contained breathing, protecting you against vacuums, smoke, and thick, thin, and toxic atmospheres (including any airborne poison or disease).
+</br> Self-contained breathing functions underwater and in similar liquid environments.
+</br> This protection allows you to breathe in a corrosive atmosphere (see page 395) to prevent suffocation, but it isn’t strong enough to prevent a corrosive atmosphere from dealing acid damage to both you and your armor.
+</br> A suit of armor with an upgrade that grants acid resistance reduces any acid damage taken from a corrosive atmosphere normally.
+</br> Any vision impairment from the environment (such as smoke or water) still applies.
+</br>
+<h6>Radiation</h6>
+Armor protects you against low levels of radiation (see page 403) and grants a +4 circumstance bonus to saving throws against higher levels of radiation.
+</br> Armor of 7th level and higher grants immunity to medium radiation levels and provides a +6 circumstance bonus to saving throws against higher levels of radiation.
+</br> No armor’s bonuses apply to saves against radiation sickness, regardless of the level of radiation exposure that caused you to contract it.
+</br>
+<h6>Temperature</h6>
+Armor’s environmental protections reasonably protect you against both cold (temperatures below –20° F) and heat (air temperatures over 140° F).
+</br> This prevents you from having to attempt Fortitude saving throws to avoid damage from the environment, and it prevents you from taking any damage listed for breathing in the environment.
+</br> This does not protect against cold or fire damage from other sources or against environments that deal damage without allowing a Fortitude saving throw or breathing the atmosphere (such as lava)."
+Powered Armors;PoweredArmor;"Unlike light and heavy armor, powered armor requires its own battery, and comes with a fully charged battery at purchase.
+</br> Powered armor uses the same type of batteries as other items, including charged weapons, and the battery for a suit of powered armor can be recharged as normal using a generator or recharging station (see page 234), or it can be replaced with a new battery when spent (see Table 7–9: Ammunition for battery pricing).
+</br>
+<h6>Using Powered Armor</h6>
+Powered armor augments the wearer’s Strength and has weapon mounts on which ranged weapons can be installed.
+</br> More about using powered armor is below.
+</br>
+<h6>Entering and Exiting</h6>
+Getting into or exiting a suit of powered armor requires a full action.
+</br> Unless noted otherwise, a suit of powered armor has an electronic lock preventing anyone from opening it without knowing the passcode.
+</br> The passcode can be determined with a successful Computers check (DC = 15 + double the armor’s level).
+</br>
+<h6>Powered Armor Proficiency</h6>
+Characters can gain proficiency with powered armor by taking the Powered Armor Proficiency feat (see page 160) or at 5th level through the soldier’s guard fighting style.
+</br> Lacking proficiency in powered armor comes with more significant drawbacks than with other types of armor.
+</br> If you are wearing powered armor with which you are not proficient, you take a –4 penalty to both EAC and KAC, you are always flat-footed and off-target, and you move at half speed.
+</br> If the armor has a special form of movement (such as a fly speed), you cannot use that movement.
+<h6>Hands</h6>
+Powered armors of Large or greater size use their own arms and hands, rather than allowing the user to manipulate objects or weapons with their own hands. Operating such a suit of powered armor requires all your hands to be free (within the armor’s cockpit) and allows you use of all the armor’s hands. Large and bigger suits of powered armor have two arms and hands unless specified otherwise.
+Powered armors of Medium or smaller size allow the operator to use its own limbs (however many that is), and does not require any hands be free in order to operate the functions of the powered armor.
+<h6>Hybrid Powered Armor</h6>
+Hybrid powered armor sometimes has unusual abilities that recharge after a set period of time, as determined in each armor’s description. 
+</br>These suits also use normal batteries, which must be recharged normally, for all other functions. 
+</br>Hybrid powered armor follows the same rules as hybrid items, but neither it nor hybrid armor upgrades count as a worn item.
+<h6>Improving Powered Armor</h6>
+It is possible (though expensive) to improve powered armor to make it a more effective, higher-level piece of equipment. 
+</br>It costs a number of credits equal to 150% of the armor’s current price to improve the armor’s item level by 1 and takes at least 24 hours for each level gained. 
+</br>Thus improving an ironclad bulwark to 11th level would cost 28,875 credits. 
+</br>The price paid to improve powered armor by 1 level becomes its new current price, so selling an ironclad bulwark improved to 11th level would bring in 2,887 credits, while improving it to 12th level would cost 43,312 credits.
+</br>Anyone who could build a suit of powered armor of the new level can improve powered armor to the same level. 
+</br>Increasing powered armor’s item level by 1 increases its bonus to EAC and KAC by 1 each; if the new item level is evenly divisible by 5, then the powered armor’s bonus to EAC and KAC increase by 2 each instead. 
+</br>If you improve powered armor by 5 item levels, its maximum Dexterity bonus increases by 1, its Strength score increases by 2, and it gains one additional upgrade slot. 
+</br>Powered armor can’t be improved beyond 20th level.
+<h6>Weapon Slots</h6>
+</br>A suit of powered armor can mount a number of one- or two- handed ranged weapons, as indicated by its weapon slot value. 
+</br>The weapons mounted in powered armor’s weapon slots require no hands to wield or carry as long as the armor has power, but reloading such weapons requires a free hand (unless you have an automated loader upgrade; Core Rulebook 205).
+</br>Mounted weapons designed for a creature the size of the powered armor or smaller impose no penalty to attack rolls. 
+</br>It takes a full action to mount or remove a weapon. 
+</br>A weapon can’t be removed and you cannot be disarmed of the weapon if the armor has power and you do not wish the weapon to be removed. 
+Weapons in weapon slots can be subject to sunder combat maneuvers.
+
+"
+Armor Upgrades;ArmorUpgrade;"A creature can personalize armor by purchasing and installing armor upgrades, described below, which add bonuses or customized abilities to armor. Some individuals keep a collection of upgrades at hand, swapping them out as needed (requiring 10 minutes to replace the unit and resecure all connections). Explanations of entries for upgrades’ statistics follow.
+<br>
+<h6>Capacity</h6>
+<br>For a technological armor upgrade that requires charges to function, this entry lists the maximum size battery the upgrade can hold. The batteries that upgrades hold can be recharged as normal using either a generator or a recharging station (see page 234). A magic armor upgrade that can be used a certain number of times runs on magical charges; these charges are integral to the construction of the item and can’t be replenished with generators or batteries. Charges for a magic item either refresh each day or never refresh.
+<br>
+<h6>Usage</h6>
+<br>This entry lists how many charges are consumed when the armor upgrade is used. This might be per activation or a certain duration. If an armor upgrade uses a certain number of charges over an interval, the upgrade’s abilities can be shut off before that amount of time has passed, but it still uses charges for the full interval. For instance, an upgrade that uses charges at a rate of 2 per round would still use 2 charges if activated for half a round.
+<br>
+<h6>Upgrade Slots</h6>
+<br>Each suit of armor contains a certain number of upgrade slots. This represents the maximum number of times the armor can be modified while still functioning. If you install upgrades beyond the maximum, the armor and all upgrades attached to it cease to function until you remove enough upgrades to bring the armor down to its maximum number of upgrade slots or fewer.
+Some upgrades use more than one upgrade slot, as noted in the Armor Slots entry in Table 7–17: Armor Upgrades.
+<br>
+<h6>Magic Upgrades</h6>
+<br>Some armor upgrades are magic or a hybrid of magic and technology. This is indicated next to the upgrade’s name. If neither magic nor hybrid is listed after an item, it’s a technological item.
+"

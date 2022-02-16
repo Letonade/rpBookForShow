@@ -1,0 +1,53 @@
+{% extends 'Common/base.html.twig' %}
+{% set active_page = 'DatasDepositoryPage' %}
+
+{% block main %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-2 border-bottom ">
+        <h1 class="h2">
+            <a class="{{ (active_page is same as 'homePage') ? 'active' : '' }} text-muted"
+               href="{{ url('front_twig_depository_filter_store',{}) }}">
+                <i class="fas fa-chevron-circle-left fa-sm px-2"></i>
+            </a>
+            Depository
+        </h1>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            {% include 'Depository/_partials/typePills.html.twig' with {'typeTable' : typeTable, 'link' : 'front_twig_depository_battle_wares'} only %}
+        </div>
+        <div class="col-12 mt-3 mb-1">
+            {% include 'Depository/_partials/Filters/filterBattleWareDataTable.html.twig' with {'filterForm' : filterForm} only %}
+        </div>
+    </div>
+    <hr class="mt-1 mb-1">
+    <div class="table-responsive">
+        {% if collection[0] is defined %}
+            {% include 'Depository/_partials/TableView/battleWareDataTable.html.twig' with {'collection': collection, 'tableTitle' : tableTitle, 'hint' : hint} %}
+        {% else %}
+            <h4 class="text-center">No Data Found</h4>
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block  javascripts %}
+    {{ parent() }}
+    <script>
+        {# For the popover see if "template" can be used. #}
+        $(document).ready(function () {
+            $('[data-toggle="filter-badge"]').click(
+                function () {
+                    if (this.classList.contains('badge-primary')) {
+                        this.setAttribute('value', 'hide');
+                        this.classList.remove('badge-primary');
+                        this.classList.add('badge-secondary');
+                    } else {
+                        this.setAttribute('value', 'show');
+                        this.classList.remove('badge-secondary');
+                        this.classList.add('badge-primary');
+                    }
+                }
+            );
+        });
+
+    </script>
+{% endblock %}

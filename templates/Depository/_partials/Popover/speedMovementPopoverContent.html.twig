@@ -1,0 +1,12 @@
+{% for speedMovement in speedMovements %}
+    <div style="">
+        <h6>
+            <b class="text-primary">{{ speedMovement.speedMovementType.name }}</b>
+        </h6>
+        <hr>
+        <i>
+            {{ speedMovement.speedMovementType.description }}
+        </i>
+        <hr>
+    </div>
+{% endfor %}

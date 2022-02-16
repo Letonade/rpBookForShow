@@ -1,0 +1,70 @@
+Book;Page;ARMOR MODEL;LEVEL;PRICE;EAC BONUS;KAC BONUS;MAXIMUM DEX BONUS;ARMOR CHECK PENALTY;SPEED ADJUSTMENT;UPGRADE SLOTS;BULK;TechType;FamilyDescriptionSlug
+CR;197;AbadarCorp travel suit, gold;9;12100;9;10;8;—;—;0;L;technology;cr-abadarcorp-travel-suit
+CR;197;AbadarCorp travel suit, platinum;12;34600;12;13;8;—;—;0;L;technology;cr-abadarcorp-travel-suit
+CR;197;AbadarCorp travel suit, silver;7;7250;6;7;7;—;—;0;L;technology;cr-abadarcorp-travel-suit
+CR;197;Carbon skin, diamond;15;126400;17;19;7;-1;—;4;1;technology;cr-carbon-skin
+CR;197;Carbon skin, graphite;3;1220;3;4;4;-1;—;1;1;technology;cr-carbon-skin
+CR;197;Carbon skin, nanotube;20;825000;21;23;8;-1;—;6;1;technology;cr-carbon-skin
+CR;197;Carbon skin, white carbon;10;19650;12;14;5;-1;—;3;1;technology;cr-carbon-skin
+CR;197;Defrex hide;4;2250;5;5;4;—;—;1;L;technology;cr-defrex-hide
+CR;197;D-suit I;5;2980;5;6;5;—;—;1;L;technology;cr-d-suit
+CR;197;D-suit II;7;6900;8;9;5;—;—;2;L;technology;cr-d-suit
+CR;197;D-suit III;9;13300;11;12;6;—;—;3;L;technology;cr-d-suit
+CR;197;D-suit IV;13;45800;16;17;6;—;—;4;L;technology;cr-d-suit
+CR;197;D-suit V;17;244300;20;21;7;—;—;5;L;technology;cr-d-suit
+CR;197;D-suit VI;19;552000;21;22;8;—;—;6;L;technology;cr-d-suit
+CR;197;Echelon fashion, bespoke;17;285000;18;19;8;—;—;0;L;technology;cr-echelon-fashion
+CR;197;Echelon fashion, ready to wear;14;71300;15;16;8;—;—;0;L;technology;cr-echelon-fashion
+CR;197;Estex suit I;1;410;0;1;5;-1;—;2;1;technology;cr-estex-suit
+CR;197;Estex suit II;5;2700;4;5;5;-1;—;3;1;technology;cr-estex-suit
+CR;197;Estex suit III;7;5500;7;8;5;-1;—;4;1;technology;cr-estex-suit
+CR;197;Estex suit IV;13;49250;15;16;6;-1;—;6;1;technology;cr-estex-suit
+CR;197;Freebooter armor I;2;750;2;3;4;—;—;0;L;technology;cr-freebooter-armor
+CR;197;Freebooter armor II;6;4720;6;8;5;—;—;1;L;technology;cr-freebooter-armor
+CR;197;Freebooter armor III;10;16900;12;13;6;—;—;3;L;technology;cr-freebooter-armor
+CR;197;Freebooter armor IV;14;60600;17;18;6;—;—;4;L;technology;cr-freebooter-armor
+CR;197;Freebooter armor V;18;367650;20;21;8;—;—;5;L;technology;cr-freebooter-armor
+CR;197;Hardlight series, elite;15;123500;18;18;7;—;—;4;L;technology;cr-hardlight-series
+CR;197;Hardlight series, specialist;20;928000;22;22;8;—;—;6;L;technology;cr-hardlight-series
+CR;197;Hardlight series, squad;12;30750;15;15;6;—;—;4;L;technology;cr-hardlight-series
+CR;197;Kasatha microcord I;2;460;1;3;3;-1;—;0;1;technology;cr-kasatha-microcord
+CR;197;Kasatha microcord II;6;3670;6;8;4;-1;—;1;1;technology;cr-kasatha-microcord
+CR;197;Kasatha microcord III;8;9000;9;11;5;-1;—;2;1;technology;cr-kasatha-microcord
+CR;197;Kasatha microcord IV;11;23800;13;15;5;-1;—;3;1;technology;cr-kasatha-microcord
+CR;197;Lashunta tempweave, advanced;8;8500;9;10;6;—;—;3;L;technology;cr-lashunta-tempweave
+CR;197;Lashunta tempweave, basic;4;1950;4;4;5;—;—;1;L;technology;cr-lashunta-tempweave
+CR;197;Second skin;1;250;1;2;5;—;—;1;L;technology;cr-second-skin
+CR;197;Shotalashu armor;16;149500;19;20;7;—;—;5;L;technology;cr-shotalashu-armor
+CR;197;Stationwear, business;5;2600;2;3;6;—;—;0;L;technology;cr-stationwear
+CR;197;Stationwear, casual;3;1300;1;2;6;—;—;0;L;technology;cr-stationwear
+CR;197;Stationwear, elite;6;4100;4;5;7;—;—;0;L;technology;cr-stationwear
+CR;197;Stationwear, flight suit;1;95;0;1;6;—;—;0;L;technology;cr-stationwear
+CR;197;Swarmsuit;15;95200;18;19;6;—;—;4;L;technology;cr-swarmsuit
+CR;197;Ysoki refractor suit;6;4120;7;7;5;—;—;2;L;technology;cr-ysoki-refractor-suit
+AR;69;Clearweave I;3;1350;3;3;5;—;—;0;L;technology;ar-clearweave
+AR;69;Clearweave II;9;13150;12;12;5;—;—;2;L;technology;ar-clearweave
+AR;69;Grave mantle, enlisted;4;2100;4;5;4;—;—;0;L;technology;ar-grave-mantle
+AR;69;Grave mantle, officer;17;256500;20;22;5;—;—;3;L;technology;ar-grave-mantle
+AR;69;Grave mantle, specialist;10;17950;13;15;4;—;—;2;L;technology;ar-grave-mantle
+AR;69;Lashunta mind mail I;6;4250;6;6;6;—;—;2;L;technology;ar-lashunta-mind-mail
+AR;69;Lashunta mind mail II;11;24800;13;14;6;—;—;2;L;technology;ar-lashunta-mind-mail
+AR;69;Lashunta mind mail III;16;166500;20;20;7;—;—;3;L;technology;ar-lashunta-mind-mail
+AR;69;Lashunta mind mail IV;19;556000;22;22;7;—;—;5;L;technology;ar-lashunta-mind-mail
+AR;69;Preserver’s mantle I;2;520;1;2;6;—;—;0;L;technology;ar-preserver’s-mantle
+AR;69;Preserver’s mantle II;7;6400;6;9;6;—;—;1;L;technology;ar-preserver’s-mantle
+AR;69;Preserver’s mantle III;12;35400;12;15;7;—;—;3;L;technology;ar-preserver’s-mantle
+AR;69;Regimental dress I;3;1450;2;3;5;—;—;1;L;technology;ar-regimental-dress
+AR;69;Regimental dress II;10;18600;13;13;5;—;—;2;L;technology;ar-regimental-dress
+AR;69;Regimental dress III;18;387000;22;22;6;—;—;4;L;technology;ar-regimental-dress
+AR;69;Shiftskin I;9;13850;10;11;7;-1;—;2;1;technology;ar-shiftskin
+AR;69;Shiftskin II;14;76830;16;17;7;-1;—;3;1;technology;ar-shiftskin
+AR;69;Shiftskin III;20;886500;22;24;7;-1;—;5;1;technology;ar-shiftskin
+AR;69;Shobhad harness, chieftain;13;46900;15;17;5;-1;—;3;1;technology;ar-shobhad-war-harness
+AR;69;Shobhad harness, recruit;1;150;0;2;4;-1;—;0;1;technology;ar-shobhad-war-harness
+AR;69;Shobhad harness, veteran;4;1850;3;5;5;-1;—;1;1;technology;ar-shobhad-war-harness
+AR;69;Shobhad harness, warleader;8;8600;9;11;5;-1;—;2;1;technology;ar-shobhad-war-harness
+AR;69;Vesk brigandine I;2;950;2;2;5;—;—;1;L;technology;ar-vesk-brigandine
+AR;69;Vesk brigandine II;5;2650;5;5;5;—;—;2;L;technology;ar-vesk-brigandine
+AR;69;Vesk brigandine III;8;8800;10;10;5;—;—;2;L;technology;ar-vesk-brigandine
+AR;69;Vesk brigandine IV;11;23500;14;14;5;—;—;3;L;technology;ar-vesk-brigandine
+AR;69;Vesk brigandine V;15;99900;19;20;5;—;—;4;L;technology;ar-vesk-brigandine

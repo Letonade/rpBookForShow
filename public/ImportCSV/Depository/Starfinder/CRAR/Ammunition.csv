@@ -1,0 +1,36 @@
+Book;Page;AmmunitionType;IsStandard;Name;Level;Price;Cartridge;Bulk;Special;techtype;FamilyDescription
+CR;179;arrow;true;Arrows;1;50;20;L;—;analog;cr-arrows
+CR;179;charge;true;Battery;1;60;20;—;—;analog;cr-battery
+CR;179;charge;true;Battery, high-capacity;4;330;40;—;—;analog;cr-battery
+CR;179;charge;true;Battery, super-capacity;4;390;80;—;—;analog;cr-battery
+CR;179;charge;true;Battery, ultra-capacity;5;445;100;L;—;analog;cr-battery
+CR;179;dart;true;Darts;1;20;25;L;—;analog;cr-darts
+CR;179;flare;true;Flare;1;5;1;—;—;analog;cr-flare
+CR;179;mini-rocket;true;Mini-rockets;4;300;10;L;—;analog;cr-mini-rockets
+CR;179;petrol;true;Petrol tank, standard;1;60;20;1;—;analog;cr-petrol-tank
+CR;179;petrol;true;Petrol tank, high-capacity;3;280;40;2;—;analog;cr-petrol-tank
+CR;179;round;true;Rounds, small arm;1;40;30;L;—;analog;cr-rounds
+CR;179;round;true;Rounds, longarm and sniper;1;75;25;L;—;analog;cr-rounds
+CR;179;round;true;Rounds, heavy;2;90;20;L;—;analog;cr-rounds
+CR;179;shell;true;Scattergun shells;1;55;25;L;—;analog;cr-scattergun-shells
+CR;179;arrow;false;Grenade arrow I;6;875;1;—;As (any 1st-level grenade);analog;cr-grenade-arrow
+CR;179;arrow;false;Grenade arrow II;10;5450;1;—;As (any 5th- or lower-level grenade);analog;cr-grenade-arrow
+CR;179;arrow;false;Grenade arrow III;15;32050;1;—;As (any 10th- or lower-level grenade);analog;cr-grenade-arrow
+CR;179;arrow;false;Grenade arrow IV;20;245000;1;—;As (any 15th- or lower-level grenade);analog;cr-grenade-arrow
+CR;179;missile;false;Tactical missile;10;5700;1;1;Explode (6d8 B & P, 30 ft.);analog;cr-missile
+CR;179;missile;false;Advanced missile;13;14600;1;1;As(13d8 B & F);analog;cr-missile
+AR;179;nanite;true;Nanite canisters;9;2150;10;L;—;analog;ar-nanite-canisters
+AR;179;arrow;false;Explosive arrow;2;75;20;L;Fiery;analog;ar-explosive
+AR;179;dart;false;Explosive darts;2;50;25;L;Fiery;analog;ar-explosive
+AR;179;round;false;Explosive rounds, small arm;2;60;30;L;Fiery;analog;ar-explosive
+AR;179;round;false;Explosive rounds, longarm and sniper;2;150;25;L;Fiery;analog;ar-explosive
+AR;179;shell;false;Explosive scattergun shells;2;110;25;L;Fiery;analog;ar-explosive
+AR;179;round;false;Explosive rounds, heavy;3;180;20;L;Fiery;analog;ar-explosive
+AR;179;mini-rocket;false;Explosive mini-rockets;5;450;10;L;Fiery;analog;ar-explosive
+AR;179;round;false;Phasing I longarm and sniper rounds;7;820;25;L;—;analog;ar-phasing
+AR;179;missile;false;Plasma missile, ionized;11;6700;1;1;As(8d8 E & F);analog;ar-plasma-missile
+AR;179;arrow;false;Arrows, diamond-edge;12;5200;20;L;As(4d6 P);analog;ar-arrows
+AR;179;round;false;Phasing II longarm and sniper rounds;14;9420;25;L;—;analog;ar-phasing
+AR;179;missile;false;Plasma missile, stellar;16;53200;1;1;As(12d10 E & F);analog;ar-plasma-missile
+AR;179;arrow;false;Arrows, molecular rift;18;53700;20;L;As(10d6 P);analog;ar-arrows
+AR;179;missile;false;Plasma missile, HED;19;175000;1;1;As(17d12 E & F);analog;ar-plasma-missile

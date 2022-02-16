@@ -1,0 +1,173 @@
+Book;Page;HandNeeded;SubCategory;Name;Level;Price;Damage;Range;Critical;Capacity;Usage;Bulk;Special;TechType;FamilyDescriptionSlug
+CR;177;2;LASER;Artillery laser, aphelion;9;14300;3d8 F;120 ft.;Burn 1d6;40 charges;4;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Artillery laser, azimuth;1;425;1d10 F;120 ft.;Burn 1d6;20 charges;2;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Artillery laser, corona;6;4650;2d8 F;120 ft.;Burn 1d6;40 charges;4;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Artillery laser, parallax;17;248000;7d8 F;150 ft.;Burn 4d6;100 charges;5;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Artillery laser, perihelion;13;53800;4d8 F;130 ft.;Burn 2d6;100 charges;5;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Artillery laser, zenith;20;722000;9d8 F;150 ft.;Burn 5d6;100 charges;5;3;Penetrating;technology;cr-artillery-laser
+CR;177;2;LASER;Autobeam artillery, advanced;16;145700;4d8 F;120 ft.;Burn 2d8;40 charges;1;2;Automatic;technology;cr-autobeam-artillery
+CR;177;2;LASER;Autobeam artillery, elite;19;543300;6d8 F;120 ft.;Burn 2d10;40 charges;1;2;Automatic;technology;cr-autobeam-artillery
+CR;177;2;LASER;Autobeam artillery, tactical;10;19400;2d8 F;120 ft.;Burn 1d8;40 charges;1;2;Automatic;technology;cr-autobeam-artillery
+CR;177;2;PROJECTILE;Crossbolter, advanced;11;21900;4d10 P;70 ft.;—;12 arrows;4;2;Unwieldy;technology;cr-crossbolter
+CR;177;2;PROJECTILE;Crossbolter, elite;14;71400;6d10 P;60 ft.;—;30 arrows;6;2;Unwieldy;technology;cr-crossbolter
+CR;178;2;PROJECTILE;Crossbolter, paragon;18;327200;10d10 P;60 ft.;—;40 arrows;8;2;Unwieldy;technology;cr-crossbolter
+CR;177;2;FLAME;Flamethrower, firedrake-class;15;128000;6d6 F;30 ft.;Burn 6d6;40 petrol;10;2;Analog, blast, unwieldy;technology;cr-flamethrower
+CR;177;2;FLAME;Flamethrower, hellhound-class;12;35100;4d6 F;30 ft.;Burn 4d6;40 petrol;8;2;Analog, blast, unwieldy;technology;cr-flamethrower
+CR;177;2;FLAME;Flamethrower, ifrit-class;2;780;1d6 F;15 ft.;Burn 1d6;20 petrol;4;2;Analog, blast, unwieldy;technology;cr-flamethrower
+CR;177;2;FLAME;Flamethrower, phoenix-class;18;367500;9d6 F;30 ft.;Burn 9d6;40 petrol;10;2;Analog, blast, unwieldy;technology;cr-flamethrower
+CR;177;2;FLAME;Flamethrower, salamander-class;8;8600;2d6 F;30 ft.;Burn 2d6;20 petrol;5;2;Analog, blast, unwieldy;technology;cr-flamethrower
+CR;178;2;UNCATEGORIZED;IMDS missile launcher;10;18200;—;80 ft.;—;1 missile;1;2;—;technology;cr-imds-missile-launcher
+CR;177;2;PROJECTILE;Machine gun, heavy;17;220300;7d10 P;120 ft.;—;100 rounds;4;2;Analog, automatic;technology;cr-machine-gun
+CR;177;2;PROJECTILE;Machine gun, light;8;8600;2d10 P;60 ft.;—;60 rounds;2;2;Analog, automatic;technology;cr-machine-gun
+CR;177;2;PROJECTILE;Machine gun, medium;11;23100;3d10 P;60 ft.;—;60 rounds;2;2;Analog, automatic;technology;cr-machine-gun
+CR;177;2;PROJECTILE;Machine gun, squad;4;2060;1d10 P;60 ft.;—;40 rounds;2;2;Analog, automatic;technology;cr-machine-gun
+CR;178;2;UNCATEGORIZED;NIL grenade launcher, merc;1;280;—;60 ft.;—;6 grenades;1;2;Analog;technology;cr-nil-grenade-launcher
+CR;178;2;UNCATEGORIZED;NIL grenade launcher, squad;8;9400;—;70 ft.;—;12 grenades;1;3;Analog;technology;cr-nil-grenade-launcher
+CR;177;2;PLASMA;Plasma cannon, blue star;20;950000;8d10 E & F;100 ft.;Burn 4d8;100 charges;10;2;Explode (10 ft.), unwieldy;technology;cr-plasma-cannon
+CR;177;2;PLASMA;Plasma cannon, red star;8;8650;2d10 E & F;100 ft.;Burn 1d8;40 charges;5;2;Explode (5 ft.), unwieldy;technology;cr-plasma-cannon
+CR;177;2;PLASMA;Plasma cannon, white star;16;189200;6d10 E & F;100 ft.;Burn 3d8;100 charges;5;2;Explode (5 ft.), unwieldy;technology;cr-plasma-cannon
+CR;177;2;PLASMA;Plasma cannon, yellow star;14;62800;4d10 E & F;100 ft.;Burn 2d8;100 charges;5;2;Explode (5 ft.), unwieldy;technology;cr-plasma-cannon
+CR;177;2;PROJECTILE;Reaction cannon, advanced;14;73000;6d10 P;100 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;178;2;PROJECTILE;Reaction cannon, elite;17;244000;8d10 P;100 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;177;2;PROJECTILE;Reaction cannon, heavy;10;16750;3d10 P;100 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;177;2;PROJECTILE;Reaction cannon, light;1;250;1d10 P;90 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;178;2;PROJECTILE;Reaction cannon, paragon;20;810000;12d10 P;100 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;177;2;PROJECTILE;Reaction cannon, tactical;7;6100;2d10 P;90 ft.;—;6 rounds;1;3;Penetrating;technology;cr-reaction-cannon
+CR;178;2;SONIC;Screamer, HFD;15;107,500;4d10 So;60 ft.;Deafen;100 charges;10;2;Blast, unwieldy;technology;cr-screamer
+CR;178;2;SONIC;Screamer, LFD;9;14,000;2d10 So;60 ft.;Deafen;80 charges;8;2;Blast, unwieldy;technology;cr-screamer
+CR;178;2;SONIC;Screamer, thunderstrike;5;3,350;1d10 So;30 ft.;Deafen;40 charges;4;2;Blast, unwieldy;technology;cr-screamer
+CR;178;2;SHOCK;Shock caster, aurora;10;19100;2d12 E;40 ft.;—;40 charges;4;2;Explode (15 ft.), unwieldy;technology;cr-shock-caster
+CR;178;2;SHOCK;Shock caster, static;6;4620;1d12 E;40 ft.;—;40 charges;2;2;Explode (10 ft.), unwieldy;technology;cr-shock-caster
+CR;178;2;SHOCK;Shock caster, storm;16;164800;5d12 E;40 ft.;—;100 charges;10;2;Explode (20 ft.), unwieldy;technology;cr-shock-caster
+CR;178;2;SHOCK;Shock caster, tempest;20;735000;7d12 E;40 ft.;—;100 charges;10;2;Explode (20 ft.), unwieldy;technology;cr-shock-caster
+CR;177;2;PROJECTILE;Stellar cannon, heavy;15;122800;4d12 P;30 ft.;Wound;32 shells;8;2;Blast;technology;cr-stellar-cannon
+CR;177;2;PROJECTILE;Stellar cannon, light;10;19200;2d12 P;30 ft.;Wound;18 shells;6;2;Blast;technology;cr-stellar-cannon
+CR;177;2;PROJECTILE;X-gen gun, advanced;9;13100;2d12 P;120 ft.;—;100 rounds;2;2;Automatic;technology;cr-x-gen-gun
+CR;177;2;PROJECTILE;X-gen gun, elite;13;53700;4d12 P;120 ft.;—;100 rounds;2;2;Automatic;technology;cr-x-gen-gun
+CR;178;2;PROJECTILE;X-gen gun, paragon;20;826000;9d12 P;120 ft.;—;100 rounds;2;2;Automatic;technology;cr-x-gen-gun
+CR;177;2;PROJECTILE;X-gen gun, tactical;6;4240;1d12 P;120 ft.;—;80 rounds;2;2;Automatic;technology;cr-x-gen-gun
+CR;177;2;CRYO;Zero cannon, advanced;14;81400;5d8 C;60 ft.;Staggered;100 charges;5;2;Line, unwieldy;technology;cr-zero-cannon
+CR;177;2;CRYO;Zero cannon, elite;18;412800;8d8 C;80 ft.;Staggered;100 charges;5;2;Line, unwieldy;technology;cr-zero-cannon
+CR;177;2;CRYO;Zero cannon, tactical;11;23000;3d8 C;60 ft.;Staggered;80 charges;4;2;Line, unwieldy;technology;cr-zero-cannon
+AR;21;2;FLAME;Agitator, blaze;6;4300;2d6 F;80 ft.;Burn 2d4;40 charges;1;2;Boost 1d6;technology;ar-agitator
+AR;21;2;FLAME;Agitator, ember;1;330;1d8 F;60 ft.;Burn 1d4;20 charges;1;2;Boost 1d4;technology;ar-agitator
+AR;22;2;FLAME;Agitator, inferno;13;50800;6d6 F;80 ft.;Burn 3d4;40 charges;2;2;Boost 2d6;technology;ar-agitator
+AR;22;2;FLAME;Agitator, solar flare;19;580000;12d6 F;100 ft.;Burn 4d4;40 charges;2;2;Boost 5d6;technology;ar-agitator
+AR;22;2;SHOCK;Arc caster, aurora;5;3160;2d6 E;60 ft.;Second arc 1d6;40 charges;2;2;First arc 1d6, unwieldy;technology;ar-arc-caster
+AR;22;2;SHOCK;Arc caster, static;1;375;1d8 E;60 ft.;Second arc 1d6;20 charges;2;2;First arc 1d6, unwieldy;technology;ar-arc-caster
+AR;22;2;SHOCK;Arc caster, storm;11;25600;5d6 E;80 ft.;Second arc 2d6;40 charges;4;2;First arc 2d6, unwieldy;technology;ar-arc-caster
+AR;22;2;SHOCK;Arc caster, tempest;17;262000;10d6 E;80 ft.;Second arc 4d6;40 charges;5;2;First arc 4d6, unwieldy;technology;ar-arc-caster
+AR;22;2;PLASMA;Aurora cannon, electron;10;18200;6d4 E & F;120 ft.;Blind;40 charges;2;2;Aurora;technology;ar-aurora-cannon
+AR;22;2;PLASMA;Aurora cannon, hydrogen;5;3100;2d4 E & F;100 ft.;Blind;40 charges;2;2;Aurora;technology;ar-aurora-cannon
+AR;22;2;PLASMA;Aurora cannon, proton;17;258000;15d4 E & F;120 ft.;Blind;40 charges;2;2;Aurora;technology;ar-aurora-cannon
+AR;22;2;FLAME;Burner, firedrake-class;16;158000;6d10 F;60 ft.;Burn 4d6;40 petrol;4;2;Line, unwieldy;technology;ar-burner
+AR;22;2;FLAME;Burner, hellhound-class;11;23800;3d10 F;50ft.;Burn 3d6;40 petrol;4;2;Line, unwieldy;technology;ar-burner
+AR;21;2;FLAME;Burner, ifrit-class;3;1300;1d10 F;30 ft.;Burn 1d6;40 petrol;4;2;Line, unwieldy;technology;ar-burner
+AR;22;2;FLAME;Burner, phoenix-class;20;795000;10d10 F;75 ft.;Burn 5d6;40 petrol;4;2;Line, unwieldy;technology;ar-burner
+AR;22;2;FLAME;Burner, salamander-class;7;6050;2d10 F;40 ft.;Burn 2d6;40 petrol;4;2;Line, unwieldy;technology;ar-burner
+AR;22;2;SHOCK;Cathode cannon, advanced;8;9300;2d12 E;60 ft.;—;40 charges;4;2;Unwieldy, wide line;technology;ar-cathode-cannon
+AR;22;2;SHOCK;Cathode cannon, elite;12;35300;3d12 E;60 ft.;—;40 charges;4;2;Unwieldy, wide line;technology;ar-cathode-cannon
+AR;22;2;SHOCK;Cathode cannon, paragon;15;109000;6d12 E;100 ft.;—;40 charges;4;2;Unwieldy, wide line;technology;ar-cathode-cannon
+AR;22;2;SHOCK;Cathode cannon, shockstorm;18;647000;7d12 E;120 ft.;—;80 charges;4;2;Unwieldy, wide line;technology;ar-cathode-cannon
+AR;22;2;SHOCK;Cathode cannon, tactical;4;2040;1d10 E;40 ft.;—;40 charges;4;2;Unwieldy, wide line;technology;ar-cathode-cannon
+AR;23;2;UNCATEGORIZED;Cluster launcher, advanced;12;35,800;—;70 ft.;—;10 grenades;1;3;Cluster (10 ft.);technology;ar-cluster-launcher
+AR;23;2;UNCATEGORIZED;Cluster launcher, elite;15;105,000;—;80 ft.;—;12 grenades;1;3;Cluster (10 ft.);technology;ar-cluster-launcher
+AR;23;2;UNCATEGORIZED;Cluster launcher, paragon;18;360,000;—;100 ft.;—;16 grenades;1;3;Cluster (15 ft.);technology;ar-cluster-launcher
+AR;22;2;UNCATEGORIZED;Cluster launcher, tactical;6;4150;—;60 ft.;—;8 grenades;1;2;Cluster (5 ft.);technology;ar-cluster-launcher
+AR;22;2;SHOCK;Colossus coil, brush;9;13800;3d8 E;100 ft.;Arc 2d6;40 charges;8;3;Boost 1d8;technology;ar-colossus-coil
+AR;22;2;SHOCK;Colossus coil, corona;3;1450;1d8 E;80 ft.;Arc 1d6;20 charges;4;3;Boost 1d8;technology;ar-colossus-coil
+AR;22;2;SHOCK;Colossus coil, multistream;19;888000;10d8 E;120 ft.;Arc 4d6;80 charges;10;3;Boost 3d8;technology;ar-colossus-coil
+AR;22;2;SHOCK;Colossus coil, streamer arc;14;76400;5d8 E;100 ft.;Arc 3d6;40 charges;8;3;Boost 2d8;technology;ar-colossus-coil
+AR;22;2;PLASMA;Conqueror, blue star;13;52000;5d10 E & F;100 ft.;Wound;80 charges;4;3;Unwieldy;technology;ar-conqueror
+AR;22;2;PLASMA;Conqueror, red star;1;430;1d10 E & F;60 ft.;Wound;20 charges;4;3;Unwieldy;technology;ar-conqueror
+AR;22;2;PLASMA;Conqueror, violet star;18;590000;10d10 E & F;100 ft.;Wound;80 charges;8;3;Unwieldy;technology;ar-conqueror
+AR;22;2;PLASMA;Conqueror, white star;9;15200;3d12 E & F;80 ft.;Wound;40 charges;4;3;Unwieldy;technology;ar-conqueror
+AR;22;2;PLASMA;Conqueror, yellow star;4;2400;1d12 E & F;80 ft.;Wound;40 charges;4;3;Unwieldy;technology;ar-conqueror
+AR;22;2;LASER;Convergent laser, multiwave;11;24500;4d10 F;120 ft.;Burn 3d6;40 charges;4;2;Unwieldy;technology;ar-convergent-laser
+AR;22;2;LASER;Convergent laser, single-wave;4;2100;1d12 F;100 ft.;Burn 1d6;40 charges;4;2;Unwieldy;technology;ar-convergent-laser
+AR;22;2;LASER;Convergent laser, wide-spectrum;15;118000;7d10 F;120 ft.;Burn 4d6;40 charges;4;2;Unwieldy;technology;ar-convergent-laser
+AR;21;2;CRYO;Coolant sprayer, algid;7;7400;1d6 C;30 ft.;Staggered;40 charges;4;3;Blast, entangle (1d4 rounds), unwieldy;technology;ar-coolant-sprayer
+AR;21;2;CRYO;Coolant sprayer, glacial;12;41000;2d6 C;40 ft.;Staggered;40 charges;4;3;Blast, entangle (2d4 rounds), unwieldy;technology;ar-coolant-sprayer
+AR;21;2;CRYO;Coolant sprayer, hiemal;3;1600;1d4 C;20 ft.;Staggered;40 charges;4;3;Blast, entangle (1d4 rounds), unwieldy;technology;ar-coolant-sprayer
+AR;21;2;CRYO;Coolant sprayer, isothermal;17;290000;3d6 C;40 ft.;Staggered;40 charges;4;3;Blast, entangle (2d4 rounds), unwieldy;technology;ar-coolant-sprayer
+AR;22;2;PROJECTILE;Dart cannon, advanced;11;22300;3d12 P;150 ft.;Embed 1d10;50 darts;10;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;PROJECTILE;Dart cannon, elite;15;118000;6d12 P;150 ft.;Embed 2d12;50 darts;5;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;PROJECTILE;Dart cannon, heavy;8;9650;2d12 P;140 ft.;Embed 1d8;50 darts;10;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;PROJECTILE;Dart cannon, light;2;690;1d8 P;120 ft.;Embed 1d6;50 darts;10;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;PROJECTILE;Dart cannon, paragon;19;584000;9d12 P;1500 ft.;Embed 3d12;50 darts;5;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;PROJECTILE;Dart cannon, tactical;5;2800;1d12 P;130 ft.;Embed 1d8;50 darts;10;2;Unwieldy;technology;ar-dart-cannon
+AR;22;2;LASER;Dazzler, flash;3;1420;1d10 F;120 ft.;Blind;20 charges;2;2;Nonlethal;technology;ar-dazzler
+AR;22;2;LASER;Dazzler, strobe;8;9420;2d12 F;150 ft.;Blind;20 charges;2;2;Nonlethal;technology;ar-dazzler
+AR;22;2;LASER;Dazzler, sunspot;14;71500;4d12 F;150 ft.;Blind;20 charges;2;2;Nonlethal;technology;ar-dazzler
+AR;22;2;SONIC;Dirge cannon, anharmonic;13;49900;5d6 So;40 ft.;Deafen;80 charges;4;3;Antibiological, blast, unwieldy;technology;ar-dirge-cannon
+AR;22;2;SONIC;Dirge cannon, harmonic;2;900;1d8 So;20 ft.;Deafen;20 charges;4;3;Antibiological, blast, unwieldy;technology;ar-dirge-cannon
+AR;22;2;SONIC;Dirge cannon, parametric;16;172000;7d6 So;50 ft.;Deafen;80 charges;4;3;Antibiological, blast, unwieldy;technology;ar-dirge-cannon
+AR;22;2;SONIC;Dirge cannon, resonant;7;4270;2d6 So;30 ft.;Deafen;40 charges;4;3;Antibiological, blast, unwieldy;technology;ar-dirge-cannon
+AR;21;2;DISINTEGRATOR;Disintegrator cannon, decimator;11;29500;3d10 A;40 ft.;Corrode 2d6;40 charges;4;3;Line, unwieldy;technology;ar-disintegrator-cannon
+AR;21;2;DISINTEGRATOR;Disintegrator cannon, eradicator;20;765000;5d20 A;40 ft.;Corrode 4d6;80 charges;8;3;Line, unwieldy;technology;ar-disintegrator-cannon
+AR;21;2;DISINTEGRATOR;Disintegrator cannon, executioner;16;220000;5d10 A;40 ft.;Corrode 3d6;80 charges;8;3;Line, unwieldy;technology;ar-disintegrator-cannon
+AR;21;2;DISINTEGRATOR;Disintegrator cannon, liquidator;6;4800;1d20 A;40 ft.;Corrode 1d6;40 charges;4;3;Line, unwieldy;technology;ar-disintegrator-cannon
+AR;22;2;LASER;Divergent laser, multiwave;12;41200;4d8 F;80 ft.;Burn 2d6;40 charges;2;2;Blast, unwieldy;technology;ar-divergent-laser
+AR;22;2;LASER;Divergent laser, single-wave;5;3430;1d8 F;60 ft.;Burn 1d6;40 charges;2;2;Blast, unwieldy;technology;ar-divergent-laser
+AR;22;2;LASER;Divergent laser, wide-spectrum;18;414000;7d8 F;90 ft.;Burn 3d6;40 charges;2;2;Blast, unwieldy;technology;ar-divergent-laser
+AR;21;2;CRYO;Energy converter, advanced;10;20900;2d8 C;90 ft.;Staggered;20 charges;1;2;Explode (15 ft.), unwieldy;technology;ar-energy-converter
+AR;21;2;CRYO;Energy converter, elite;16;198000;3d10 C;100 ft.;Staggered;20 charges;1;2;Explode (20 ft.), unwieldy;technology;ar-energy-converter
+AR;21;2;CRYO;Energy converter, tactical;4;2400;1d6 C;90 ft.;Staggered;20 charges;1;2;Explode (10 ft.), unwieldy;technology;ar-energy-converter
+AR;21;2;FLAME;Flame launcher, fireball;5;3250;1d8 F;60 ft.;Burn 1d6;20 petrol;2;2;Explode (10 ft.), unwieldy;technology;ar-flame-launcher
+AR;22;2;FLAME;Flame launcher, immolation;9;14200;2d8 F;80 ft.;Burn 2d6;40 petrol;4;2;Explode (10 ft.), unwieldy;technology;ar-flame-launcher
+AR;22;2;FLAME;Flame launcher, supernova;14;79800;5d8 F;120 ft.;Burn 3d6;40 petrol;5;2;Explode (10 ft.), unwieldy;technology;ar-flame-launcher
+AR;21;2;CRYO;Hailcannon, absolute-zero;13;50800;6d8 C & P;80 ft.;Staggered;80 charges;5;2;Automatic;technology;ar-hailcannon
+AR;21;2;CRYO;Hailcannon, clathrate;19;565000;14d8 C & P;100 ft.;Staggered;80 charges;8;2;Automatic;technology;ar-hailcannon
+AR;21;2;CRYO;Hailcannon, gelid;6;4350;2d8 C & P;60 ft.;Staggered;40 charges;4;2;Automatic;technology;ar-hailcannon
+AR;21;2;CRYO;Hailcannon, subzero;1;275;1d8 C & P;60 ft.;Staggered;20 charges;2;2;Automatic;technology;ar-hailcannon
+AR;21;2;CRYO;Hailcannon, ultracold;9;14300;4d8 C & P;80 ft.;Staggered;40 charges;4;2;Automatic;technology;ar-hailcannon
+AR;22;2;PLASMA;Hydra cannon, asp-series;12;41000;4d6 E & F;30 ft.;—;20 charges;2;2;Blast, shape 3, unwieldy;technology;ar-hydra-cannon
+AR;22;2;PLASMA;Hydra cannon, cobra-series;19;642000;10d6 E & F;40 ft.;—;20 charges;2;2;Blast, shape 4, unwieldy;technology;ar-hydra-cannon
+AR;22;2;PLASMA;Hydra cannon, python-series;2;1070;1d6 E & F;20 ft.;—;20 charges;2;2;Blast, shape 1, unwieldy;technology;ar-hydra-cannon
+AR;22;2;PLASMA;Hydra cannon, viper-series;6;4900;2d6 E & F;25 ft.;—;20 charges;2;2;Blast, shape 2, unwieldy;technology;ar-hydra-cannon
+AR;21;2;CRYO;Ice launcher, aufeis;2;760;1d12 B & C;60 ft.;Knockdown;20 charges;4;3;Unwieldy;technology;ar-ice-launcher
+AR;21;2;CRYO;Ice launcher, floe;8;9430;3d12 B & C;60 ft.;Knockdown;40 charges;8;3;Unwieldy;technology;ar-ice-launcher
+AR;21;2;CRYO;Ice launcher, glacier;15;108000;8d12 B & C;60 ft.;Knockdown;80 charges;8;3;Unwieldy;technology;ar-ice-launcher
+AR;21;2;CRYO;Ice launcher, iceberg;5;3100;2d8 B & C;60 ft.;Knockdown;40 charges;4;3;Unwieldy;technology;ar-ice-launcher
+AR;21;2;CRYO;Ice launcher, icecap;20;892000;14d12 B & C;60 ft.;Knockdown;80 charges;8;3;Unwieldy;technology;ar-ice-launcher
+AR;23;2;UNCATEGORIZED;Minelayer, command;17;243,000;—;80 ft.;—;20 grenades;1;2;Mine;technology;ar-minelayer
+AR;22;2;UNCATEGORIZED;Minelayer, merc;3;1470;—;40 ft.;—;8 grenades;1;2;Mine;technology;ar-minelayer
+AR;23;2;UNCATEGORIZED;Minelayer, platoon;13;51,400;—;60 ft.;—;16 grenades;1;2;Mine;technology;ar-minelayer
+AR;22;2;UNCATEGORIZED;Minelayer, squad;7;6930;—;50 ft.;—;12 grenades;1;2;Mine;technology;ar-minelayer
+AR;21;2;DISINTEGRATOR;Nanite decoupler, caustic;9;15000;2d6 A;60 ft.;Corrode 1d6;10 nanites;2;3;Explode (10 ft.), unwieldy;technology;ar-nanite-decoupler
+AR;21;2;DISINTEGRATOR;Nanite decoupler, vitriolic;19;650000;2d20 A;80 ft.;Corrode 3d6;10 nanites;5;3;Explode (20 ft.), unwieldy;technology;ar-nanite-decoupler
+AR;22;2;PLASMA;Plasma array, blue star;15;109000;5d10 E & F;100 ft.;Burn 4d4;20 charges;1;2;Automatic;technology;ar-plasma-array
+AR;22;2;PLASMA;Plasma array, red star;3;1380;1d10 E & F;80 ft.;Burn 1d4;20 charges;1;2;Automatic;technology;ar-plasma-array
+AR;22;2;PLASMA;Plasma array, white star;11;26400;3d10 E & F;100 ft.;Burn 3d4;20 charges;1;2;Automatic;technology;ar-plasma-array
+AR;22;2;PLASMA;Plasma array, yellow star;7;6300;2d10 E & F;80 ft.;Burn 2d4;20 charges;1;2;Automatic;technology;ar-plasma-array
+AR;22;2;UNCATEGORIZED;Psychic-wave cannon I;2;1100;1d6;30 ft.;Demoralize;20 charges;4;2;Blast, living, mind-affecting, unwieldy;technology;ar-psychic-wave-cannon
+AR;22;2;UNCATEGORIZED;Psychic-wave cannon II;5;3520;1d12;40 ft.;Demoralize;20 charges;4;2;Blast, living, mind-affecting, unwieldy;technology;ar-psychic-wave-cannon
+AR;22;2;UNCATEGORIZED;Psychic-wave cannon III;11;28200;2d12;50 ft.;Demoralize;20 charges;4;2;Blast, living, mind-affecting, unwieldy;technology;ar-psychic-wave-cannon
+AR;23;2;UNCATEGORIZED;Psychic-wave cannon IV;16;198,000;4d12;50 ft.;Demoralize;20 charges;4;2;Blast, living, mind-affecting, unwieldy;technology;ar-psychic-wave-cannon
+AR;23;2;UNCATEGORIZED;Psychic-wave cannon V;20;990,000;7d12;60 ft.;Demoralize;20 charges;4;2;Blast, living, mind-affecting, unwieldy;technology;ar-psychic-wave-cannon
+AR;21;2;FLAME;Radcannon, electromagnetic;4;2150;1d8 F;30 ft.;Irradiate;40 charges;2;2;Blast, radioactive, unwieldy;technology;ar-radcannon
+AR;22;2;FLAME;Radcannon, neutron;10;18700;3d6 F;50 ft.;Irradiate;40 charges;2;2;Blast, radioactive, unwieldy;technology;ar-radcannon
+AR;22;2;FLAME;Radcannon, rapid-decay;17;264000;7d8 F;60 ft.;Irradiate;40 charges;2;2;Blast, radioactive, unwieldy;technology;ar-radcannon
+AR;22;2;PROJECTILE;Rail cannon, advanced;12;37000;3d10 P;80 ft.;Bleed 2d4;40 rounds;8;2;Line, unwieldy;technology;ar-rail-cannon
+AR;22;2;PROJECTILE;Rail cannon, elite;16;176000;8d10 P;80 ft.;Bleed 3d6;50 rounds;10;2;Line, unwieldy;technology;ar-rail-cannon
+AR;22;2;PROJECTILE;Rail cannon, paragon;19;591000;12d10 P;100 ft.;Bleed 4d6;60 rounds;10;2;Line, unwieldy;technology;ar-rail-cannon
+AR;22;2;PROJECTILE;Rail cannon, tactical;3;1410;1d10 P;60 ft.;Bleed 1d4;20 rounds;5;2;Line, unwieldy;technology;ar-rail-cannon
+AR;22;2;SONIC;Resonator, diffraction;4;2080;1d8 So;60 ft.;Deafen;40 charges;2;2;Boost 1d8, penetrating;technology;ar-resonator
+AR;22;2;SONIC;Resonator, linear;14;73800;4d8 So;100 ft.;Deafen;40 charges;2;2;Boost 3d8, penetrating;technology;ar-resonator
+AR;22;2;SONIC;Resonator, phased;19;565000;8d8 So;110 ft.;Deafen;40 charges;2;2;Boost 5d8, penetrating;technology;ar-resonator
+AR;22;2;SONIC;Resonator, refraction;10;18300;2d8 So;80 ft.;Deafen;40 charges;2;2;Boost 2d8, penetrating;technology;ar-resonator
+AR;22;2;LASER;Rotolaser, advanced;7;6040;2d8 F;120 ft.;Burn 1d6;20 charges;1;2;Automatic;technology;ar-rotolaser
+AR;22;2;LASER;Rotolaser, tactical;2;720;1d8 F;100 ft.;Burn 1d4;20 charges;1;2;Automatic;technology;ar-rotolaser
+AR;22;2;SONIC;Shout projector, crackdown;20;918000;9d8 So;80 ft.;Demoralize;80 charges;8;2;Explode (20 ft.), integrated (4 slots), stun, unwieldy;technology;ar-shout-projector
+AR;22;2;SONIC;Shout projector, damper;6;4750;2d6 So;40 ft.;Demoralize;20 charges;2;2;Explode (10 ft.), integrated (2 slots), nonlethal, unwieldy;technology;ar-shout-projector
+AR;22;2;SONIC;Shout projector, exhorter;1;420;1d6 So;30 ft.;Demoralize;20 charges;2;2;Explode (10 ft.), integrated (2 slots), nonlethal, unwieldy;technology;ar-shout-projector
+AR;22;2;SONIC;Shout projector, pacifier;11;22800;3d8 So;60 ft.;Demoralize;40 charges;4;2;Explode (15 ft.), integrated (2 slots), nonlethal, unwieldy;technology;ar-shout-projector
+AR;22;2;SONIC;Shout projector, riot;17;304000;5d8 So;60 ft.;Demoralize;40 charges;4;2;Explode (15 ft.), integrated (4 slots), stun, unwieldy;technology;ar-shout-projector
+AR;22;2;SONIC;Sonic bolter, assault;12;38000;3d12 So;80 ft.;Sicken;20 charges;2;2;Line, unwieldy;technology;ar-sonic-bolter
+AR;22;2;SONIC;Sonic bolter, devastator;18;398000;6d12 So;90 ft.;Sicken;20 charges;2;2;Line, unwieldy;technology;ar-sonic-bolter
+AR;22;2;SONIC;Sonic bolter, heavy;8;10100;2d10 So;80 ft.;Sicken;20 charges;2;2;Line, unwieldy;technology;ar-sonic-bolter
+AR;22;2;SONIC;Sonic bolter, light;3;1480;1d10 So;60 ft.;Sicken;20 charges;2;2;Antibiological, line, unwieldy;technology;ar-sonic-bolter
+AR;22;2;SHOCK;Stormcaller, ribbon;7;7700;2d8 E;40 ft.;—;40 charges;5;2;Flexible line, living, unwieldy;technology;ar-stormcaller
+AR;22;2;SHOCK;Stormcaller, rocket;13;57000;4d8 E;60 ft.;—;40 charges;5;2;Flexible line, living, unwieldy;technology;ar-stormcaller
+AR;22;2;SHOCK;Stormcaller, sheet;2;1100;1d8 E;30 ft.;—;20 charges;5;2;Flexible line, living, unwieldy;technology;ar-stormcaller
+AR;22;2;SHOCK;Stormcaller, smooth-channel;18;440000;8d8 E;60 ft.;—;40 charges;5;2;Flexible line, living, unwieldy;technology;ar-stormcaller

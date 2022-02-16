@@ -1,0 +1,32 @@
+{% for critical in criticals %}
+    <div>
+        <h6>
+            <b class="text-primary">{{ critical.criticalType.name }}</b> {{ critical.criticalType.startDelimiter }}{{ critical.criticalType.arguments }}{{ critical.criticalType.endDelimiter }}
+        </h6>
+        <hr>
+        <i>
+            {{ critical.criticalType.description }}
+        </i>
+        <hr>
+        {% for subCrit in critical.otherSubCriticals %}
+            <h6>
+                <b class="text-primary">{{ subCrit.name }}</b> {{ subCrit.startDelimiter }}{{ subCrit.arguments }}{{ subCrit.endDelimiter }}
+            </h6>
+            <hr>
+            <i>
+                {{ subCrit.description }}
+            </i>
+            <hr>
+        {% endfor %}
+        {% for subCond in critical.otherSubConditions %}
+            <h6>
+                <b class="text-primary">{{ subCond.name }}</b>
+            </h6>
+            <hr>
+            <i>
+                {{ subCond.description }}
+            </i>
+            <hr>
+        {% endfor %}
+    </div>
+{% endfor %}
